@@ -10,9 +10,8 @@ RUN cd ~/steamcmd/
 RUN wget "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz"
 RUN tar -xvzf steamcmd_linux.tar.gz
 COPY run_dedicated_servers.sh ~/run_dedicated_servers.sh
-RUN chmod u+x ~/run_dedicated_servers.sh
+# RUN chmod u+x ~/run_dedicated_servers.sh
 
 COPY start.sh ~/start.sh
-COPY dedicated_server_mods_setup.lua ~/dontstarvetogether_dedicated_server/mods/dedicated_server_mods_setup.lua
 
 CMD ["~/start.sh"]
