@@ -14,4 +14,4 @@ RUN chmod u+x /root/run_dedicated_servers.sh
 
 COPY start.sh /root/start.sh
 
-CMD ["~/start.sh"]
+CMD ["/root/start.sh"]
