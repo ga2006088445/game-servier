@@ -3,7 +3,7 @@
 steamcmd_dir="/root/steamcmd"
 install_dir="/root/dontstarvetogether_dedicated_server"
 cluster_name="MyDediServer"
-dontstarve_dir="/root/.klei/data"
+dontstarve_dir="/root/.klei/DoNotStarveTogether"
 
 function fail()
 {
