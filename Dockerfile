@@ -13,5 +13,6 @@ COPY run_dedicated_servers.sh /root/run_dedicated_servers.sh
 RUN chmod u+x /root/run_dedicated_servers.sh
 
 COPY start.sh /root/start.sh
+RUN chmod u+x /root/start.sh
 
 CMD ["/root/start.sh"]
