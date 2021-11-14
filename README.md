@@ -1,1 +1,1 @@
- # ~/run_dedicated_servers.sh
+# mv Cxxxx-1  /.klei/DoNotStarveTogether/MyDediServer 
