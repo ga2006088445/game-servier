@@ -17,4 +17,6 @@ RUN /root/steamcmd/steamcmd.sh +force_install_dir "/root/dontstarvetogether_dedi
 COPY start.sh /root/start.sh
 RUN chmod u+x /root/start.sh
 
+
+RUN apt-get install -y install libcurl4-gnutls-dev:i386
 CMD ["/root/start.sh"]
