@@ -12,6 +12,6 @@ services:
         - "10889:10889/udp"
      volumes:
         - ~/.klei/DoNotStarveTogether:/data
-        - ./dedicated_server_mods_setup.lua:~/dontstarvetogether_dedicated_server/mods/dedicated_server_mods_setup.lua
+        - ./dedicated_server_mods_setup.lua:/root/dontstarvetogether_dedicated_server/mods/dedicated_server_mods_setup.lua
      stop_grace_period: 6m
 
