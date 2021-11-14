@@ -1,0 +1,15 @@
+version: '3.5'
+services:
+  dst-server:
+     build: .
+     restart: "on-failure:5"
+     ports:
+        - "10998-11000:10998-11000/udp"
+        - "44506:44506/udp"
+        - "48863:48863/udp"
+        - "27016-27017:27016-27017/udp"
+        - "55896:55896/udp"
+        - "10889:10889/udp"
+     volumes:
+        - ~/.klei/DoNotStarveTogether:~/.klei/data
+     stop_grace_period: 6m
