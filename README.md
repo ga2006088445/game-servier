@@ -1,8 +1,6 @@
 # 世界檔案
 cd ~/.klei/DoNotStarveTogether/
 
-wget 'https://drive.google.com/xxxxxxxxxxxxx' -O data.ZIP
-
 sudo wget 'https://drive.google.com/xxxxxxxxxxxxx' -O data.ZIP
 
 sudo apt install unzip
