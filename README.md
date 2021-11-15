@@ -2,25 +2,21 @@
 
 PS:.是專案位置
 
-cd ./data
-
-sudo wget 'https://drive.google.com/xxxxxxxxxxxxx' -O data.ZIP
-
-sudo apt install unzip
-
-sudo unzip data.ZIP
-
-sudo mv Cluster_1/ MyDediServer
+mv ./data_example ./data
 
 sudo chmod 777 -R ./data
 
 # 更正token
-vim ~/.klei/DoNotStarveTogether/MyDediServer/cluster_token.txt
+
+vim ./data/MyDediServer/cluster_token.txt
 
 PS: DST 的 KEY 去申請 忘記哪邊了
 
 # 房間設定
-vim ~/.klei/DoNotStarveTogether/MyDediServer/cluster.ini
+
+vim ./data/MyDediServer/cluster.ini
+
+PS: cluster_name = Name
 
 PS: master_port = 10889
 
@@ -31,9 +27,9 @@ DEL: offline_cluster = false
 DEL: cluster_language = zht
 
 # 管理員權限
-cp adminlist.txt ~/.klei/DoNotStarveTogether/MyDediServer/
 
-
+cp adminlist.txt ./data/MyDediServer/
 
 # 啟動
+
 docker-compose up
