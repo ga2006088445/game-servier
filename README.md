@@ -1,6 +1,7 @@
-# .
-
 # 世界檔案
+
+PS:.是專案位置
+
 cd ./data
 
 sudo wget 'https://drive.google.com/xxxxxxxxxxxxx' -O data.ZIP
