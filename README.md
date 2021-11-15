@@ -12,8 +12,6 @@ sudo unzip data.ZIP
 
 sudo mv Cluster_1/ MyDediServer
 
-cd ~
-
 sudo chmod 777 -R ./data
 
 # 更正token
