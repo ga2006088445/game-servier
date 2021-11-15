@@ -1,5 +1,7 @@
+# .
+
 # 世界檔案
-cd ~/.klei/DoNotStarveTogether/
+cd ./data
 
 sudo wget 'https://drive.google.com/xxxxxxxxxxxxx' -O data.ZIP
 
@@ -11,7 +13,7 @@ sudo mv Cluster_1/ MyDediServer
 
 cd ~
 
-sudo chmod 777 -R .klei/
+sudo chmod 777 -R ./data
 
 # 更正token
 vim ~/.klei/DoNotStarveTogether/MyDediServer/cluster_token.txt
