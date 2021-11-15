@@ -9,9 +9,6 @@ RUN mkdir -p /root/steamcmd/
 WORKDIR /root/steamcmd/
 RUN wget "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz"
 RUN tar -xvzf steamcmd_linux.tar.gz
-# COPY run_dedicated_servers.sh /root/run_dedicated_servers.sh
-# RUN chmod u+x /root/run_dedicated_servers.sh
-# RUN /root/run_dedicated_servers.sh
 RUN /root/steamcmd/steamcmd.sh +force_install_dir "/root/dontstarvetogether_dedicated_server" +login anonymous +app_update 343050 validate +quit
 
 COPY start.sh /root/start.sh
