@@ -122,7 +122,7 @@ return {
     shadowcreatures="default",
     sharks="default",
     spawnprotection="default",
-    specialevent="default",
+    specialevent="none",
     spider_warriors="default",
     spiderqueen="default",
     spiders="default",

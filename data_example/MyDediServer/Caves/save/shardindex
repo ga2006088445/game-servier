@@ -68,7 +68,7 @@ KLEI     1 return {
     pvp=false,
     server_language="zht" 
   },
-  session_id="59806F7796AA81DD",
+  session_id="7B1F7B6BADE09E1D",
   version=4,
   world={
     options={
@@ -147,7 +147,7 @@ KLEI     1 return {
         slurtles_setting="default",
         snurtles="default",
         spawnprotection="default",
-        specialevent="default",
+        specialevent="none",
         spider_dropper="default",
         spider_hider="default",
         spider_spitter="default",

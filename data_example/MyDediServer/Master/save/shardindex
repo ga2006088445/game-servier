@@ -68,7 +68,7 @@ KLEI     1 return {
     pvp=false,
     server_language="zht" 
   },
-  session_id="06FC342CB693A90A",
+  session_id="3444609881690E74",
   version=4,
   world={
     options={
@@ -195,7 +195,7 @@ KLEI     1 return {
         shadowcreatures="default",
         sharks="default",
         spawnprotection="default",
-        specialevent="default",
+        specialevent="none",
         spider_warriors="default",
         spiderqueen="default",
         spiders="default",

@@ -74,7 +74,7 @@ return {
     slurtles_setting="default",
     snurtles="default",
     spawnprotection="default",
-    specialevent="default",
+    specialevent="none",
     spider_dropper="default",
     spider_hider="default",
     spider_spitter="default",

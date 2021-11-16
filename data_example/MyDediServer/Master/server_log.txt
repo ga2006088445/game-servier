@@ -1,9 +1,9 @@
 [00:00:00]: 
 System Memory:
-	Memory Load: 76%
-	Available Physical Memory: 3878m/16215m
-	Available Page File: 3074m/25268m
-	Available Virtual Memory: 134213484m/134217727m
+	Memory Load: 80%
+	Available Physical Memory: 3164m/16215m
+	Available Page File: 4181m/27955m
+	Available Virtual Memory: 134213482m/134217727m
 	Available Extended Virtual Memory: 0m
 [00:00:00]: 
 Process Memory:
@@ -18,20 +18,20 @@ Process Memory:
 [00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/181605657/Cluster_1/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 483468
-[00:00:00]: Current time: Mon Nov 15 23:14:04 2021
+[00:00:00]: Current time: Tue Nov 16 19:12:59 2021
 
 [00:00:00]: Don't Starve Together: 483468 WIN32
 [00:00:00]: Build Date: 381
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -monitor_parent_process 19320 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -ownernetid 76561198141871385 -ownerdir 181605657 -backup_log_count 25 -backup_log_period 0 -ugc_directory D:\\steam\\steamapps\\workshop -shard Master -sigprefix DST_Master -region Sing 
+[00:00:00]: Command Line Arguments: -monitor_parent_process 8956 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -ownernetid 76561198141871385 -ownerdir 181605657 -backup_log_count 25 -backup_log_period 0 -ugc_directory D:\\steam\\steamapps\\workshop -shard Master -sigprefix DST_Master -region Sing 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: Initializing Minidump handler
 [00:00:00]: ....Done
 [00:00:00]: ....Done
 [00:00:00]: Fixing DPI
 [00:00:00]: ...Done
-[00:00:00]: THREAD - started 'GAClient' (23516)
+[00:00:00]: THREAD - started 'GAClient' (16552)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
@@ -41,24 +41,24 @@ Process Memory:
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
 [00:00:00]: [Steam] SteamGameServer_Init(10999, 27016)
-[00:00:00]: [Steam] SteamGameServer_Init success
-[00:00:00]: ProfileIndex:2.88
-[00:00:00]: [Connect] PendingConnection::Reset(true)
-[00:00:00]: THREAD - started 'Ping Job Thread' (12524)
-[00:00:00]: Platform: 1
-[00:00:00]: Network tick rate: U=15(2), D=0
-[00:00:00]: Network tick rate: U=15(2), D=0
-[00:00:00]: Authorized application D:\steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is enabled in the firewall.
-[00:00:00]: WindowsFirewall - Application already authorized
-[00:00:00]: Overriding region to Sing
-[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/181605657/client_save/blocklist.txt (Failure)
-[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/181605657/client_save/adminlist.txt (Failure)
-[00:00:00]: THREAD - started 'StreamInput' (29028)
-[00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/181605657/client_save/whitelist.txt (Failure)
-[00:00:00]: Offline user ID: OU_76561198141871385
-[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/181605657/Cluster_1/cluster_token.txt
-[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/181605657/Cluster_1/cluster_token.txt
-[00:00:00]: HardwareStats:
+[00:00:01]: [Steam] SteamGameServer_Init success
+[00:00:01]: ProfileIndex:3.08
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: THREAD - started 'Ping Job Thread' (16408)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Authorized application D:\steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is enabled in the firewall.
+[00:00:01]: WindowsFirewall - Application already authorized
+[00:00:01]: Overriding region to Sing
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/181605657/client_save/blocklist.txt (Failure)
+[00:00:01]: THREAD - started 'StreamInput' (30628)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/181605657/client_save/adminlist.txt (Failure)
+[00:00:01]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/181605657/client_save/whitelist.txt (Failure)
+[00:00:01]: Offline user ID: OU_76561198141871385
+[00:00:01]: Token retrieved from: APP:Klei//DoNotStarveTogether/181605657/Cluster_1/cluster_token.txt
+[00:00:01]: Token retrieved from: APP:Klei//DoNotStarveTogether/181605657/Cluster_1/cluster_token.txt
+[00:00:01]: HardwareStats:
   OS                        
     name                      Microsoft Windows 11 家用版
     version                   10.0.22000
@@ -80,18 +80,18 @@ Process Memory:
     driverDate                20200705000000.000000-000
     refreshRate               60
 
-[00:00:00]: cGame::InitializeOnMainThread
-[00:00:00]: Renderer initialize: Okay
-[00:00:00]: AnimManager initialize: Okay
-[00:00:00]: Buffers initialize: Okay
-[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
-[00:00:00]: GameSpecific initialize: Okay
-[00:00:00]: cGame::StartPlaying
-[00:00:00]: AppVersion::GetArchitecture() x64
-[00:00:00]: LOADING LUA
-[00:00:00]: DoLuaFile scripts/main.lua
-[00:00:00]: DoLuaFile loading buffer scripts/main.lua
-[00:00:00]: Translator:LoadPOFile - loading file: scripts/languages/chinese_t.po	
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/chinese_t.po	
 [00:00:02]:   taskgrouplist:	default	連線版	
 [00:00:02]:   taskgrouplist:	classic	經典	
 [00:00:02]:   taskgrouplist:	cave_default	地下	
@@ -252,18 +252,19 @@ Process Memory:
 [00:00:05]: Mod: workshop-2274329081 (Wormhole Icons [Server])	  Registering default mod prefab	
 [00:00:05]: 	Load FE	
 [00:00:05]: 	Load FE: done	
-[00:00:05]: THREAD - started 'FilesExistAsyncThread' (17616)
+[00:00:05]: THREAD - started 'FilesExistAsyncThread' (21500)
 [00:00:05]: FilesExistAsyncThread started (18591 files)...
 [00:00:05]: Check for write access: TRUE
 [00:00:05]: Check for read access: TRUE
-[00:00:05]: Available disk space for save files: 86615 MB
+[00:00:05]: Available disk space for save files: 80668 MB
 [00:00:05]: ModIndex: Load sequence finished successfully.	
 [00:00:05]: Reset() returning
-[00:00:05]: [IPC] Signal 'DST_Master_Kill' opened  #0000000000000694
-[00:00:05]: [IPC] Registering handler for signal #0000000000000694
-[00:00:05]: [IPC] Handle #0000000000000694 added to the Eventhandles
-[00:00:05]: [IPC] Signal 'DST_Master_Starting' opened  #00000000000006F4
-[00:00:05]: [IPC] Sending signal... #00000000000006F4
+[00:00:05]: [IPC] Signal 'DST_Master_Kill' opened  #00000000000006F8
+[00:00:05]: [IPC] Registering handler for signal #00000000000006F8
+[00:00:05]: [IPC] Handle #00000000000006F8 added to the Eventhandles
+[00:00:05]: [IPC] Signal 'DST_Master_Starting' opened  #0000000000000684
+[00:00:05]: [IPC] Sending signal... #0000000000000684
+[00:00:06]: ... FilesExistAsyncThread complete
 [00:00:06]: [200] Account Communication Success (6)
 [00:00:06]: Received (KU_cPYKIG9M) from TokenPurpose
 [00:00:06]: Starting Dedicated Server Game	
@@ -299,7 +300,6 @@ Process Memory:
 [00:00:06]: Could not load mod_config_data/modconfiguration_workshop-596633787	
 [00:00:06]: Could not load mod_config_data/modconfiguration_workshop-378160973	
 [00:00:06]: Could not load mod_config_data/modconfiguration_workshop-375859599	
-[00:00:06]: ... FilesExistAsyncThread complete
 [00:00:06]: Online Server Started on port: 10999
 [00:00:06]: SUCCESS: Loaded modoverrides.lua	
 [00:00:06]: Found a level data override file with these contents:	
@@ -312,7 +312,7 @@ Process Memory:
 [00:00:06]: 	K: 	name	 V: 	標準森林	
 [00:00:06]: 	K: 	numrandom_set_pieces	 V: 	4	
 [00:00:06]: 	K: 	override_level_string	 V: 	false	
-[00:00:06]: 	K: 	overrides	 V: 	table: 000000000A41CC00	
+[00:00:06]: 	K: 	overrides	 V: 	table: 000000000B42E2D0	
 [00:00:06]: 		K: 	alternatehunt	 V: 	default	
 [00:00:06]: 		K: 	angrybees	 V: 	default	
 [00:00:06]: 		K: 	antliontribute	 V: 	default	
@@ -426,7 +426,7 @@ Process Memory:
 [00:00:06]: 		K: 	shadowcreatures	 V: 	default	
 [00:00:06]: 		K: 	sharks	 V: 	default	
 [00:00:06]: 		K: 	spawnprotection	 V: 	default	
-[00:00:06]: 		K: 	specialevent	 V: 	default	
+[00:00:06]: 		K: 	specialevent	 V: 	none	
 [00:00:06]: 		K: 	spider_warriors	 V: 	default	
 [00:00:06]: 		K: 	spiderqueen	 V: 	default	
 [00:00:06]: 		K: 	spiders	 V: 	default	
@@ -451,7 +451,7 @@ Process Memory:
 [00:00:06]: 		K: 	wobsters	 V: 	default	
 [00:00:06]: 		K: 	world_size	 V: 	default	
 [00:00:06]: 		K: 	wormhole_prefab	 V: 	wormhole	
-[00:00:06]: 	K: 	random_set_pieces	 V: 	table: 000000000A41C890	
+[00:00:06]: 	K: 	random_set_pieces	 V: 	table: 000000000B42DE70	
 [00:00:06]: 		K: 	1	 V: 	Sculptures_2	
 [00:00:06]: 		K: 	2	 V: 	Sculptures_3	
 [00:00:06]: 		K: 	3	 V: 	Sculptures_4	
@@ -471,15 +471,15 @@ Process Memory:
 [00:00:06]: 		K: 	17	 V: 	Warzone_1	
 [00:00:06]: 		K: 	18	 V: 	Warzone_2	
 [00:00:06]: 		K: 	19	 V: 	Warzone_3	
-[00:00:06]: 	K: 	required_prefabs	 V: 	table: 000000000A41CE30	
+[00:00:06]: 	K: 	required_prefabs	 V: 	table: 000000000B42E410	
 [00:00:06]: 		K: 	1	 V: 	multiplayer_portal	
-[00:00:06]: 	K: 	required_setpieces	 V: 	table: 000000000A41C980	
+[00:00:06]: 	K: 	required_setpieces	 V: 	table: 000000000B42ED70	
 [00:00:06]: 		K: 	1	 V: 	Sculptures_1	
 [00:00:06]: 		K: 	2	 V: 	Maxwell5	
 [00:00:06]: 	K: 	settings_desc	 V: 	標準《饑荒》體驗。	
 [00:00:06]: 	K: 	settings_id	 V: 	SURVIVAL_TOGETHER	
 [00:00:06]: 	K: 	settings_name	 V: 	標準森林	
-[00:00:06]: 	K: 	substitutes	 V: 	table: 000000000A41CDE0	
+[00:00:06]: 	K: 	substitutes	 V: 	table: 000000000B42E820	
 [00:00:06]: 	K: 	version	 V: 	4	
 [00:00:06]: 	K: 	worldgen_desc	 V: 	標準《饑荒》體驗。	
 [00:00:06]: 	K: 	worldgen_id	 V: 	SURVIVAL_TOGETHER	
@@ -495,15 +495,15 @@ Process Memory:
 [00:00:06]: ~InventoryLuaProxy()
 [00:00:06]: ~NetworkLuaProxy()
 [00:00:06]: ~SimLuaProxy()
-[00:00:06]: lua_close took 0.07 seconds
+[00:00:06]: lua_close took 0.06 seconds
 [00:00:06]: ReleaseAll
 [00:00:06]: ReleaseAll Finished
 [00:00:06]: cGame::StartPlaying
-[00:00:06]: AppVersion::GetArchitecture() x64
-[00:00:06]: LOADING LUA
-[00:00:06]: DoLuaFile scripts/main.lua
-[00:00:06]: DoLuaFile loading buffer scripts/main.lua
-[00:00:06]: Translator:LoadPOFile - loading file: scripts/languages/chinese_t.po	
+[00:00:07]: AppVersion::GetArchitecture() x64
+[00:00:07]: LOADING LUA
+[00:00:07]: DoLuaFile scripts/main.lua
+[00:00:07]: DoLuaFile loading buffer scripts/main.lua
+[00:00:07]: Translator:LoadPOFile - loading file: scripts/languages/chinese_t.po	
 [00:00:08]:   taskgrouplist:	default	連線版	
 [00:00:08]:   taskgrouplist:	classic	經典	
 [00:00:08]:   taskgrouplist:	cave_default	地下	
@@ -641,7 +641,7 @@ Process Memory:
 [00:00:08]: 	K: 	name	 V: 	標準森林	
 [00:00:08]: 	K: 	numrandom_set_pieces	 V: 	4	
 [00:00:08]: 	K: 	override_level_string	 V: 	false	
-[00:00:08]: 	K: 	overrides	 V: 	table: 0000000016EED8F0	
+[00:00:08]: 	K: 	overrides	 V: 	table: 0000000009796FB0	
 [00:00:08]: 		K: 	alternatehunt	 V: 	default	
 [00:00:08]: 		K: 	angrybees	 V: 	default	
 [00:00:08]: 		K: 	antliontribute	 V: 	default	
@@ -755,7 +755,7 @@ Process Memory:
 [00:00:08]: 		K: 	shadowcreatures	 V: 	default	
 [00:00:08]: 		K: 	sharks	 V: 	default	
 [00:00:08]: 		K: 	spawnprotection	 V: 	default	
-[00:00:08]: 		K: 	specialevent	 V: 	default	
+[00:00:08]: 		K: 	specialevent	 V: 	none	
 [00:00:08]: 		K: 	spider_warriors	 V: 	default	
 [00:00:08]: 		K: 	spiderqueen	 V: 	default	
 [00:00:08]: 		K: 	spiders	 V: 	default	
@@ -780,7 +780,7 @@ Process Memory:
 [00:00:08]: 		K: 	wobsters	 V: 	default	
 [00:00:08]: 		K: 	world_size	 V: 	default	
 [00:00:08]: 		K: 	wormhole_prefab	 V: 	wormhole	
-[00:00:08]: 	K: 	random_set_pieces	 V: 	table: 0000000016EED670	
+[00:00:08]: 	K: 	random_set_pieces	 V: 	table: 00000000097963D0	
 [00:00:08]: 		K: 	1	 V: 	Sculptures_2	
 [00:00:08]: 		K: 	2	 V: 	Sculptures_3	
 [00:00:08]: 		K: 	3	 V: 	Sculptures_4	
@@ -800,15 +800,15 @@ Process Memory:
 [00:00:08]: 		K: 	17	 V: 	Warzone_1	
 [00:00:08]: 		K: 	18	 V: 	Warzone_2	
 [00:00:08]: 		K: 	19	 V: 	Warzone_3	
-[00:00:08]: 	K: 	required_prefabs	 V: 	table: 0000000016EECD60	
+[00:00:08]: 	K: 	required_prefabs	 V: 	table: 0000000009795D90	
 [00:00:08]: 		K: 	1	 V: 	multiplayer_portal	
-[00:00:08]: 	K: 	required_setpieces	 V: 	table: 0000000016EED3A0	
+[00:00:08]: 	K: 	required_setpieces	 V: 	table: 0000000009795D40	
 [00:00:08]: 		K: 	1	 V: 	Sculptures_1	
 [00:00:08]: 		K: 	2	 V: 	Maxwell5	
 [00:00:08]: 	K: 	settings_desc	 V: 	標準《饑荒》體驗。	
 [00:00:08]: 	K: 	settings_id	 V: 	SURVIVAL_TOGETHER	
 [00:00:08]: 	K: 	settings_name	 V: 	標準森林	
-[00:00:08]: 	K: 	substitutes	 V: 	table: 0000000016EEC9A0	
+[00:00:08]: 	K: 	substitutes	 V: 	table: 0000000009796B00	
 [00:00:08]: 	K: 	version	 V: 	4	
 [00:00:08]: 	K: 	worldgen_desc	 V: 	標準《饑荒》體驗。	
 [00:00:08]: 	K: 	worldgen_id	 V: 	SURVIVAL_TOGETHER	
@@ -816,21 +816,21 @@ Process Memory:
 [00:00:08]: Loaded and applied level data override from ../leveldataoverride.lua	
 [00:00:08]: Overwriting savedata with level data file.	
 [00:00:08]: Not applying world gen overrides.	
-[00:00:08]: [IPC] Signal 'DST_Master_WorldGen' opened  #00000000000007CC
-[00:00:08]: [IPC] Sending signal... #00000000000007CC
+[00:00:08]: [IPC] Signal 'DST_Master_WorldGen' opened  #00000000000005E0
+[00:00:08]: [IPC] Sending signal... #00000000000005E0
 [00:00:08]: WorldSim::SimThread::SimThread()
 [00:00:08]: ABOUT TO INSTALL STACKTRACE
 [00:00:08]: DoLuaFile scripts/stacktrace.lua
 [00:00:08]: DoLuaFile loading buffer scripts/stacktrace.lua
 [00:00:08]: INSTALLED STACKTRACE
 [00:00:08]: WorldSim::SimThread::SimThread() complete
-[00:00:08]: THREAD - started 'WorldSim' (29932)
+[00:00:08]: THREAD - started 'WorldSim' (31156)
 [00:00:08]: WorldSim::SimThread::Main()
 [00:00:08]: DoLuaFile scripts/worldgen_main.lua
 [00:00:08]: DoLuaFile loading buffer scripts/worldgen_main.lua
 [00:00:08]: Check for write access: TRUE
 [00:00:08]: Check for read access: TRUE
-[00:00:08]: Available disk space for save files: 86614 MB
+[00:00:08]: Available disk space for save files: 80668 MB
 [00:00:08]: ModIndex: Load sequence finished successfully.	
 [00:00:08]: Reset() returning
 [00:00:08]: DLC enabled : 	false	
@@ -873,7 +873,7 @@ Process Memory:
 [00:00:08]: Mod: workshop-2274329081 (Wormhole Icons [Server])	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:08]: running worldgen_main.lua
 	
-[00:00:08]: SEED = 	1636989252	
+[00:00:08]: SEED = 	1637061187	
 [00:00:08]: Generating world with these parameters:	
 [00:00:08]: level_type	SURVIVAL	
 [00:00:08]: level_data:	
@@ -886,7 +886,7 @@ Process Memory:
 [00:00:08]: 	K: 	name	 V: 	標準森林	
 [00:00:08]: 	K: 	numrandom_set_pieces	 V: 	4	
 [00:00:08]: 	K: 	override_level_string	 V: 	false	
-[00:00:08]: 	K: 	overrides	 V: 	table: 00000000149A7370	
+[00:00:08]: 	K: 	overrides	 V: 	table: 00000000150CC510	
 [00:00:08]: 		K: 	alternatehunt	 V: 	default	
 [00:00:08]: 		K: 	angrybees	 V: 	default	
 [00:00:08]: 		K: 	antliontribute	 V: 	default	
@@ -1000,7 +1000,7 @@ Process Memory:
 [00:00:08]: 		K: 	shadowcreatures	 V: 	default	
 [00:00:08]: 		K: 	sharks	 V: 	default	
 [00:00:08]: 		K: 	spawnprotection	 V: 	default	
-[00:00:08]: 		K: 	specialevent	 V: 	default	
+[00:00:08]: 		K: 	specialevent	 V: 	none	
 [00:00:08]: 		K: 	spider_warriors	 V: 	default	
 [00:00:08]: 		K: 	spiderqueen	 V: 	default	
 [00:00:08]: 		K: 	spiders	 V: 	default	
@@ -1025,7 +1025,7 @@ Process Memory:
 [00:00:08]: 		K: 	wobsters	 V: 	default	
 [00:00:08]: 		K: 	world_size	 V: 	default	
 [00:00:08]: 		K: 	wormhole_prefab	 V: 	wormhole	
-[00:00:08]: 	K: 	random_set_pieces	 V: 	table: 00000000149A7EB0	
+[00:00:08]: 	K: 	random_set_pieces	 V: 	table: 00000000150C4180	
 [00:00:08]: 		K: 	1	 V: 	Sculptures_2	
 [00:00:08]: 		K: 	2	 V: 	Sculptures_3	
 [00:00:08]: 		K: 	3	 V: 	Sculptures_4	
@@ -1045,15 +1045,15 @@ Process Memory:
 [00:00:08]: 		K: 	17	 V: 	Warzone_1	
 [00:00:08]: 		K: 	18	 V: 	Warzone_2	
 [00:00:08]: 		K: 	19	 V: 	Warzone_3	
-[00:00:08]: 	K: 	required_prefabs	 V: 	table: 00000000149A71E0	
+[00:00:08]: 	K: 	required_prefabs	 V: 	table: 00000000150C3140	
 [00:00:08]: 		K: 	1	 V: 	multiplayer_portal	
-[00:00:08]: 	K: 	required_setpieces	 V: 	table: 00000000149A6B50	
+[00:00:08]: 	K: 	required_setpieces	 V: 	table: 00000000150C2150	
 [00:00:08]: 		K: 	1	 V: 	Sculptures_1	
 [00:00:08]: 		K: 	2	 V: 	Maxwell5	
 [00:00:08]: 	K: 	settings_desc	 V: 	標準《饑荒》體驗。	
 [00:00:08]: 	K: 	settings_id	 V: 	SURVIVAL_TOGETHER	
 [00:00:08]: 	K: 	settings_name	 V: 	標準森林	
-[00:00:08]: 	K: 	substitutes	 V: 	table: 00000000149A62E0	
+[00:00:08]: 	K: 	substitutes	 V: 	table: 00000000150BD380	
 [00:00:08]: 	K: 	version	 V: 	4	
 [00:00:08]: 	K: 	worldgen_desc	 V: 	標準《饑荒》體驗。	
 [00:00:08]: 	K: 	worldgen_id	 V: 	SURVIVAL_TOGETHER	
@@ -1065,21 +1065,22 @@ Process Memory:
 #
 #######
 	
-[00:00:08]: Prefab Swap Selection: regular grass	
+[00:00:08]: Prefab Swap Selection: grass gekko	
 [00:00:08]: Prefab Swap Selection: regular twigs	
 [00:00:08]: Prefab Swap Selection: regular berries	
-[00:00:08]: Sculptures_1 added to task Great Plains	
-[00:00:08]: Maxwell5 added to task Speak to the king classic	
-[00:00:08]: Maxwell6 added to task Great Plains	
-[00:00:08]: Maxwell1 added to task Squeltch	
-[00:00:08]: Maxwell6 added to task Frogs and bugs	
-[00:00:08]: Chessy_2 added to task Make a pick	
+[00:00:08]: Sculptures_1 added to task Squeltch	
+[00:00:08]: Maxwell5 added to task Forest hunters	
+[00:00:08]: Chessy_5 added to task Kill the spiders	
+[00:00:08]: Sculptures_2 added to task Forest hunters	
+[00:00:08]: Warzone_3 added to task Squeltch	
+[00:00:08]: Warzone_1 added to task Make a Beehat	
+[00:00:08]: Overriding World Event to: none	
 [00:00:08]: New size:	425	default	
 [00:00:08]: Creating story...	
 [00:00:08]: [Story Gen] Generate nodes. Starting at: 'Make a pick'	
 [00:00:08]: [Story Gen] LinkNodesByKeys	
 [00:00:08]: Finding valid start task...	
-[00:00:08]: No valid start node, using first task.	
+[00:00:08]:    ...picked 	Make a pick	
 [00:00:08]: Has start node	Clearing	
 [00:00:08]: Adding Background Nodes	
 [00:00:08]: [Story Gen] Adding Cove Nodes	
@@ -1087,6 +1088,7 @@ Process Memory:
 [00:00:08]: [WorldSimActual::WorldGen_VoronoiPass]
 [00:00:08]: GenerateVoronoiMap [100]:
 [00:00:09]: ...Done.
+[00:00:09]: Infinite edge! Forest hunters:COVE_4:Blank
 [00:00:09]: ... story created	
 [00:00:09]: Baking map...	425	
 [00:00:09]: [WorldSimActual::WorldGen_Commit] worldgen success.
@@ -1110,154 +1112,153 @@ Process Memory:
 [00:00:09]: Encoding... DONE	
 [00:00:09]: Checking Tags	
 [00:00:09]: Populating voronoi...	
-[00:00:09]: Warning! Could not find a spot for Maxwell5 in node Speak to the king classic:4:DeepForest	
-[00:00:09]: Warning! Could not find a spot for LivingTree in node Speak to the king classic:4:DeepForest	
-[00:00:09]: [ReplaceSingleNonLandTiles] Validating...
-[00:00:09]: [ReplaceSingleNonLandTiles] Replaced 1 tiles.
-[00:00:09]: Not checking for disconnected tiles.	
+[00:00:10]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:10]: [ReplaceSingleNonLandTiles] Replaced 0 tiles.
+[00:00:10]: Not checking for disconnected tiles.	
 [00:00:10]: [Ocean] Placing ocean set pieces.	
 [00:00:10]: [Ocean] Placed 0 of 0 ocean set pieces.	
 [00:00:10]: [Ocean] Convert impassible to water...	
 [00:00:10]: [Ocean]  Square fill...	
-[00:00:11]: [Ocean]  Ground fill...	
-[00:00:11]: [Ocean]  Noise...	
+[00:00:10]: [Ocean]  Ground fill...	
+[00:00:10]: [Ocean]  Noise...	
 [00:00:11]: [Ocean]  Blend...	
 [00:00:11]: [Ocean]  Adding shoreline...	
 [00:00:11]: [Ocean] Void Outline...	
 [00:00:11]: [Ocean] Populating the ocean with lots of fun things to do...	
-[00:00:11]: Checking Required Prefab gravestone has at least 1 instances (33 found).	
+[00:00:11]: Checking Required Prefab gravestone has at least 1 instances (27 found).	
 [00:00:11]: Checking Required Prefab pigking has at least 1 instances (1 found).	
 [00:00:11]: [ReplaceSingleNonLandTiles] Validating...
 [00:00:11]: [ReplaceSingleNonLandTiles] Replaced 0 tiles.
 [00:00:11]: Done forest map gen!	
 [00:00:11]: Checking map...	
 [00:00:11]: Generation complete	
-[00:00:12]: WorldSim::SimThread::Main() complete
-[00:00:12]: Serializing world: session/06FC342CB693A90A/0000000002
-[00:00:12]: Klump load on boot started.	
-[00:00:12]: Klump files loaded: 	0	
-[00:00:12]: 	Unload FE	
-[00:00:12]: 	Unload FE done	
-[00:00:13]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
-[00:00:13]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-596633787 (Display food values)	Registering prefabs	
-[00:00:13]: Mod: workshop-596633787 (Display food values)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-786556008 (45 Inventory Slots)	Registering prefabs	
-[00:00:13]: Mod: workshop-786556008 (45 Inventory Slots)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
-[00:00:13]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-374550642 (Increased Stack size)	Registering prefabs	
-[00:00:13]: Mod: workshop-374550642 (Increased Stack size)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-358749986 (Extended Indicators)	Registering prefabs	
-[00:00:13]: Mod: workshop-358749986 (Extended Indicators)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
-[00:00:13]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
-[00:00:13]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
-[00:00:13]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
-[00:00:13]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
-[00:00:13]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
-[00:00:13]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
-[00:00:13]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
-[00:00:13]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
-[00:00:13]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
-[00:00:13]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
-[00:00:13]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
-[00:00:13]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
-[00:00:13]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
-[00:00:13]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
-[00:00:13]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
-[00:00:13]: Mod: workshop-2274329081 (Wormhole Icons [Server])	Registering prefabs	
-[00:00:13]: Mod: workshop-2274329081 (Wormhole Icons [Server])	  Registering default mod prefab	
-[00:00:13]: 	LOAD BE	
-[00:00:17]: 	LOAD BE: done	
-[00:00:18]: Begin Session: 06FC342CB693A90A
-[00:00:18]: saving to server_temp/server_save	
-[00:00:18]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
-[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
-[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
-[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
-[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
-[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
-[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
-[00:00:18]: Loading 18 new character(s)	
-[00:00:18]: Total 18 character(s) loaded	
-[00:00:19]: Loading Nav Grid	
-[00:00:19]: World generated on build 483468 with save version: 5.08, using seed: 1636989252	
-[00:00:23]: Reconstructing topology	
-[00:00:23]: 	...Sorting points	
-[00:00:23]: 	...Sorting edges	
-[00:00:23]: 	...Connecting nodes	
-[00:00:23]: 	...Validating connections	
-[00:00:23]: 	...Housekeeping	
-[00:00:23]: 	...Done!	
-[00:00:23]: [SpecialEventSetup] Halloween Trinkets added: 59	
-[00:00:23]: 1 uploads added to server. From server_temp
-[00:00:23]: About to start a shard with these settings:
-[00:00:23]:   ShardName: [SHDMASTER]
-[00:00:23]:   ShardID: 1
-[00:00:23]:   ShardRole: MASTER
-[00:00:23]:   MasterHost: (null)
-[00:00:23]:   MasterBind: 127.0.0.1
-[00:00:23]:   MasterPort: 10888
-[00:00:23]: [Shard] Starting master server
-[00:00:23]: [Warning] Could not confirm port 10888 is open in the firewall. 
-[00:00:23]: [Shard] Shard server started on port: 10888
-[00:00:23]: [IPC] Signal 'DST_Master_Ready' opened  #0000000000000704
-[00:00:23]: [IPC] Sending signal... #0000000000000704
-[00:00:23]: Telling Client our new session identifier: 06FC342CB693A90A
-[00:00:23]: Registering master server in Sing lobby
-[00:00:23]: Validating portal[1] <-> <nil>[1] (inactive)	
-[00:00:23]: Validating portal[2] <-> <nil>[2] (inactive)	
-[00:00:23]: Validating portal[3] <-> <nil>[3] (inactive)	
-[00:00:23]: Validating portal[4] <-> <nil>[4] (inactive)	
-[00:00:23]: Validating portal[5] <-> <nil>[5] (inactive)	
-[00:00:23]: Validating portal[6] <-> <nil>[6] (inactive)	
-[00:00:23]: Validating portal[7] <-> <nil>[7] (inactive)	
-[00:00:23]: Validating portal[8] <-> <nil>[8] (inactive)	
-[00:00:23]: Validating portal[9] <-> <nil>[9] (inactive)	
-[00:00:23]: Validating portal[10] <-> <nil>[10] (inactive)	
-[00:00:23]: Sim paused
-[00:00:28]: [Shard] Secondary shar Caves(1847780014) connected: [LAN] 127.0.0.1
-[00:00:29]: [Shard] Secondary Caves(1847780014) ready!
-[00:00:29]: World 1847780014 is now connected	
-[00:00:29]: Validating portal[1] <-> 1847780014[1] (disabled)	
-[00:00:29]: Validating portal[2] <-> 1847780014[2] (disabled)	
-[00:00:29]: Validating portal[3] <-> 1847780014[3] (disabled)	
-[00:00:29]: Validating portal[4] <-> 1847780014[4] (disabled)	
-[00:00:29]: Validating portal[5] <-> 1847780014[5] (disabled)	
-[00:00:29]: Validating portal[6] <-> 1847780014[6] (disabled)	
-[00:00:29]: Validating portal[7] <-> 1847780014[7] (disabled)	
-[00:00:29]: Validating portal[8] <-> 1847780014[8] (disabled)	
-[00:00:29]: Validating portal[9] <-> 1847780014[9] (disabled)	
-[00:00:29]: Validating portal[10] <-> 1847780014[10] (disabled)	
-[00:00:31]: New incoming connection 127.0.0.1|55376 <8923390801986439828>
-[00:00:31]: Client connected from [LAN] 127.0.0.1|55376 <8923390801986439828>
-[00:00:31]: ValidateGameSessionToken pgs-usc^KU_cPYKIG9M^DontStarveTogether^59jt36wQ9dGlRMZqVxfhinz/ny+IkRbgSxoPtd1q+zI= for <8923390801986439828>
-[00:00:32]: Client authenticated: (KU_cPYKIG9M) EVIL
-[00:00:32]: [Steam] Authenticated host '76561198141871385'
-[00:00:33]: There is no active event to validate against.
-[00:00:33]: [Shard] Read save location file for (KU_cPYKIG9M)
-[00:00:33]: Registering master server in Sing lobby
-[00:00:44]: Resuming user: session/06FC342CB693A90A/A7KPJ2A4I0IM
-[00:01:16]: [Steam] SendUserDisconnect for '76561198141871385'
-[00:01:16]: [Shard] (KU_cPYKIG9M) disconnected from [SHDMASTER](1)
-[00:01:16]: Registering master server in Sing lobby
-[00:01:16]: [IPC] Received shutdown signal.
-[00:01:16]: Available disk space for save files: 83513 MB
-[00:01:16]: Serializing world: session/06FC342CB693A90A/0000000003
-[00:01:16]: Removing server from Sing lobby
-[00:01:16]: [Shard] Stopping shard mode
-[00:01:16]: [Steam] SendUserDisconnect for ''
-[00:01:16]: Collecting garbage...
-[00:01:17]: lua_gc took 0.17 seconds
-[00:01:17]: ~ShardLuaProxy()
-[00:01:17]: ~cEventLeaderboardProxy()
-[00:01:17]: ~ItemServerLuaProxy()
-[00:01:17]: ~InventoryLuaProxy()
-[00:01:17]: ~NetworkLuaProxy()
-[00:01:17]: ~SimLuaProxy()
-[00:01:17]: lua_close took 0.29 seconds
-[00:01:17]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:17]: CurlRequestManager::ClientThread::Main() complete
-[00:01:17]: HttpClient2 discarded 0 callbacks.
-[00:01:17]: Shutting down
+[00:00:11]: WorldSim::SimThread::Main() complete
+[00:00:11]: Serializing world: session/3444609881690E74/0000000002
+[00:00:11]: Klump load on boot started.	
+[00:00:11]: Klump files loaded: 	0	
+[00:00:11]: 	Unload FE	
+[00:00:11]: 	Unload FE done	
+[00:00:12]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:12]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-596633787 (Display food values)	Registering prefabs	
+[00:00:12]: Mod: workshop-596633787 (Display food values)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-786556008 (45 Inventory Slots)	Registering prefabs	
+[00:00:12]: Mod: workshop-786556008 (45 Inventory Slots)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
+[00:00:12]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-374550642 (Increased Stack size)	Registering prefabs	
+[00:00:12]: Mod: workshop-374550642 (Increased Stack size)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-358749986 (Extended Indicators)	Registering prefabs	
+[00:00:12]: Mod: workshop-358749986 (Extended Indicators)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:12]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:12]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:12]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:12]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:12]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:12]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:12]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:12]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:12]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:12]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:12]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:12]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:12]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:12]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:12]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-2274329081 (Wormhole Icons [Server])	Registering prefabs	
+[00:00:12]: Mod: workshop-2274329081 (Wormhole Icons [Server])	  Registering default mod prefab	
+[00:00:12]: 	LOAD BE	
+[00:00:16]: 	LOAD BE: done	
+[00:00:16]: Begin Session: 3444609881690E74
+[00:00:16]: saving to server_temp/server_save	
+[00:00:16]: Overriding World Event to: none	
+[00:00:16]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[00:00:16]: Loading 18 new character(s)	
+[00:00:17]: Total 18 character(s) loaded	
+[00:00:17]: Loading Nav Grid	
+[00:00:17]: World generated on build 483468 with save version: 5.08, using seed: 1637061187	
+[00:00:20]: Reconstructing topology	
+[00:00:20]: 	...Sorting points	
+[00:00:20]: 	...Sorting edges	
+[00:00:20]: 	...Connecting nodes	
+[00:00:20]: 	...Validating connections	
+[00:00:20]: 	...Housekeeping	
+[00:00:20]: 	...Done!	
+[00:00:20]: 1 uploads added to server. From server_temp
+[00:00:20]: About to start a shard with these settings:
+[00:00:20]:   ShardName: [SHDMASTER]
+[00:00:20]:   ShardID: 1
+[00:00:20]:   ShardRole: MASTER
+[00:00:20]:   MasterHost: (null)
+[00:00:20]:   MasterBind: 127.0.0.1
+[00:00:20]:   MasterPort: 10888
+[00:00:20]: [Shard] Starting master server
+[00:00:20]: [Warning] Could not confirm port 10888 is open in the firewall. 
+[00:00:20]: [Shard] Shard server started on port: 10888
+[00:00:20]: [IPC] Signal 'DST_Master_Ready' opened  #0000000000000638
+[00:00:20]: [IPC] Sending signal... #0000000000000638
+[00:00:20]: Telling Client our new session identifier: 3444609881690E74
+[00:00:21]: Registering master server in Sing lobby
+[00:00:21]: Validating portal[1] <-> <nil>[1] (inactive)	
+[00:00:21]: Validating portal[2] <-> <nil>[2] (inactive)	
+[00:00:21]: Validating portal[3] <-> <nil>[3] (inactive)	
+[00:00:21]: Validating portal[4] <-> <nil>[4] (inactive)	
+[00:00:21]: Validating portal[5] <-> <nil>[5] (inactive)	
+[00:00:21]: Validating portal[6] <-> <nil>[6] (inactive)	
+[00:00:21]: Validating portal[7] <-> <nil>[7] (inactive)	
+[00:00:21]: Validating portal[8] <-> <nil>[8] (inactive)	
+[00:00:21]: Validating portal[9] <-> <nil>[9] (inactive)	
+[00:00:21]: Validating portal[10] <-> <nil>[10] (inactive)	
+[00:00:21]: Sim paused
+[00:00:31]: Registering master server in Sing lobby
+[00:00:44]: [Shard] Secondary shar Caves(2129623105) connected: [LAN] 127.0.0.1
+[00:00:45]: [Shard] Secondary Caves(2129623105) ready!
+[00:00:45]: World 2129623105 is now connected	
+[00:00:45]: Validating portal[1] <-> 2129623105[1] (disabled)	
+[00:00:45]: Validating portal[2] <-> 2129623105[2] (disabled)	
+[00:00:45]: Validating portal[3] <-> 2129623105[3] (disabled)	
+[00:00:45]: Validating portal[4] <-> 2129623105[4] (disabled)	
+[00:00:45]: Validating portal[5] <-> 2129623105[5] (disabled)	
+[00:00:45]: Validating portal[6] <-> 2129623105[6] (disabled)	
+[00:00:45]: Validating portal[7] <-> 2129623105[7] (disabled)	
+[00:00:45]: Validating portal[8] <-> 2129623105[8] (disabled)	
+[00:00:45]: Validating portal[9] <-> 2129623105[9] (disabled)	
+[00:00:45]: Validating portal[10] <-> 2129623105[10] (disabled)	
+[00:00:45]: Registering master server in Sing lobby
+[00:00:47]: New incoming connection 127.0.0.1|62738 <7267698670531883832>
+[00:00:47]: Client connected from [LAN] 127.0.0.1|62738 <7267698670531883832>
+[00:00:47]: ValidateGameSessionToken pgs-usc^KU_cPYKIG9M^DontStarveTogether^b/NMkQUiOGkVzsNCJNRLSIcveVqlgtQzerBKZ9BB3XM= for <7267698670531883832>
+[00:00:48]: Client authenticated: (KU_cPYKIG9M) EVIL
+[00:00:48]: [Steam] Authenticated host '76561198141871385'
+[00:00:49]: There is no active event to validate against.
+[00:00:49]: [Shard] Read save location file for (KU_cPYKIG9M)
+[00:00:55]: Registering master server in Sing lobby
+[00:00:59]: Resuming user: session/3444609881690E74/A7KPJ2A4I0IM
+[00:01:04]: [Steam] SendUserDisconnect for '76561198141871385'
+[00:01:04]: [Shard] (KU_cPYKIG9M) disconnected from [SHDMASTER](1)
+[00:01:04]: [IPC] Received shutdown signal.
+[00:01:04]: Available disk space for save files: 78580 MB
+[00:01:04]: Serializing world: session/3444609881690E74/0000000003
+[00:01:04]: Removing server from Sing lobby
+[00:01:04]: [Shard] Stopping shard mode
+[00:01:04]: [Steam] SendUserDisconnect for ''
+[00:01:04]: Collecting garbage...
+[00:01:04]: lua_gc took 0.14 seconds
+[00:01:04]: ~ShardLuaProxy()
+[00:01:04]: ~cEventLeaderboardProxy()
+[00:01:04]: ~ItemServerLuaProxy()
+[00:01:04]: ~InventoryLuaProxy()
+[00:01:04]: ~NetworkLuaProxy()
+[00:01:04]: ~SimLuaProxy()
+[00:01:04]: lua_close took 0.26 seconds
+[00:01:05]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:01:05]: CurlRequestManager::ClientThread::Main() complete
+[00:01:05]: HttpClient2 discarded 0 callbacks.
+[00:01:05]: Shutting down
