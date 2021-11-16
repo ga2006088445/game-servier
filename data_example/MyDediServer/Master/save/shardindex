@@ -45,10 +45,6 @@ KLEI     1 return {
       },
       enabled=true 
     },
-    ["workshop-596633787"]={
-      configuration_options={ DFV_Language="EN", DFV_MinimalMode="default" },
-      enabled=true 
-    },
     ["workshop-786556008"]={
       configuration_options={ ENABLEBACKPACK=false, EXTRASLOT=0, INVENTORYSIZE=45 },
       enabled=true 
@@ -68,7 +64,7 @@ KLEI     1 return {
     pvp=false,
     server_language="zht" 
   },
-  session_id="3444609881690E74",
+  session_id="792A612E9B3F133B",
   version=4,
   world={
     options={
@@ -205,7 +201,7 @@ KLEI     1 return {
         start_location="default",
         summer="default",
         tallbirds="default",
-        task_set="classic",
+        task_set="default",
         tentacles="default",
         touchstone="default",
         trees="default",

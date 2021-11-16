@@ -45,10 +45,6 @@ KLEI     1 return {
       },
       enabled=true 
     },
-    ["workshop-596633787"]={
-      configuration_options={ DFV_Language="EN", DFV_MinimalMode="default" },
-      enabled=true 
-    },
     ["workshop-786556008"]={
       configuration_options={ ENABLEBACKPACK=false, EXTRASLOT=0, INVENTORYSIZE=45 },
       enabled=true 
@@ -68,7 +64,7 @@ KLEI     1 return {
     pvp=false,
     server_language="zht" 
   },
-  session_id="7B1F7B6BADE09E1D",
+  session_id="39486BDAF7BFF22A",
   version=4,
   world={
     options={

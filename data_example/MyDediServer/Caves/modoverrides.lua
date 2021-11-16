@@ -44,10 +44,6 @@ return {
     },
     enabled=true 
   },
-  ["workshop-596633787"]={
-    configuration_options={ DFV_Language="EN", DFV_MinimalMode="default" },
-    enabled=true 
-  },
   ["workshop-786556008"]={
     configuration_options={ ENABLEBACKPACK=false, EXTRASLOT=0, INVENTORYSIZE=45 },
     enabled=true 

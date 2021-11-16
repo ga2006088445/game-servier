@@ -1,2 +1,2 @@
-[00:00:57]: [Join Announcement] EVIL
-[00:01:03]: [Leave Announcement] EVIL
+[00:00:55]: [Join Announcement] EVIL
+[00:01:11]: [Leave Announcement] EVIL

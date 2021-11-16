@@ -1,8 +1,8 @@
 [00:00:00]: 
 System Memory:
-	Memory Load: 80%
-	Available Physical Memory: 3170m/16215m
-	Available Page File: 4180m/27955m
+	Memory Load: 70%
+	Available Physical Memory: 4725m/16215m
+	Available Page File: 4852m/28165m
 	Available Virtual Memory: 134213484m/134217727m
 	Available Extended Virtual Memory: 0m
 [00:00:00]: 
@@ -18,22 +18,22 @@ Process Memory:
 [00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/181605657/Cluster_1/Caves/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 483468
-[00:00:00]: Current time: Tue Nov 16 19:12:59 2021
+[00:00:00]: Current time: Tue Nov 16 19:36:54 2021
 
 [00:00:00]: Don't Starve Together: 483468 WIN32
 [00:00:00]: Build Date: 381
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -monitor_parent_process 8956 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -ownernetid 76561198141871385 -ownerdir 181605657 -backup_log_count 25 -backup_log_period 0 -ugc_directory D:\\steam\\steamapps\\workshop -shard Caves -sigprefix DST_Secondary -region Sing 
+[00:00:00]: Command Line Arguments: -monitor_parent_process 25348 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -ownernetid 76561198141871385 -ownerdir 181605657 -backup_log_count 25 -backup_log_period 0 -ugc_directory D:\\steam\\steamapps\\workshop -shard Caves -sigprefix DST_Secondary -region Sing 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: Initializing Minidump handler
 [00:00:00]: ....Done
 [00:00:00]: ....Done
 [00:00:00]: Fixing DPI
 [00:00:00]: ...Done
-[00:00:00]: THREAD - started 'GAClient' (23344)
-[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: THREAD - started 'GAClient' (13848)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
 [00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
@@ -41,24 +41,24 @@ Process Memory:
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
 [00:00:00]: [Steam] SteamGameServer_Init(10998, 27017)
-[00:00:01]: [Steam] SteamGameServer_Init success
-[00:00:01]: ProfileIndex:2.97
-[00:00:01]: [Connect] PendingConnection::Reset(true)
-[00:00:01]: THREAD - started 'Ping Job Thread' (13788)
-[00:00:01]: Platform: 1
-[00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: Authorized application D:\steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is enabled in the firewall.
-[00:00:01]: WindowsFirewall - Application already authorized
-[00:00:01]: Overriding region to Sing
-[00:00:01]: THREAD - started 'StreamInput' (30528)
-[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/181605657/client_save/blocklist.txt (Failure)
-[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/181605657/client_save/adminlist.txt (Failure)
-[00:00:01]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/181605657/client_save/whitelist.txt (Failure)
-[00:00:01]: Offline user ID: OU_76561198141871385
-[00:00:01]: Token retrieved from: APP:Klei//DoNotStarveTogether/181605657/Cluster_1/cluster_token.txt
-[00:00:01]: Token retrieved from: APP:Klei//DoNotStarveTogether/181605657/Cluster_1/cluster_token.txt
-[00:00:01]: HardwareStats:
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: ProfileIndex:2.97
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: THREAD - started 'Ping Job Thread' (31244)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Authorized application D:\steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is enabled in the firewall.
+[00:00:00]: WindowsFirewall - Application already authorized
+[00:00:00]: Overriding region to Sing
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/181605657/client_save/blocklist.txt (Failure)
+[00:00:00]: THREAD - started 'StreamInput' (25256)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/181605657/client_save/adminlist.txt (Failure)
+[00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/181605657/client_save/whitelist.txt (Failure)
+[00:00:00]: Offline user ID: OU_76561198141871385
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/181605657/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/181605657/Cluster_1/cluster_token.txt
+[00:00:00]: HardwareStats:
   OS                        
     name                      Microsoft Windows 11 家用版
     version                   10.0.22000
@@ -80,1069 +80,1846 @@ Process Memory:
     driverDate                20200705000000.000000-000
     refreshRate               60
 
-[00:00:01]: cGame::InitializeOnMainThread
-[00:00:01]: Renderer initialize: Okay
-[00:00:01]: AnimManager initialize: Okay
-[00:00:01]: Buffers initialize: Okay
-[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
-[00:00:01]: GameSpecific initialize: Okay
-[00:00:01]: cGame::StartPlaying
-[00:00:01]: AppVersion::GetArchitecture() x64
-[00:00:01]: LOADING LUA
-[00:00:01]: DoLuaFile scripts/main.lua
-[00:00:01]: DoLuaFile loading buffer scripts/main.lua
-[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/chinese_t.po	
-[00:00:02]:   taskgrouplist:	default	連線版	
-[00:00:02]:   taskgrouplist:	classic	經典	
-[00:00:02]:   taskgrouplist:	cave_default	地下	
-[00:00:02]:   taskgrouplist:	lavaarena_taskset	熔爐	
-[00:00:02]:   taskgrouplist:	quagmire_taskset	暴食	
-[00:00:02]: running main.lua
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: AppVersion::GetArchitecture() x64
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]: Translator:LoadPOFile - loading file: scripts/languages/chinese_t.po	
+[00:00:01]:   taskgrouplist:	default	連線版	
+[00:00:01]:   taskgrouplist:	classic	經典	
+[00:00:01]:   taskgrouplist:	cave_default	地下	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	熔爐	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:01]: running main.lua
 	
-[00:00:02]: Could not load modindex	
-[00:00:02]: ModIndex: Beginning normal load sequence for dedicated server.
+[00:00:01]: Could not load modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
 	
-[00:00:02]: SUCCESS: Loaded modoverrides.lua	
-[00:00:02]: modoverrides.lua enabling workshop-358749986	
-[00:00:02]: modoverrides.lua enabling workshop-374550642	
-[00:00:02]: modoverrides.lua enabling workshop-596633787	
-[00:00:02]: modoverrides.lua enabling workshop-347079953	
-[00:00:02]: modoverrides.lua enabling workshop-378160973	
-[00:00:02]: modoverrides.lua enabling workshop-2274329081	
-[00:00:02]: modoverrides.lua enabling workshop-786556008	
-[00:00:02]: modoverrides.lua enabling workshop-375859599	
-[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2274329081	
-[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
-[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-358749986	
-[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-374550642	
-[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
-[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-596633787	
-[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-786556008	
-[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
-[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-2274329081_CLIENT	
-[00:00:02]: Loading mod: workshop-2274329081 (Wormhole Icons [Server]) Version:1.000	
-[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-347079953_CLIENT	
-[00:00:02]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
-[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-358749986_CLIENT	
-[00:00:02]: Loading mod: workshop-358749986 (Extended Indicators) Version:1.1	
-[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-374550642_CLIENT	
-[00:00:02]: Loading mod: workshop-374550642 (Increased Stack size) Version:1.62	
-[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-378160973_CLIENT	
-[00:00:02]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.3	
-[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-596633787_CLIENT	
-[00:00:02]: Loading mod: workshop-596633787 (Display food values) Version:1.6	
-[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-786556008_CLIENT	
-[00:00:02]: Loading mod: workshop-786556008 (45 Inventory Slots) Version:1.4.1	
-[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-375859599_CLIENT	
-[00:00:02]: Loading mod: workshop-375859599 (Health Info) Version:2.2.01	
-[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-358749986	
-[00:00:02]: Overriding mod workshop-358749986's option IndicatorSize with value 3	
-[00:00:02]: Overriding mod workshop-358749986's option PlayerIndicators with value 1	
-[00:00:02]: Overriding mod workshop-358749986's option MaxIndicator with value 7000	
-[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-374550642	
-[00:00:02]: Overriding mod workshop-374550642's option MAXSTACKSIZE with value 99	
-[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-596633787	
-[00:00:02]: Overriding mod workshop-596633787's option DFV_Language with value EN	
-[00:00:02]: Overriding mod workshop-596633787's option DFV_MinimalMode with value default	
-[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
-[00:00:02]: Overriding mod workshop-347079953's option DFV_Language with value EN	
-[00:00:02]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
-[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
-[00:00:02]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
-[00:00:02]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
-[00:00:02]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
-[00:00:02]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
-[00:00:02]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
-[00:00:02]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
-[00:00:02]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
-[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-2274329081	
-[00:00:02]: Overriding mod workshop-2274329081's option WORLD_COLORS with value true	
-[00:00:02]: Overriding mod workshop-2274329081's option SHOW_NUMBERS with value num_	
-[00:00:02]: Overriding mod workshop-2274329081's option ICON_STYLE with value new	
-[00:00:02]: Overriding mod workshop-2274329081's option MINIMAP_ICONS with value true	
-[00:00:02]: Overriding mod workshop-2274329081's option WORMHOLE_MARKS_DISABLE with value false	
-[00:00:02]: Overriding mod workshop-2274329081's option WORMHOLE_BORDER with value true	
-[00:00:02]: Overriding mod workshop-2274329081's option WORLD_NUMBERS with value true	
-[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-786556008	
-[00:00:02]: Overriding mod workshop-786556008's option EXTRASLOT with value 0	
-[00:00:02]: Overriding mod workshop-786556008's option ENABLEBACKPACK with value false	
-[00:00:02]: Overriding mod workshop-786556008's option INVENTORYSIZE with value 45	
-[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-375859599	
-[00:00:02]: Overriding mod workshop-375859599's option random_range with value 0	
-[00:00:02]: Overriding mod workshop-375859599's option divider with value 5	
-[00:00:02]: Overriding mod workshop-375859599's option use_blacklist with value true	
-[00:00:02]: Overriding mod workshop-375859599's option unknwon_prefabs with value 1	
-[00:00:02]: Overriding mod workshop-375859599's option show_type with value 0	
-[00:00:02]: Overriding mod workshop-375859599's option send_unknwon_prefabs with value false	
-[00:00:02]: Overriding mod workshop-375859599's option random_health_value with value 0	
-[00:00:02]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
-[00:00:02]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:02]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
-[00:00:02]: Mod: workshop-596633787 (Display food values)	Loading modworldgenmain.lua	
-[00:00:02]: Mod: workshop-596633787 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:02]: Mod: workshop-596633787 (Display food values)	Loading modmain.lua	
-[00:00:02]: Mod: workshop-786556008 (45 Inventory Slots)	Loading modworldgenmain.lua	
-[00:00:02]: Mod: workshop-786556008 (45 Inventory Slots)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:02]: Mod: workshop-786556008 (45 Inventory Slots)	Loading modmain.lua	
-[00:00:02]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
-[00:00:02]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:02]: Mod: workshop-375859599 (Health Info)	Loading modmain.lua	
-[00:00:02]: modimport: ../mods/workshop-375859599/black_white_lists.lua	
-[00:00:02]: Mod: workshop-374550642 (Increased Stack size)	Loading modworldgenmain.lua	
-[00:00:02]: Mod: workshop-374550642 (Increased Stack size)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:02]: Mod: workshop-374550642 (Increased Stack size)	Loading modmain.lua	
-[00:00:02]: Mod: workshop-358749986 (Extended Indicators)	Loading modworldgenmain.lua	
-[00:00:02]: Mod: workshop-358749986 (Extended Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:02]: Mod: workshop-358749986 (Extended Indicators)	Loading modmain.lua	
-[00:00:02]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
-[00:00:02]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:02]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
-[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2274329081	
-[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
-[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-358749986	
-[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-374550642	
-[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
-[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-596633787	
-[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-786556008	
-[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
-[00:00:02]: Mod: workshop-2274329081 (Wormhole Icons [Server])	Loading modworldgenmain.lua	
-[00:00:02]: Mod: workshop-2274329081 (Wormhole Icons [Server])	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:02]: Mod: workshop-2274329081 (Wormhole Icons [Server])	Loading modmain.lua	
+[00:00:01]: SUCCESS: Loaded modoverrides.lua	
+[00:00:01]: modoverrides.lua enabling workshop-358749986	
+[00:00:01]: modoverrides.lua enabling workshop-374550642	
+[00:00:01]: modoverrides.lua enabling workshop-347079953	
+[00:00:01]: modoverrides.lua enabling workshop-378160973	
+[00:00:01]: modoverrides.lua enabling workshop-2274329081	
+[00:00:01]: modoverrides.lua enabling workshop-786556008	
+[00:00:01]: modoverrides.lua enabling workshop-375859599	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2274329081	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-358749986	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-374550642	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-786556008	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-2274329081_CLIENT	
+[00:00:01]: Loading mod: workshop-2274329081 (Wormhole Icons [Server]) Version:1.000	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-347079953_CLIENT	
+[00:00:01]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-358749986_CLIENT	
+[00:00:01]: Loading mod: workshop-358749986 (Extended Indicators) Version:1.1	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-374550642_CLIENT	
+[00:00:01]: Loading mod: workshop-374550642 (Increased Stack size) Version:1.62	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-378160973_CLIENT	
+[00:00:01]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.3	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-786556008_CLIENT	
+[00:00:01]: Loading mod: workshop-786556008 (45 Inventory Slots) Version:1.4.1	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-375859599_CLIENT	
+[00:00:01]: Loading mod: workshop-375859599 (Health Info) Version:2.2.01	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-358749986	
+[00:00:01]: Overriding mod workshop-358749986's option IndicatorSize with value 3	
+[00:00:01]: Overriding mod workshop-358749986's option PlayerIndicators with value 1	
+[00:00:01]: Overriding mod workshop-358749986's option MaxIndicator with value 7000	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-374550642	
+[00:00:01]: Overriding mod workshop-374550642's option MAXSTACKSIZE with value 99	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:01]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:01]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:01]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-2274329081	
+[00:00:01]: Overriding mod workshop-2274329081's option WORLD_COLORS with value true	
+[00:00:01]: Overriding mod workshop-2274329081's option SHOW_NUMBERS with value num_	
+[00:00:01]: Overriding mod workshop-2274329081's option ICON_STYLE with value new	
+[00:00:01]: Overriding mod workshop-2274329081's option MINIMAP_ICONS with value true	
+[00:00:01]: Overriding mod workshop-2274329081's option WORMHOLE_MARKS_DISABLE with value false	
+[00:00:01]: Overriding mod workshop-2274329081's option WORMHOLE_BORDER with value true	
+[00:00:01]: Overriding mod workshop-2274329081's option WORLD_NUMBERS with value true	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-786556008	
+[00:00:01]: Overriding mod workshop-786556008's option EXTRASLOT with value 0	
+[00:00:01]: Overriding mod workshop-786556008's option ENABLEBACKPACK with value false	
+[00:00:01]: Overriding mod workshop-786556008's option INVENTORYSIZE with value 45	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-375859599	
+[00:00:01]: Overriding mod workshop-375859599's option random_range with value 0	
+[00:00:01]: Overriding mod workshop-375859599's option divider with value 5	
+[00:00:01]: Overriding mod workshop-375859599's option use_blacklist with value true	
+[00:00:01]: Overriding mod workshop-375859599's option unknwon_prefabs with value 1	
+[00:00:01]: Overriding mod workshop-375859599's option show_type with value 0	
+[00:00:01]: Overriding mod workshop-375859599's option send_unknwon_prefabs with value false	
+[00:00:01]: Overriding mod workshop-375859599's option random_health_value with value 0	
+[00:00:01]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-786556008 (45 Inventory Slots)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-786556008 (45 Inventory Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-786556008 (45 Inventory Slots)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-375859599 (Health Info)	Loading modmain.lua	
+[00:00:01]: modimport: ../mods/workshop-375859599/black_white_lists.lua	
+[00:00:01]: Mod: workshop-374550642 (Increased Stack size)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-374550642 (Increased Stack size)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-374550642 (Increased Stack size)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-358749986 (Extended Indicators)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-358749986 (Extended Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-358749986 (Extended Indicators)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2274329081	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-358749986	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-374550642	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-786556008	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:01]: Mod: workshop-2274329081 (Wormhole Icons [Server])	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-2274329081 (Wormhole Icons [Server])	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-2274329081 (Wormhole Icons [Server])	Loading modmain.lua	
 [00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
-[00:00:03]: LOADING LUA SUCCESS
-[00:00:03]: Registering Server mod namespace "workshop-378160973"
-[00:00:03]: Registering Server mod namespace "food item"
-[00:00:03]: PlayerDeaths could not load morgue	
-[00:00:03]: PlayerHistory could not load player_history	
-[00:00:03]: ServerPreferences could not load server_preferences	
-[00:00:03]: bloom_enabled	true	
-[00:00:03]: OnFilesLoaded()	
-[00:00:03]: OnUpdatePurchaseStateComplete	
-[00:00:03]: Klump load on boot started.	
-[00:00:03]: Klump files loaded: 	0	
-[00:00:05]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
-[00:00:05]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
-[00:00:05]: Mod: workshop-596633787 (Display food values)	Registering prefabs	
-[00:00:05]: Mod: workshop-596633787 (Display food values)	  Registering default mod prefab	
-[00:00:05]: Mod: workshop-786556008 (45 Inventory Slots)	Registering prefabs	
-[00:00:05]: Mod: workshop-786556008 (45 Inventory Slots)	  Registering default mod prefab	
-[00:00:05]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
-[00:00:05]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
-[00:00:05]: Mod: workshop-374550642 (Increased Stack size)	Registering prefabs	
-[00:00:05]: Mod: workshop-374550642 (Increased Stack size)	  Registering default mod prefab	
-[00:00:05]: Mod: workshop-358749986 (Extended Indicators)	Registering prefabs	
-[00:00:05]: Mod: workshop-358749986 (Extended Indicators)	  Registering default mod prefab	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
-[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
-[00:00:05]: Mod: workshop-2274329081 (Wormhole Icons [Server])	Registering prefabs	
-[00:00:05]: Mod: workshop-2274329081 (Wormhole Icons [Server])	  Registering default mod prefab	
-[00:00:05]: 	Load FE	
-[00:00:05]: 	Load FE: done	
-[00:00:05]: THREAD - started 'FilesExistAsyncThread' (17608)
-[00:00:05]: FilesExistAsyncThread started (18591 files)...
-[00:00:05]: Check for write access: TRUE
-[00:00:05]: Check for read access: TRUE
-[00:00:05]: Available disk space for save files: 80668 MB
-[00:00:05]: ModIndex: Load sequence finished successfully.	
-[00:00:05]: Reset() returning
-[00:00:05]: [IPC] Signal 'DST_Secondary_Kill' opened  #000000000000063C
-[00:00:05]: [IPC] Registering handler for signal #000000000000063C
-[00:00:05]: [IPC] Handle #000000000000063C added to the Eventhandles
-[00:00:05]: [IPC] Signal 'DST_Secondary_Starting' opened  #0000000000000708
-[00:00:05]: [IPC] Sending signal... #0000000000000708
-[00:00:06]: ... FilesExistAsyncThread complete
-[00:00:06]: [200] Account Communication Success (6)
-[00:00:06]: Received (KU_cPYKIG9M) from TokenPurpose
-[00:00:06]: Starting Dedicated Server Game	
-[00:00:06]: Network tick rate: U=15(2), D=0
-[00:00:06]: About to start a server with the following settings:
-[00:00:06]:   Dedicated: true
-[00:00:06]:   Online: true
-[00:00:06]:   Passworded: true
-[00:00:06]:   ServerPort: 10998
-[00:00:06]:   SteamAuthPort: 8767
-[00:00:06]:   SteamMasterServerPort: 27017
-[00:00:06]:   ClanID: false
-[00:00:06]:   ClanOnly: false
-[00:00:06]:   ClanAdmin: false
-[00:00:06]:   LanOnly: false
-[00:00:06]:   FriendsOnly: false
-[00:00:06]:   EnableAutosaver: true
-[00:00:06]:   EncodeUserPath: true
-[00:00:06]:   PVP: false
-[00:00:06]:   MaxPlayers: 6
-[00:00:06]:   GameMode: endless
-[00:00:06]:   OverridenDNS: 
-[00:00:06]:   PauseWhenEmpty: true
-[00:00:06]:   IdleTimeout: 1800s
-[00:00:06]:   VoteEnabled: false
-[00:00:06]:   InternetBroadcasting: true
-[00:00:06]:   Intent: cooperative
-[00:00:06]: [Warning] Could not confirm port 10998 is open in the firewall. 
-[00:00:06]: [Shard] No shard id specified, generating a random one...
-[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-374550642	
-[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-2274329081	
-[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-786556008	
-[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-347079953	
-[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-596633787	
-[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-378160973	
-[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-375859599	
-[00:00:06]: Online Server Started on port: 10998
-[00:00:06]: SUCCESS: Loaded modoverrides.lua	
-[00:00:06]: Found a level data override file with these contents:	
-[00:00:06]: 	K: 	background_node_range	 V: 	table: 0000000014111EB0	
-[00:00:06]: 		K: 	1	 V: 	0	
-[00:00:06]: 		K: 	2	 V: 	1	
-[00:00:06]: 	K: 	desc	 V: 	探查洞穴…… 一起！	
-[00:00:06]: 	K: 	hideminimap	 V: 	false	
-[00:00:06]: 	K: 	id	 V: 	DST_CAVE	
-[00:00:06]: 	K: 	location	 V: 	cave	
-[00:00:06]: 	K: 	max_playlist_position	 V: 	999	
-[00:00:06]: 	K: 	min_playlist_position	 V: 	0	
-[00:00:06]: 	K: 	name	 V: 	洞穴	
-[00:00:06]: 	K: 	numrandom_set_pieces	 V: 	0	
-[00:00:06]: 	K: 	override_level_string	 V: 	false	
-[00:00:06]: 	K: 	overrides	 V: 	table: 0000000014111FA0	
-[00:00:06]: 		K: 	atriumgate	 V: 	default	
-[00:00:06]: 		K: 	banana	 V: 	default	
-[00:00:06]: 		K: 	bats	 V: 	default	
-[00:00:06]: 		K: 	bats_setting	 V: 	default	
-[00:00:06]: 		K: 	beefaloheat	 V: 	default	
-[00:00:06]: 		K: 	berrybush	 V: 	default	
-[00:00:06]: 		K: 	boons	 V: 	default	
-[00:00:06]: 		K: 	branching	 V: 	default	
-[00:00:06]: 		K: 	brightmarecreatures	 V: 	default	
-[00:00:06]: 		K: 	bunnymen	 V: 	default	
-[00:00:06]: 		K: 	bunnymen_setting	 V: 	default	
-[00:00:06]: 		K: 	cave_ponds	 V: 	default	
-[00:00:06]: 		K: 	cave_spiders	 V: 	default	
-[00:00:06]: 		K: 	cavelight	 V: 	default	
-[00:00:06]: 		K: 	chess	 V: 	default	
-[00:00:06]: 		K: 	day	 V: 	default	
-[00:00:06]: 		K: 	dropeverythingondespawn	 V: 	default	
-[00:00:06]: 		K: 	dustmoths	 V: 	default	
-[00:00:06]: 		K: 	earthquakes	 V: 	default	
-[00:00:06]: 		K: 	extrastartingitems	 V: 	default	
-[00:00:06]: 		K: 	fern	 V: 	default	
-[00:00:06]: 		K: 	fissure	 V: 	default	
-[00:00:06]: 		K: 	flint	 V: 	default	
-[00:00:06]: 		K: 	flower_cave	 V: 	default	
-[00:00:06]: 		K: 	flower_cave_regrowth	 V: 	default	
-[00:00:06]: 		K: 	fruitfly	 V: 	default	
-[00:00:06]: 		K: 	grass	 V: 	default	
-[00:00:06]: 		K: 	grassgekkos	 V: 	default	
-[00:00:06]: 		K: 	krampus	 V: 	default	
-[00:00:06]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
-[00:00:06]: 		K: 	lichen	 V: 	default	
-[00:00:06]: 		K: 	liefs	 V: 	default	
-[00:00:06]: 		K: 	lightflier_flower_regrowth	 V: 	default	
-[00:00:06]: 		K: 	lightfliers	 V: 	default	
-[00:00:06]: 		K: 	loop	 V: 	default	
-[00:00:06]: 		K: 	marshbush	 V: 	default	
-[00:00:06]: 		K: 	merms	 V: 	default	
-[00:00:06]: 		K: 	molebats	 V: 	default	
-[00:00:06]: 		K: 	moles_setting	 V: 	default	
-[00:00:06]: 		K: 	monkey	 V: 	default	
-[00:00:06]: 		K: 	monkey_setting	 V: 	default	
-[00:00:06]: 		K: 	mushgnome	 V: 	default	
-[00:00:06]: 		K: 	mushroom	 V: 	default	
-[00:00:06]: 		K: 	mushtree	 V: 	default	
-[00:00:06]: 		K: 	mushtree_moon_regrowth	 V: 	default	
-[00:00:06]: 		K: 	mushtree_regrowth	 V: 	default	
-[00:00:06]: 		K: 	nightmarecreatures	 V: 	default	
-[00:00:06]: 		K: 	pigs_setting	 V: 	default	
-[00:00:06]: 		K: 	prefabswaps_start	 V: 	default	
-[00:00:06]: 		K: 	reeds	 V: 	default	
-[00:00:06]: 		K: 	regrowth	 V: 	default	
-[00:00:06]: 		K: 	roads	 V: 	never	
-[00:00:06]: 		K: 	rock	 V: 	default	
-[00:00:06]: 		K: 	rocky	 V: 	default	
-[00:00:06]: 		K: 	rocky_setting	 V: 	default	
-[00:00:06]: 		K: 	sapling	 V: 	default	
-[00:00:06]: 		K: 	season_start	 V: 	default	
-[00:00:06]: 		K: 	seasonalstartingitems	 V: 	default	
-[00:00:06]: 		K: 	shadowcreatures	 V: 	default	
-[00:00:06]: 		K: 	slurper	 V: 	default	
-[00:00:06]: 		K: 	slurtles	 V: 	default	
-[00:00:06]: 		K: 	slurtles_setting	 V: 	default	
-[00:00:06]: 		K: 	snurtles	 V: 	default	
-[00:00:06]: 		K: 	spawnprotection	 V: 	default	
-[00:00:06]: 		K: 	specialevent	 V: 	none	
-[00:00:06]: 		K: 	spider_dropper	 V: 	default	
-[00:00:06]: 		K: 	spider_hider	 V: 	default	
-[00:00:06]: 		K: 	spider_spitter	 V: 	default	
-[00:00:06]: 		K: 	spider_warriors	 V: 	default	
-[00:00:06]: 		K: 	spiderqueen	 V: 	default	
-[00:00:06]: 		K: 	spiders	 V: 	default	
-[00:00:06]: 		K: 	spiders_setting	 V: 	default	
-[00:00:06]: 		K: 	start_location	 V: 	caves	
-[00:00:06]: 		K: 	task_set	 V: 	cave_default	
-[00:00:06]: 		K: 	tentacles	 V: 	default	
-[00:00:06]: 		K: 	toadstool	 V: 	default	
-[00:00:06]: 		K: 	touchstone	 V: 	default	
-[00:00:06]: 		K: 	trees	 V: 	default	
-[00:00:06]: 		K: 	weather	 V: 	default	
-[00:00:06]: 		K: 	world_size	 V: 	default	
-[00:00:06]: 		K: 	wormattacks	 V: 	default	
-[00:00:06]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
-[00:00:06]: 		K: 	wormlights	 V: 	default	
-[00:00:06]: 		K: 	worms	 V: 	default	
-[00:00:06]: 	K: 	required_prefabs	 V: 	table: 0000000014112090	
-[00:00:06]: 		K: 	1	 V: 	multiplayer_portal	
-[00:00:06]: 	K: 	settings_desc	 V: 	探查洞穴…… 一起！	
-[00:00:06]: 	K: 	settings_id	 V: 	DST_CAVE	
-[00:00:06]: 	K: 	settings_name	 V: 	洞穴	
-[00:00:06]: 	K: 	substitutes	 V: 	table: 0000000014113A30	
-[00:00:06]: 	K: 	version	 V: 	4	
-[00:00:06]: 	K: 	worldgen_desc	 V: 	探查洞穴…… 一起！	
-[00:00:06]: 	K: 	worldgen_id	 V: 	DST_CAVE	
-[00:00:06]: 	K: 	worldgen_name	 V: 	洞穴	
-[00:00:06]: Loaded and applied level data override from ../leveldataoverride.lua	
-[00:00:06]: Overwriting savedata with level data file.	
-[00:00:06]: Not applying world gen overrides.	
-[00:00:06]: Collecting garbage...
-[00:00:06]: lua_gc took 0.05 seconds
-[00:00:06]: ~ShardLuaProxy()
-[00:00:06]: ~cEventLeaderboardProxy()
-[00:00:06]: ~ItemServerLuaProxy()
-[00:00:06]: ~InventoryLuaProxy()
-[00:00:06]: ~NetworkLuaProxy()
-[00:00:06]: ~SimLuaProxy()
-[00:00:06]: lua_close took 0.06 seconds
-[00:00:06]: ReleaseAll
-[00:00:06]: ReleaseAll Finished
-[00:00:06]: cGame::StartPlaying
-[00:00:06]: AppVersion::GetArchitecture() x64
-[00:00:06]: LOADING LUA
-[00:00:06]: DoLuaFile scripts/main.lua
-[00:00:06]: DoLuaFile loading buffer scripts/main.lua
-[00:00:07]: Translator:LoadPOFile - loading file: scripts/languages/chinese_t.po	
-[00:00:08]:   taskgrouplist:	default	連線版	
-[00:00:08]:   taskgrouplist:	classic	經典	
-[00:00:08]:   taskgrouplist:	cave_default	地下	
-[00:00:08]:   taskgrouplist:	lavaarena_taskset	熔爐	
-[00:00:08]:   taskgrouplist:	quagmire_taskset	暴食	
-[00:00:08]: running main.lua
+[00:00:02]: LOADING LUA SUCCESS
+[00:00:02]: Registering Server mod namespace "workshop-378160973"
+[00:00:02]: Registering Server mod namespace "food item"
+[00:00:02]: PlayerDeaths could not load morgue	
+[00:00:02]: PlayerHistory could not load player_history	
+[00:00:02]: ServerPreferences could not load server_preferences	
+[00:00:02]: bloom_enabled	true	
+[00:00:02]: OnFilesLoaded()	
+[00:00:02]: OnUpdatePurchaseStateComplete	
+[00:00:02]: Klump load on boot started.	
+[00:00:02]: Klump files loaded: 	0	
+[00:00:04]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:04]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-786556008 (45 Inventory Slots)	Registering prefabs	
+[00:00:04]: Mod: workshop-786556008 (45 Inventory Slots)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
+[00:00:04]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-374550642 (Increased Stack size)	Registering prefabs	
+[00:00:04]: Mod: workshop-374550642 (Increased Stack size)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-358749986 (Extended Indicators)	Registering prefabs	
+[00:00:04]: Mod: workshop-358749986 (Extended Indicators)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-2274329081 (Wormhole Icons [Server])	Registering prefabs	
+[00:00:04]: Mod: workshop-2274329081 (Wormhole Icons [Server])	  Registering default mod prefab	
+[00:00:04]: 	Load FE	
+[00:00:04]: 	Load FE: done	
+[00:00:04]: THREAD - started 'FilesExistAsyncThread' (5368)
+[00:00:04]: FilesExistAsyncThread started (18591 files)...
+[00:00:04]: Check for write access: TRUE
+[00:00:04]: Check for read access: TRUE
+[00:00:04]: Available disk space for save files: 81028 MB
+[00:00:04]: ModIndex: Load sequence finished successfully.	
+[00:00:04]: Reset() returning
+[00:00:04]: [IPC] Signal 'DST_Secondary_Kill' opened  #00000000000008B8
+[00:00:04]: [IPC] Registering handler for signal #00000000000008B8
+[00:00:04]: [IPC] Handle #00000000000008B8 added to the Eventhandles
+[00:00:04]: [IPC] Signal 'DST_Secondary_Starting' opened  #0000000000000910
+[00:00:04]: [IPC] Sending signal... #0000000000000910
+[00:00:05]: [200] Account Communication Success (6)
+[00:00:05]: Received (KU_cPYKIG9M) from TokenPurpose
+[00:00:05]: Starting Dedicated Server Game	
+[00:00:05]: Network tick rate: U=15(2), D=0
+[00:00:05]: About to start a server with the following settings:
+[00:00:05]:   Dedicated: true
+[00:00:05]:   Online: true
+[00:00:05]:   Passworded: true
+[00:00:05]:   ServerPort: 10998
+[00:00:05]:   SteamAuthPort: 8767
+[00:00:05]:   SteamMasterServerPort: 27017
+[00:00:05]:   ClanID: false
+[00:00:05]:   ClanOnly: false
+[00:00:05]:   ClanAdmin: false
+[00:00:05]:   LanOnly: false
+[00:00:05]:   FriendsOnly: false
+[00:00:05]:   EnableAutosaver: true
+[00:00:05]:   EncodeUserPath: true
+[00:00:05]:   PVP: false
+[00:00:05]:   MaxPlayers: 6
+[00:00:05]:   GameMode: endless
+[00:00:05]:   OverridenDNS: 
+[00:00:05]:   PauseWhenEmpty: true
+[00:00:05]:   IdleTimeout: 1800s
+[00:00:05]:   VoteEnabled: false
+[00:00:05]:   InternetBroadcasting: true
+[00:00:05]:   Intent: cooperative
+[00:00:05]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:05]: [Shard] No shard id specified, generating a random one...
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-374550642	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-2274329081	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-786556008	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-375859599	
+[00:00:05]: ... FilesExistAsyncThread complete
+[00:00:05]: Online Server Started on port: 10998
+[00:00:05]: SUCCESS: Loaded modoverrides.lua	
+[00:00:05]: Found a level data override file with these contents:	
+[00:00:05]: 	K: 	background_node_range	 V: 	table: 000000000B097180	
+[00:00:05]: 		K: 	1	 V: 	0	
+[00:00:05]: 		K: 	2	 V: 	1	
+[00:00:05]: 	K: 	desc	 V: 	探查洞穴…… 一起！	
+[00:00:05]: 	K: 	hideminimap	 V: 	false	
+[00:00:05]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:05]: 	K: 	location	 V: 	cave	
+[00:00:05]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:05]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:05]: 	K: 	name	 V: 	洞穴	
+[00:00:05]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:05]: 	K: 	override_level_string	 V: 	false	
+[00:00:05]: 	K: 	overrides	 V: 	table: 000000000B0978B0	
+[00:00:05]: 		K: 	atriumgate	 V: 	default	
+[00:00:05]: 		K: 	banana	 V: 	default	
+[00:00:05]: 		K: 	bats	 V: 	default	
+[00:00:05]: 		K: 	bats_setting	 V: 	default	
+[00:00:05]: 		K: 	beefaloheat	 V: 	default	
+[00:00:05]: 		K: 	berrybush	 V: 	default	
+[00:00:05]: 		K: 	boons	 V: 	default	
+[00:00:05]: 		K: 	branching	 V: 	default	
+[00:00:05]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:05]: 		K: 	bunnymen	 V: 	default	
+[00:00:05]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:05]: 		K: 	cave_ponds	 V: 	default	
+[00:00:05]: 		K: 	cave_spiders	 V: 	default	
+[00:00:05]: 		K: 	cavelight	 V: 	default	
+[00:00:05]: 		K: 	chess	 V: 	default	
+[00:00:05]: 		K: 	day	 V: 	default	
+[00:00:05]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:05]: 		K: 	dustmoths	 V: 	default	
+[00:00:05]: 		K: 	earthquakes	 V: 	default	
+[00:00:05]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:05]: 		K: 	fern	 V: 	default	
+[00:00:05]: 		K: 	fissure	 V: 	default	
+[00:00:05]: 		K: 	flint	 V: 	default	
+[00:00:05]: 		K: 	flower_cave	 V: 	default	
+[00:00:05]: 		K: 	flower_cave_regrowth	 V: 	default	
+[00:00:05]: 		K: 	fruitfly	 V: 	default	
+[00:00:05]: 		K: 	grass	 V: 	default	
+[00:00:05]: 		K: 	grassgekkos	 V: 	default	
+[00:00:05]: 		K: 	krampus	 V: 	default	
+[00:00:05]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:05]: 		K: 	lichen	 V: 	default	
+[00:00:05]: 		K: 	liefs	 V: 	default	
+[00:00:05]: 		K: 	lightflier_flower_regrowth	 V: 	default	
+[00:00:05]: 		K: 	lightfliers	 V: 	default	
+[00:00:05]: 		K: 	loop	 V: 	default	
+[00:00:05]: 		K: 	marshbush	 V: 	default	
+[00:00:05]: 		K: 	merms	 V: 	default	
+[00:00:05]: 		K: 	molebats	 V: 	default	
+[00:00:05]: 		K: 	moles_setting	 V: 	default	
+[00:00:05]: 		K: 	monkey	 V: 	default	
+[00:00:05]: 		K: 	monkey_setting	 V: 	default	
+[00:00:05]: 		K: 	mushgnome	 V: 	default	
+[00:00:05]: 		K: 	mushroom	 V: 	default	
+[00:00:05]: 		K: 	mushtree	 V: 	default	
+[00:00:05]: 		K: 	mushtree_moon_regrowth	 V: 	default	
+[00:00:05]: 		K: 	mushtree_regrowth	 V: 	default	
+[00:00:05]: 		K: 	nightmarecreatures	 V: 	default	
+[00:00:05]: 		K: 	pigs_setting	 V: 	default	
+[00:00:05]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:05]: 		K: 	reeds	 V: 	default	
+[00:00:05]: 		K: 	regrowth	 V: 	default	
+[00:00:05]: 		K: 	roads	 V: 	never	
+[00:00:05]: 		K: 	rock	 V: 	default	
+[00:00:05]: 		K: 	rocky	 V: 	default	
+[00:00:05]: 		K: 	rocky_setting	 V: 	default	
+[00:00:05]: 		K: 	sapling	 V: 	default	
+[00:00:05]: 		K: 	season_start	 V: 	default	
+[00:00:05]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:05]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:05]: 		K: 	slurper	 V: 	default	
+[00:00:05]: 		K: 	slurtles	 V: 	default	
+[00:00:05]: 		K: 	slurtles_setting	 V: 	default	
+[00:00:05]: 		K: 	snurtles	 V: 	default	
+[00:00:05]: 		K: 	spawnprotection	 V: 	default	
+[00:00:05]: 		K: 	specialevent	 V: 	none	
+[00:00:05]: 		K: 	spider_dropper	 V: 	default	
+[00:00:05]: 		K: 	spider_hider	 V: 	default	
+[00:00:05]: 		K: 	spider_spitter	 V: 	default	
+[00:00:05]: 		K: 	spider_warriors	 V: 	default	
+[00:00:05]: 		K: 	spiderqueen	 V: 	default	
+[00:00:05]: 		K: 	spiders	 V: 	default	
+[00:00:05]: 		K: 	spiders_setting	 V: 	default	
+[00:00:05]: 		K: 	start_location	 V: 	caves	
+[00:00:05]: 		K: 	task_set	 V: 	cave_default	
+[00:00:05]: 		K: 	tentacles	 V: 	default	
+[00:00:05]: 		K: 	toadstool	 V: 	default	
+[00:00:05]: 		K: 	touchstone	 V: 	default	
+[00:00:05]: 		K: 	trees	 V: 	default	
+[00:00:05]: 		K: 	weather	 V: 	default	
+[00:00:05]: 		K: 	world_size	 V: 	default	
+[00:00:05]: 		K: 	wormattacks	 V: 	default	
+[00:00:05]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:05]: 		K: 	wormlights	 V: 	default	
+[00:00:05]: 		K: 	worms	 V: 	default	
+[00:00:05]: 	K: 	required_prefabs	 V: 	table: 000000000B0974A0	
+[00:00:05]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:05]: 	K: 	settings_desc	 V: 	探查洞穴…… 一起！	
+[00:00:05]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:05]: 	K: 	settings_name	 V: 	洞穴	
+[00:00:05]: 	K: 	substitutes	 V: 	table: 000000000B097BD0	
+[00:00:05]: 	K: 	version	 V: 	4	
+[00:00:05]: 	K: 	worldgen_desc	 V: 	探查洞穴…… 一起！	
+[00:00:05]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:05]: 	K: 	worldgen_name	 V: 	洞穴	
+[00:00:05]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:05]: Overwriting savedata with level data file.	
+[00:00:05]: Not applying world gen overrides.	
+[00:00:05]: Collecting garbage...
+[00:00:05]: lua_gc took 0.06 seconds
+[00:00:05]: ~ShardLuaProxy()
+[00:00:05]: ~cEventLeaderboardProxy()
+[00:00:05]: ~ItemServerLuaProxy()
+[00:00:05]: ~InventoryLuaProxy()
+[00:00:05]: ~NetworkLuaProxy()
+[00:00:05]: ~SimLuaProxy()
+[00:00:05]: lua_close took 0.07 seconds
+[00:00:05]: ReleaseAll
+[00:00:05]: ReleaseAll Finished
+[00:00:05]: cGame::StartPlaying
+[00:00:05]: AppVersion::GetArchitecture() x64
+[00:00:05]: LOADING LUA
+[00:00:05]: DoLuaFile scripts/main.lua
+[00:00:05]: DoLuaFile loading buffer scripts/main.lua
+[00:00:05]: Translator:LoadPOFile - loading file: scripts/languages/chinese_t.po	
+[00:00:07]:   taskgrouplist:	default	連線版	
+[00:00:07]:   taskgrouplist:	classic	經典	
+[00:00:07]:   taskgrouplist:	cave_default	地下	
+[00:00:07]:   taskgrouplist:	lavaarena_taskset	熔爐	
+[00:00:07]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:07]: running main.lua
 	
-[00:00:08]: loaded modindex	
-[00:00:08]: ModIndex: Beginning normal load sequence for dedicated server.
+[00:00:07]: loaded modindex	
+[00:00:07]: ModIndex: Beginning normal load sequence for dedicated server.
 	
-[00:00:08]: SUCCESS: Loaded modoverrides.lua	
-[00:00:08]: modoverrides.lua enabling workshop-358749986	
-[00:00:08]: modoverrides.lua enabling workshop-374550642	
-[00:00:08]: modoverrides.lua enabling workshop-596633787	
-[00:00:08]: modoverrides.lua enabling workshop-347079953	
-[00:00:08]: modoverrides.lua enabling workshop-378160973	
-[00:00:08]: modoverrides.lua enabling workshop-2274329081	
-[00:00:08]: modoverrides.lua enabling workshop-786556008	
-[00:00:08]: modoverrides.lua enabling workshop-375859599	
-[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2274329081	
-[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
-[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-358749986	
-[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-374550642	
-[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
-[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-596633787	
-[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-786556008	
-[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
-[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-2274329081	
-[00:00:08]: Loading mod: workshop-2274329081 (Wormhole Icons [Server]) Version:1.000	
-[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-347079953	
-[00:00:08]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
-[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-358749986	
-[00:00:08]: Loading mod: workshop-358749986 (Extended Indicators) Version:1.1	
-[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-374550642	
-[00:00:08]: Loading mod: workshop-374550642 (Increased Stack size) Version:1.62	
-[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-378160973	
-[00:00:08]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.3	
-[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-596633787	
-[00:00:08]: Loading mod: workshop-596633787 (Display food values) Version:1.6	
-[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-786556008	
-[00:00:08]: Loading mod: workshop-786556008 (45 Inventory Slots) Version:1.4.1	
-[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-375859599	
-[00:00:08]: Loading mod: workshop-375859599 (Health Info) Version:2.2.01	
-[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-358749986	
-[00:00:08]: Overriding mod workshop-358749986's option IndicatorSize with value 3	
-[00:00:08]: Overriding mod workshop-358749986's option PlayerIndicators with value 1	
-[00:00:08]: Overriding mod workshop-358749986's option MaxIndicator with value 7000	
-[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-374550642	
-[00:00:08]: Overriding mod workshop-374550642's option MAXSTACKSIZE with value 99	
-[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-596633787	
-[00:00:08]: Overriding mod workshop-596633787's option DFV_Language with value EN	
-[00:00:08]: Overriding mod workshop-596633787's option DFV_MinimalMode with value default	
-[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
-[00:00:08]: Overriding mod workshop-347079953's option DFV_Language with value EN	
-[00:00:08]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
-[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
-[00:00:08]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
-[00:00:08]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
-[00:00:08]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
-[00:00:08]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
-[00:00:08]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
-[00:00:08]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
-[00:00:08]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
-[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-2274329081	
-[00:00:08]: Overriding mod workshop-2274329081's option WORLD_COLORS with value true	
-[00:00:08]: Overriding mod workshop-2274329081's option SHOW_NUMBERS with value num_	
-[00:00:08]: Overriding mod workshop-2274329081's option ICON_STYLE with value new	
-[00:00:08]: Overriding mod workshop-2274329081's option MINIMAP_ICONS with value true	
-[00:00:08]: Overriding mod workshop-2274329081's option WORMHOLE_MARKS_DISABLE with value false	
-[00:00:08]: Overriding mod workshop-2274329081's option WORMHOLE_BORDER with value true	
-[00:00:08]: Overriding mod workshop-2274329081's option WORLD_NUMBERS with value true	
-[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-786556008	
-[00:00:08]: Overriding mod workshop-786556008's option EXTRASLOT with value 0	
-[00:00:08]: Overriding mod workshop-786556008's option ENABLEBACKPACK with value false	
-[00:00:08]: Overriding mod workshop-786556008's option INVENTORYSIZE with value 45	
-[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-375859599	
-[00:00:08]: Overriding mod workshop-375859599's option random_range with value 0	
-[00:00:08]: Overriding mod workshop-375859599's option divider with value 5	
-[00:00:08]: Overriding mod workshop-375859599's option use_blacklist with value true	
-[00:00:08]: Overriding mod workshop-375859599's option unknwon_prefabs with value 1	
-[00:00:08]: Overriding mod workshop-375859599's option show_type with value 0	
-[00:00:08]: Overriding mod workshop-375859599's option send_unknwon_prefabs with value false	
-[00:00:08]: Overriding mod workshop-375859599's option random_health_value with value 0	
-[00:00:08]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-596633787 (Display food values)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-596633787 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-596633787 (Display food values)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-786556008 (45 Inventory Slots)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-786556008 (45 Inventory Slots)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-786556008 (45 Inventory Slots)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-375859599 (Health Info)	Loading modmain.lua	
-[00:00:08]: modimport: ../mods/workshop-375859599/black_white_lists.lua	
-[00:00:08]: Mod: workshop-374550642 (Increased Stack size)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-374550642 (Increased Stack size)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-374550642 (Increased Stack size)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-358749986 (Extended Indicators)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-358749986 (Extended Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-358749986 (Extended Indicators)	Loading modmain.lua	
-[00:00:08]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
-[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2274329081	
-[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
-[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-358749986	
-[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-374550642	
-[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
-[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-596633787	
-[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-786556008	
-[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
-[00:00:08]: Mod: workshop-2274329081 (Wormhole Icons [Server])	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2274329081 (Wormhole Icons [Server])	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2274329081 (Wormhole Icons [Server])	Loading modmain.lua	
-[00:00:08]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
-[00:00:08]: LOADING LUA SUCCESS
-[00:00:08]: Registering Server mod namespace "workshop-378160973"
-[00:00:08]: Registering Server mod namespace "food item"
-[00:00:08]: PlayerDeaths could not load morgue	
-[00:00:08]: PlayerHistory could not load player_history	
-[00:00:08]: ServerPreferences could not load server_preferences	
-[00:00:08]: bloom_enabled	true	
-[00:00:08]: OnFilesLoaded()	
-[00:00:08]: OnUpdatePurchaseStateComplete	
-[00:00:08]: SUCCESS: Loaded modoverrides.lua	
-[00:00:08]: Found a level data override file with these contents:	
-[00:00:08]: 	K: 	background_node_range	 V: 	table: 00000000177D0ED0	
-[00:00:08]: 		K: 	1	 V: 	0	
-[00:00:08]: 		K: 	2	 V: 	1	
-[00:00:08]: 	K: 	desc	 V: 	探查洞穴…… 一起！	
-[00:00:08]: 	K: 	hideminimap	 V: 	false	
-[00:00:08]: 	K: 	id	 V: 	DST_CAVE	
-[00:00:08]: 	K: 	location	 V: 	cave	
-[00:00:08]: 	K: 	max_playlist_position	 V: 	999	
-[00:00:08]: 	K: 	min_playlist_position	 V: 	0	
-[00:00:08]: 	K: 	name	 V: 	洞穴	
-[00:00:08]: 	K: 	numrandom_set_pieces	 V: 	0	
-[00:00:08]: 	K: 	override_level_string	 V: 	false	
-[00:00:08]: 	K: 	overrides	 V: 	table: 00000000177D0F20	
-[00:00:08]: 		K: 	atriumgate	 V: 	default	
-[00:00:08]: 		K: 	banana	 V: 	default	
-[00:00:08]: 		K: 	bats	 V: 	default	
-[00:00:08]: 		K: 	bats_setting	 V: 	default	
-[00:00:08]: 		K: 	beefaloheat	 V: 	default	
-[00:00:08]: 		K: 	berrybush	 V: 	default	
-[00:00:08]: 		K: 	boons	 V: 	default	
-[00:00:08]: 		K: 	branching	 V: 	default	
-[00:00:08]: 		K: 	brightmarecreatures	 V: 	default	
-[00:00:08]: 		K: 	bunnymen	 V: 	default	
-[00:00:08]: 		K: 	bunnymen_setting	 V: 	default	
-[00:00:08]: 		K: 	cave_ponds	 V: 	default	
-[00:00:08]: 		K: 	cave_spiders	 V: 	default	
-[00:00:08]: 		K: 	cavelight	 V: 	default	
-[00:00:08]: 		K: 	chess	 V: 	default	
-[00:00:08]: 		K: 	day	 V: 	default	
-[00:00:08]: 		K: 	dropeverythingondespawn	 V: 	default	
-[00:00:08]: 		K: 	dustmoths	 V: 	default	
-[00:00:08]: 		K: 	earthquakes	 V: 	default	
-[00:00:08]: 		K: 	extrastartingitems	 V: 	default	
-[00:00:08]: 		K: 	fern	 V: 	default	
-[00:00:08]: 		K: 	fissure	 V: 	default	
-[00:00:08]: 		K: 	flint	 V: 	default	
-[00:00:08]: 		K: 	flower_cave	 V: 	default	
-[00:00:08]: 		K: 	flower_cave_regrowth	 V: 	default	
-[00:00:08]: 		K: 	fruitfly	 V: 	default	
-[00:00:08]: 		K: 	grass	 V: 	default	
-[00:00:08]: 		K: 	grassgekkos	 V: 	default	
-[00:00:08]: 		K: 	krampus	 V: 	default	
-[00:00:08]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
-[00:00:08]: 		K: 	lichen	 V: 	default	
-[00:00:08]: 		K: 	liefs	 V: 	default	
-[00:00:08]: 		K: 	lightflier_flower_regrowth	 V: 	default	
-[00:00:08]: 		K: 	lightfliers	 V: 	default	
-[00:00:08]: 		K: 	loop	 V: 	default	
-[00:00:08]: 		K: 	marshbush	 V: 	default	
-[00:00:08]: 		K: 	merms	 V: 	default	
-[00:00:08]: 		K: 	molebats	 V: 	default	
-[00:00:08]: 		K: 	moles_setting	 V: 	default	
-[00:00:08]: 		K: 	monkey	 V: 	default	
-[00:00:08]: 		K: 	monkey_setting	 V: 	default	
-[00:00:08]: 		K: 	mushgnome	 V: 	default	
-[00:00:08]: 		K: 	mushroom	 V: 	default	
-[00:00:08]: 		K: 	mushtree	 V: 	default	
-[00:00:08]: 		K: 	mushtree_moon_regrowth	 V: 	default	
-[00:00:08]: 		K: 	mushtree_regrowth	 V: 	default	
-[00:00:08]: 		K: 	nightmarecreatures	 V: 	default	
-[00:00:08]: 		K: 	pigs_setting	 V: 	default	
-[00:00:08]: 		K: 	prefabswaps_start	 V: 	default	
-[00:00:08]: 		K: 	reeds	 V: 	default	
-[00:00:08]: 		K: 	regrowth	 V: 	default	
-[00:00:08]: 		K: 	roads	 V: 	never	
-[00:00:08]: 		K: 	rock	 V: 	default	
-[00:00:08]: 		K: 	rocky	 V: 	default	
-[00:00:08]: 		K: 	rocky_setting	 V: 	default	
-[00:00:08]: 		K: 	sapling	 V: 	default	
-[00:00:08]: 		K: 	season_start	 V: 	default	
-[00:00:08]: 		K: 	seasonalstartingitems	 V: 	default	
-[00:00:08]: 		K: 	shadowcreatures	 V: 	default	
-[00:00:08]: 		K: 	slurper	 V: 	default	
-[00:00:08]: 		K: 	slurtles	 V: 	default	
-[00:00:08]: 		K: 	slurtles_setting	 V: 	default	
-[00:00:08]: 		K: 	snurtles	 V: 	default	
-[00:00:08]: 		K: 	spawnprotection	 V: 	default	
-[00:00:08]: 		K: 	specialevent	 V: 	none	
-[00:00:08]: 		K: 	spider_dropper	 V: 	default	
-[00:00:08]: 		K: 	spider_hider	 V: 	default	
-[00:00:08]: 		K: 	spider_spitter	 V: 	default	
-[00:00:08]: 		K: 	spider_warriors	 V: 	default	
-[00:00:08]: 		K: 	spiderqueen	 V: 	default	
-[00:00:08]: 		K: 	spiders	 V: 	default	
-[00:00:08]: 		K: 	spiders_setting	 V: 	default	
-[00:00:08]: 		K: 	start_location	 V: 	caves	
-[00:00:08]: 		K: 	task_set	 V: 	cave_default	
-[00:00:08]: 		K: 	tentacles	 V: 	default	
-[00:00:08]: 		K: 	toadstool	 V: 	default	
-[00:00:08]: 		K: 	touchstone	 V: 	default	
-[00:00:08]: 		K: 	trees	 V: 	default	
-[00:00:08]: 		K: 	weather	 V: 	default	
-[00:00:08]: 		K: 	world_size	 V: 	default	
-[00:00:08]: 		K: 	wormattacks	 V: 	default	
-[00:00:08]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
-[00:00:08]: 		K: 	wormlights	 V: 	default	
-[00:00:08]: 		K: 	worms	 V: 	default	
-[00:00:08]: 	K: 	required_prefabs	 V: 	table: 00000000177D0930	
-[00:00:08]: 		K: 	1	 V: 	multiplayer_portal	
-[00:00:08]: 	K: 	settings_desc	 V: 	探查洞穴…… 一起！	
-[00:00:08]: 	K: 	settings_id	 V: 	DST_CAVE	
-[00:00:08]: 	K: 	settings_name	 V: 	洞穴	
-[00:00:08]: 	K: 	substitutes	 V: 	table: 00000000177B1A80	
-[00:00:08]: 	K: 	version	 V: 	4	
-[00:00:08]: 	K: 	worldgen_desc	 V: 	探查洞穴…… 一起！	
-[00:00:08]: 	K: 	worldgen_id	 V: 	DST_CAVE	
-[00:00:08]: 	K: 	worldgen_name	 V: 	洞穴	
-[00:00:08]: Loaded and applied level data override from ../leveldataoverride.lua	
-[00:00:08]: Overwriting savedata with level data file.	
-[00:00:08]: Not applying world gen overrides.	
-[00:00:08]: [IPC] Signal 'DST_Secondary_WorldGen' opened  #00000000000007D4
-[00:00:08]: [IPC] Sending signal... #00000000000007D4
-[00:00:08]: WorldSim::SimThread::SimThread()
-[00:00:08]: ABOUT TO INSTALL STACKTRACE
-[00:00:08]: DoLuaFile scripts/stacktrace.lua
-[00:00:08]: DoLuaFile loading buffer scripts/stacktrace.lua
-[00:00:08]: INSTALLED STACKTRACE
-[00:00:08]: WorldSim::SimThread::SimThread() complete
-[00:00:08]: THREAD - started 'WorldSim' (12096)
-[00:00:08]: WorldSim::SimThread::Main()
-[00:00:08]: DoLuaFile scripts/worldgen_main.lua
-[00:00:08]: DoLuaFile loading buffer scripts/worldgen_main.lua
-[00:00:08]: Check for write access: TRUE
-[00:00:08]: Check for read access: TRUE
-[00:00:08]: Available disk space for save files: 80668 MB
-[00:00:08]: ModIndex: Load sequence finished successfully.	
-[00:00:08]: Reset() returning
-[00:00:08]: DLC enabled : 	false	
-[00:00:08]:   taskgrouplist:	default	Together	
-[00:00:08]:   taskgrouplist:	classic	Classic	
-[00:00:08]:   taskgrouplist:	cave_default	Underground	
-[00:00:08]:   taskgrouplist:	lavaarena_taskset	The Forge	
-[00:00:08]:   taskgrouplist:	quagmire_taskset	The Gorge	
-[00:00:08]: ModIndex:GetModsToLoad inserting modname, 	workshop-358749986	
-[00:00:08]: ModIndex:GetModsToLoad inserting modname, 	workshop-374550642	
-[00:00:08]: ModIndex:GetModsToLoad inserting modname, 	workshop-2274329081	
-[00:00:08]: ModIndex:GetModsToLoad inserting modname, 	workshop-786556008	
-[00:00:08]: ModIndex:GetModsToLoad inserting modname, 	workshop-347079953	
-[00:00:08]: ModIndex:GetModsToLoad inserting modname, 	workshop-596633787	
-[00:00:08]: ModIndex:GetModsToLoad inserting modname, 	workshop-378160973	
-[00:00:08]: ModIndex:GetModsToLoad inserting modname, 	workshop-375859599	
-[00:00:08]: Loading mod: workshop-358749986 (Extended Indicators) Version:1.1	
-[00:00:08]: Loading mod: workshop-374550642 (Increased Stack size) Version:1.62	
-[00:00:08]: Loading mod: workshop-2274329081 (Wormhole Icons [Server]) Version:1.000	
-[00:00:08]: Loading mod: workshop-786556008 (45 Inventory Slots) Version:1.4.1	
-[00:00:08]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
-[00:00:08]: Loading mod: workshop-596633787 (Display food values) Version:1.6	
-[00:00:08]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.3	
-[00:00:08]: Loading mod: workshop-375859599 (Health Info) Version:2.2.01	
-[00:00:08]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-596633787 (Display food values)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-596633787 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-786556008 (45 Inventory Slots)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-786556008 (45 Inventory Slots)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-374550642 (Increased Stack size)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-374550642 (Increased Stack size)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-358749986 (Extended Indicators)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-358749986 (Extended Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: Mod: workshop-2274329081 (Wormhole Icons [Server])	Loading modworldgenmain.lua	
-[00:00:08]: Mod: workshop-2274329081 (Wormhole Icons [Server])	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:08]: running worldgen_main.lua
+[00:00:07]: SUCCESS: Loaded modoverrides.lua	
+[00:00:07]: modoverrides.lua enabling workshop-358749986	
+[00:00:07]: modoverrides.lua enabling workshop-374550642	
+[00:00:07]: modoverrides.lua enabling workshop-347079953	
+[00:00:07]: modoverrides.lua enabling workshop-378160973	
+[00:00:07]: modoverrides.lua enabling workshop-2274329081	
+[00:00:07]: modoverrides.lua enabling workshop-786556008	
+[00:00:07]: modoverrides.lua enabling workshop-375859599	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2274329081	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-358749986	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-374550642	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-786556008	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-2274329081	
+[00:00:07]: Loading mod: workshop-2274329081 (Wormhole Icons [Server]) Version:1.000	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:07]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-358749986	
+[00:00:07]: Loading mod: workshop-358749986 (Extended Indicators) Version:1.1	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-374550642	
+[00:00:07]: Loading mod: workshop-374550642 (Increased Stack size) Version:1.62	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:07]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.3	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-786556008	
+[00:00:07]: Loading mod: workshop-786556008 (45 Inventory Slots) Version:1.4.1	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-375859599	
+[00:00:07]: Loading mod: workshop-375859599 (Health Info) Version:2.2.01	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-358749986	
+[00:00:07]: Overriding mod workshop-358749986's option IndicatorSize with value 3	
+[00:00:07]: Overriding mod workshop-358749986's option PlayerIndicators with value 1	
+[00:00:07]: Overriding mod workshop-358749986's option MaxIndicator with value 7000	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-374550642	
+[00:00:07]: Overriding mod workshop-374550642's option MAXSTACKSIZE with value 99	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:07]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:07]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:07]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:07]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:07]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:07]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:07]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:07]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:07]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-2274329081	
+[00:00:07]: Overriding mod workshop-2274329081's option WORLD_COLORS with value true	
+[00:00:07]: Overriding mod workshop-2274329081's option SHOW_NUMBERS with value num_	
+[00:00:07]: Overriding mod workshop-2274329081's option ICON_STYLE with value new	
+[00:00:07]: Overriding mod workshop-2274329081's option MINIMAP_ICONS with value true	
+[00:00:07]: Overriding mod workshop-2274329081's option WORMHOLE_MARKS_DISABLE with value false	
+[00:00:07]: Overriding mod workshop-2274329081's option WORMHOLE_BORDER with value true	
+[00:00:07]: Overriding mod workshop-2274329081's option WORLD_NUMBERS with value true	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-786556008	
+[00:00:07]: Overriding mod workshop-786556008's option EXTRASLOT with value 0	
+[00:00:07]: Overriding mod workshop-786556008's option ENABLEBACKPACK with value false	
+[00:00:07]: Overriding mod workshop-786556008's option INVENTORYSIZE with value 45	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-375859599	
+[00:00:07]: Overriding mod workshop-375859599's option random_range with value 0	
+[00:00:07]: Overriding mod workshop-375859599's option divider with value 5	
+[00:00:07]: Overriding mod workshop-375859599's option use_blacklist with value true	
+[00:00:07]: Overriding mod workshop-375859599's option unknwon_prefabs with value 1	
+[00:00:07]: Overriding mod workshop-375859599's option show_type with value 0	
+[00:00:07]: Overriding mod workshop-375859599's option send_unknwon_prefabs with value false	
+[00:00:07]: Overriding mod workshop-375859599's option random_health_value with value 0	
+[00:00:07]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-786556008 (45 Inventory Slots)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-786556008 (45 Inventory Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-786556008 (45 Inventory Slots)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-375859599 (Health Info)	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-375859599/black_white_lists.lua	
+[00:00:07]: Mod: workshop-374550642 (Increased Stack size)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-374550642 (Increased Stack size)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-374550642 (Increased Stack size)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-358749986 (Extended Indicators)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-358749986 (Extended Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-358749986 (Extended Indicators)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2274329081	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-358749986	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-374550642	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-786556008	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:07]: Mod: workshop-2274329081 (Wormhole Icons [Server])	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2274329081 (Wormhole Icons [Server])	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2274329081 (Wormhole Icons [Server])	Loading modmain.lua	
+[00:00:07]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:07]: LOADING LUA SUCCESS
+[00:00:07]: Registering Server mod namespace "workshop-378160973"
+[00:00:07]: Registering Server mod namespace "food item"
+[00:00:07]: PlayerDeaths could not load morgue	
+[00:00:07]: PlayerHistory could not load player_history	
+[00:00:07]: ServerPreferences could not load server_preferences	
+[00:00:07]: bloom_enabled	true	
+[00:00:07]: OnFilesLoaded()	
+[00:00:07]: OnUpdatePurchaseStateComplete	
+[00:00:07]: SUCCESS: Loaded modoverrides.lua	
+[00:00:07]: Found a level data override file with these contents:	
+[00:00:07]: 	K: 	background_node_range	 V: 	table: 0000000016DD5FD0	
+[00:00:07]: 		K: 	1	 V: 	0	
+[00:00:07]: 		K: 	2	 V: 	1	
+[00:00:07]: 	K: 	desc	 V: 	探查洞穴…… 一起！	
+[00:00:07]: 	K: 	hideminimap	 V: 	false	
+[00:00:07]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:07]: 	K: 	location	 V: 	cave	
+[00:00:07]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:07]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:07]: 	K: 	name	 V: 	洞穴	
+[00:00:07]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:07]: 	K: 	override_level_string	 V: 	false	
+[00:00:07]: 	K: 	overrides	 V: 	table: 0000000016DD68E0	
+[00:00:07]: 		K: 	atriumgate	 V: 	default	
+[00:00:07]: 		K: 	banana	 V: 	default	
+[00:00:07]: 		K: 	bats	 V: 	default	
+[00:00:07]: 		K: 	bats_setting	 V: 	default	
+[00:00:07]: 		K: 	beefaloheat	 V: 	default	
+[00:00:07]: 		K: 	berrybush	 V: 	default	
+[00:00:07]: 		K: 	boons	 V: 	default	
+[00:00:07]: 		K: 	branching	 V: 	default	
+[00:00:07]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:07]: 		K: 	bunnymen	 V: 	default	
+[00:00:07]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:07]: 		K: 	cave_ponds	 V: 	default	
+[00:00:07]: 		K: 	cave_spiders	 V: 	default	
+[00:00:07]: 		K: 	cavelight	 V: 	default	
+[00:00:07]: 		K: 	chess	 V: 	default	
+[00:00:07]: 		K: 	day	 V: 	default	
+[00:00:07]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:07]: 		K: 	dustmoths	 V: 	default	
+[00:00:07]: 		K: 	earthquakes	 V: 	default	
+[00:00:07]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:07]: 		K: 	fern	 V: 	default	
+[00:00:07]: 		K: 	fissure	 V: 	default	
+[00:00:07]: 		K: 	flint	 V: 	default	
+[00:00:07]: 		K: 	flower_cave	 V: 	default	
+[00:00:07]: 		K: 	flower_cave_regrowth	 V: 	default	
+[00:00:07]: 		K: 	fruitfly	 V: 	default	
+[00:00:07]: 		K: 	grass	 V: 	default	
+[00:00:07]: 		K: 	grassgekkos	 V: 	default	
+[00:00:07]: 		K: 	krampus	 V: 	default	
+[00:00:07]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:07]: 		K: 	lichen	 V: 	default	
+[00:00:07]: 		K: 	liefs	 V: 	default	
+[00:00:07]: 		K: 	lightflier_flower_regrowth	 V: 	default	
+[00:00:07]: 		K: 	lightfliers	 V: 	default	
+[00:00:07]: 		K: 	loop	 V: 	default	
+[00:00:07]: 		K: 	marshbush	 V: 	default	
+[00:00:07]: 		K: 	merms	 V: 	default	
+[00:00:07]: 		K: 	molebats	 V: 	default	
+[00:00:07]: 		K: 	moles_setting	 V: 	default	
+[00:00:07]: 		K: 	monkey	 V: 	default	
+[00:00:07]: 		K: 	monkey_setting	 V: 	default	
+[00:00:07]: 		K: 	mushgnome	 V: 	default	
+[00:00:07]: 		K: 	mushroom	 V: 	default	
+[00:00:07]: 		K: 	mushtree	 V: 	default	
+[00:00:07]: 		K: 	mushtree_moon_regrowth	 V: 	default	
+[00:00:07]: 		K: 	mushtree_regrowth	 V: 	default	
+[00:00:07]: 		K: 	nightmarecreatures	 V: 	default	
+[00:00:07]: 		K: 	pigs_setting	 V: 	default	
+[00:00:07]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:07]: 		K: 	reeds	 V: 	default	
+[00:00:07]: 		K: 	regrowth	 V: 	default	
+[00:00:07]: 		K: 	roads	 V: 	never	
+[00:00:07]: 		K: 	rock	 V: 	default	
+[00:00:07]: 		K: 	rocky	 V: 	default	
+[00:00:07]: 		K: 	rocky_setting	 V: 	default	
+[00:00:07]: 		K: 	sapling	 V: 	default	
+[00:00:07]: 		K: 	season_start	 V: 	default	
+[00:00:07]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:07]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:07]: 		K: 	slurper	 V: 	default	
+[00:00:07]: 		K: 	slurtles	 V: 	default	
+[00:00:07]: 		K: 	slurtles_setting	 V: 	default	
+[00:00:07]: 		K: 	snurtles	 V: 	default	
+[00:00:07]: 		K: 	spawnprotection	 V: 	default	
+[00:00:07]: 		K: 	specialevent	 V: 	none	
+[00:00:07]: 		K: 	spider_dropper	 V: 	default	
+[00:00:07]: 		K: 	spider_hider	 V: 	default	
+[00:00:07]: 		K: 	spider_spitter	 V: 	default	
+[00:00:07]: 		K: 	spider_warriors	 V: 	default	
+[00:00:07]: 		K: 	spiderqueen	 V: 	default	
+[00:00:07]: 		K: 	spiders	 V: 	default	
+[00:00:07]: 		K: 	spiders_setting	 V: 	default	
+[00:00:07]: 		K: 	start_location	 V: 	caves	
+[00:00:07]: 		K: 	task_set	 V: 	cave_default	
+[00:00:07]: 		K: 	tentacles	 V: 	default	
+[00:00:07]: 		K: 	toadstool	 V: 	default	
+[00:00:07]: 		K: 	touchstone	 V: 	default	
+[00:00:07]: 		K: 	trees	 V: 	default	
+[00:00:07]: 		K: 	weather	 V: 	default	
+[00:00:07]: 		K: 	world_size	 V: 	default	
+[00:00:07]: 		K: 	wormattacks	 V: 	default	
+[00:00:07]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:07]: 		K: 	wormlights	 V: 	default	
+[00:00:07]: 		K: 	worms	 V: 	default	
+[00:00:07]: 	K: 	required_prefabs	 V: 	table: 0000000016DD5CB0	
+[00:00:07]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:07]: 	K: 	settings_desc	 V: 	探查洞穴…… 一起！	
+[00:00:07]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:07]: 	K: 	settings_name	 V: 	洞穴	
+[00:00:07]: 	K: 	substitutes	 V: 	table: 0000000016DD6020	
+[00:00:07]: 	K: 	version	 V: 	4	
+[00:00:07]: 	K: 	worldgen_desc	 V: 	探查洞穴…… 一起！	
+[00:00:07]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:07]: 	K: 	worldgen_name	 V: 	洞穴	
+[00:00:07]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:07]: Overwriting savedata with level data file.	
+[00:00:07]: Not applying world gen overrides.	
+[00:00:07]: [IPC] Signal 'DST_Secondary_WorldGen' opened  #00000000000009F4
+[00:00:07]: [IPC] Sending signal... #00000000000009F4
+[00:00:07]: WorldSim::SimThread::SimThread()
+[00:00:07]: ABOUT TO INSTALL STACKTRACE
+[00:00:07]: DoLuaFile scripts/stacktrace.lua
+[00:00:07]: DoLuaFile loading buffer scripts/stacktrace.lua
+[00:00:07]: INSTALLED STACKTRACE
+[00:00:07]: WorldSim::SimThread::SimThread() complete
+[00:00:07]: THREAD - started 'WorldSim' (31536)
+[00:00:07]: WorldSim::SimThread::Main()
+[00:00:07]: DoLuaFile scripts/worldgen_main.lua
+[00:00:07]: DoLuaFile loading buffer scripts/worldgen_main.lua
+[00:00:07]: Check for write access: TRUE
+[00:00:07]: Check for read access: TRUE
+[00:00:07]: Available disk space for save files: 81028 MB
+[00:00:07]: ModIndex: Load sequence finished successfully.	
+[00:00:07]: Reset() returning
+[00:00:07]: DLC enabled : 	false	
+[00:00:07]:   taskgrouplist:	default	Together	
+[00:00:07]:   taskgrouplist:	classic	Classic	
+[00:00:07]:   taskgrouplist:	cave_default	Underground	
+[00:00:07]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:07]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:07]: ModIndex:GetModsToLoad inserting modname, 	workshop-358749986	
+[00:00:07]: ModIndex:GetModsToLoad inserting modname, 	workshop-374550642	
+[00:00:07]: ModIndex:GetModsToLoad inserting modname, 	workshop-2274329081	
+[00:00:07]: ModIndex:GetModsToLoad inserting modname, 	workshop-786556008	
+[00:00:07]: ModIndex:GetModsToLoad inserting modname, 	workshop-347079953	
+[00:00:07]: ModIndex:GetModsToLoad inserting modname, 	workshop-378160973	
+[00:00:07]: ModIndex:GetModsToLoad inserting modname, 	workshop-375859599	
+[00:00:07]: Loading mod: workshop-358749986 (Extended Indicators) Version:1.1	
+[00:00:07]: Loading mod: workshop-374550642 (Increased Stack size) Version:1.62	
+[00:00:07]: Loading mod: workshop-2274329081 (Wormhole Icons [Server]) Version:1.000	
+[00:00:07]: Loading mod: workshop-786556008 (45 Inventory Slots) Version:1.4.1	
+[00:00:07]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:07]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.3	
+[00:00:07]: Loading mod: workshop-375859599 (Health Info) Version:2.2.01	
+[00:00:07]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-786556008 (45 Inventory Slots)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-786556008 (45 Inventory Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-374550642 (Increased Stack size)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-374550642 (Increased Stack size)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-358749986 (Extended Indicators)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-358749986 (Extended Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2274329081 (Wormhole Icons [Server])	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2274329081 (Wormhole Icons [Server])	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: running worldgen_main.lua
 	
-[00:00:08]: SEED = 	1637061187	
-[00:00:08]: Generating world with these parameters:	
-[00:00:08]: level_type	SURVIVAL	
-[00:00:08]: level_data:	
-[00:00:08]: 	K: 	background_node_range	 V: 	table: 000000000EF2FE50	
-[00:00:08]: 		K: 	1	 V: 	0	
-[00:00:08]: 		K: 	2	 V: 	1	
-[00:00:08]: 	K: 	desc	 V: 	探查洞穴…… 一起！	
-[00:00:08]: 	K: 	hideminimap	 V: 	false	
-[00:00:08]: 	K: 	id	 V: 	DST_CAVE	
-[00:00:08]: 	K: 	location	 V: 	cave	
-[00:00:08]: 	K: 	max_playlist_position	 V: 	999	
-[00:00:08]: 	K: 	min_playlist_position	 V: 	0	
-[00:00:08]: 	K: 	name	 V: 	洞穴	
-[00:00:08]: 	K: 	numrandom_set_pieces	 V: 	0	
-[00:00:08]: 	K: 	override_level_string	 V: 	false	
-[00:00:08]: 	K: 	overrides	 V: 	table: 000000000EF30CB0	
-[00:00:08]: 		K: 	atriumgate	 V: 	default	
-[00:00:08]: 		K: 	banana	 V: 	default	
-[00:00:08]: 		K: 	bats	 V: 	default	
-[00:00:08]: 		K: 	bats_setting	 V: 	default	
-[00:00:08]: 		K: 	beefaloheat	 V: 	default	
-[00:00:08]: 		K: 	berrybush	 V: 	default	
-[00:00:08]: 		K: 	boons	 V: 	default	
-[00:00:08]: 		K: 	branching	 V: 	default	
-[00:00:08]: 		K: 	brightmarecreatures	 V: 	default	
-[00:00:08]: 		K: 	bunnymen	 V: 	default	
-[00:00:08]: 		K: 	bunnymen_setting	 V: 	default	
-[00:00:08]: 		K: 	cave_ponds	 V: 	default	
-[00:00:08]: 		K: 	cave_spiders	 V: 	default	
-[00:00:08]: 		K: 	cavelight	 V: 	default	
-[00:00:08]: 		K: 	chess	 V: 	default	
-[00:00:08]: 		K: 	day	 V: 	default	
-[00:00:08]: 		K: 	dropeverythingondespawn	 V: 	default	
-[00:00:08]: 		K: 	dustmoths	 V: 	default	
-[00:00:08]: 		K: 	earthquakes	 V: 	default	
-[00:00:08]: 		K: 	extrastartingitems	 V: 	default	
-[00:00:08]: 		K: 	fern	 V: 	default	
-[00:00:08]: 		K: 	fissure	 V: 	default	
-[00:00:08]: 		K: 	flint	 V: 	default	
-[00:00:08]: 		K: 	flower_cave	 V: 	default	
-[00:00:08]: 		K: 	flower_cave_regrowth	 V: 	default	
-[00:00:08]: 		K: 	fruitfly	 V: 	default	
-[00:00:08]: 		K: 	grass	 V: 	default	
-[00:00:08]: 		K: 	grassgekkos	 V: 	default	
-[00:00:08]: 		K: 	krampus	 V: 	default	
-[00:00:08]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
-[00:00:08]: 		K: 	lichen	 V: 	default	
-[00:00:08]: 		K: 	liefs	 V: 	default	
-[00:00:08]: 		K: 	lightflier_flower_regrowth	 V: 	default	
-[00:00:08]: 		K: 	lightfliers	 V: 	default	
-[00:00:08]: 		K: 	loop	 V: 	default	
-[00:00:08]: 		K: 	marshbush	 V: 	default	
-[00:00:08]: 		K: 	merms	 V: 	default	
-[00:00:08]: 		K: 	molebats	 V: 	default	
-[00:00:08]: 		K: 	moles_setting	 V: 	default	
-[00:00:08]: 		K: 	monkey	 V: 	default	
-[00:00:08]: 		K: 	monkey_setting	 V: 	default	
-[00:00:08]: 		K: 	mushgnome	 V: 	default	
-[00:00:08]: 		K: 	mushroom	 V: 	default	
-[00:00:08]: 		K: 	mushtree	 V: 	default	
-[00:00:08]: 		K: 	mushtree_moon_regrowth	 V: 	default	
-[00:00:08]: 		K: 	mushtree_regrowth	 V: 	default	
-[00:00:08]: 		K: 	nightmarecreatures	 V: 	default	
-[00:00:08]: 		K: 	pigs_setting	 V: 	default	
-[00:00:08]: 		K: 	prefabswaps_start	 V: 	default	
-[00:00:08]: 		K: 	reeds	 V: 	default	
-[00:00:08]: 		K: 	regrowth	 V: 	default	
-[00:00:08]: 		K: 	roads	 V: 	never	
-[00:00:08]: 		K: 	rock	 V: 	default	
-[00:00:08]: 		K: 	rocky	 V: 	default	
-[00:00:08]: 		K: 	rocky_setting	 V: 	default	
-[00:00:08]: 		K: 	sapling	 V: 	default	
-[00:00:08]: 		K: 	season_start	 V: 	default	
-[00:00:08]: 		K: 	seasonalstartingitems	 V: 	default	
-[00:00:08]: 		K: 	shadowcreatures	 V: 	default	
-[00:00:08]: 		K: 	slurper	 V: 	default	
-[00:00:08]: 		K: 	slurtles	 V: 	default	
-[00:00:08]: 		K: 	slurtles_setting	 V: 	default	
-[00:00:08]: 		K: 	snurtles	 V: 	default	
-[00:00:08]: 		K: 	spawnprotection	 V: 	default	
-[00:00:08]: 		K: 	specialevent	 V: 	none	
-[00:00:08]: 		K: 	spider_dropper	 V: 	default	
-[00:00:08]: 		K: 	spider_hider	 V: 	default	
-[00:00:08]: 		K: 	spider_spitter	 V: 	default	
-[00:00:08]: 		K: 	spider_warriors	 V: 	default	
-[00:00:08]: 		K: 	spiderqueen	 V: 	default	
-[00:00:08]: 		K: 	spiders	 V: 	default	
-[00:00:08]: 		K: 	spiders_setting	 V: 	default	
-[00:00:08]: 		K: 	start_location	 V: 	caves	
-[00:00:08]: 		K: 	task_set	 V: 	cave_default	
-[00:00:08]: 		K: 	tentacles	 V: 	default	
-[00:00:08]: 		K: 	toadstool	 V: 	default	
-[00:00:08]: 		K: 	touchstone	 V: 	default	
-[00:00:08]: 		K: 	trees	 V: 	default	
-[00:00:08]: 		K: 	weather	 V: 	default	
-[00:00:08]: 		K: 	world_size	 V: 	default	
-[00:00:08]: 		K: 	wormattacks	 V: 	default	
-[00:00:08]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
-[00:00:08]: 		K: 	wormlights	 V: 	default	
-[00:00:08]: 		K: 	worms	 V: 	default	
-[00:00:08]: 	K: 	required_prefabs	 V: 	table: 000000000EF31660	
-[00:00:08]: 		K: 	1	 V: 	multiplayer_portal	
-[00:00:08]: 	K: 	settings_desc	 V: 	探查洞穴…… 一起！	
-[00:00:08]: 	K: 	settings_id	 V: 	DST_CAVE	
-[00:00:08]: 	K: 	settings_name	 V: 	洞穴	
-[00:00:08]: 	K: 	substitutes	 V: 	table: 000000000EF30850	
-[00:00:08]: 	K: 	version	 V: 	4	
-[00:00:08]: 	K: 	worldgen_desc	 V: 	探查洞穴…… 一起！	
-[00:00:08]: 	K: 	worldgen_id	 V: 	DST_CAVE	
-[00:00:08]: 	K: 	worldgen_name	 V: 	洞穴	
-[00:00:08]: 
+[00:00:07]: SEED = 	1637062621	
+[00:00:07]: Generating world with these parameters:	
+[00:00:07]: level_type	SURVIVAL	
+[00:00:07]: level_data:	
+[00:00:07]: 	K: 	background_node_range	 V: 	table: 000000000E7FB7C0	
+[00:00:07]: 		K: 	1	 V: 	0	
+[00:00:07]: 		K: 	2	 V: 	1	
+[00:00:07]: 	K: 	desc	 V: 	探查洞穴…… 一起！	
+[00:00:07]: 	K: 	hideminimap	 V: 	false	
+[00:00:07]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:07]: 	K: 	location	 V: 	cave	
+[00:00:07]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:07]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:07]: 	K: 	name	 V: 	洞穴	
+[00:00:07]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:07]: 	K: 	override_level_string	 V: 	false	
+[00:00:07]: 	K: 	overrides	 V: 	table: 000000000E7FD200	
+[00:00:07]: 		K: 	atriumgate	 V: 	default	
+[00:00:07]: 		K: 	banana	 V: 	default	
+[00:00:07]: 		K: 	bats	 V: 	default	
+[00:00:07]: 		K: 	bats_setting	 V: 	default	
+[00:00:07]: 		K: 	beefaloheat	 V: 	default	
+[00:00:07]: 		K: 	berrybush	 V: 	default	
+[00:00:07]: 		K: 	boons	 V: 	default	
+[00:00:07]: 		K: 	branching	 V: 	default	
+[00:00:07]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:07]: 		K: 	bunnymen	 V: 	default	
+[00:00:07]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:07]: 		K: 	cave_ponds	 V: 	default	
+[00:00:07]: 		K: 	cave_spiders	 V: 	default	
+[00:00:07]: 		K: 	cavelight	 V: 	default	
+[00:00:07]: 		K: 	chess	 V: 	default	
+[00:00:07]: 		K: 	day	 V: 	default	
+[00:00:07]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:07]: 		K: 	dustmoths	 V: 	default	
+[00:00:07]: 		K: 	earthquakes	 V: 	default	
+[00:00:07]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:07]: 		K: 	fern	 V: 	default	
+[00:00:07]: 		K: 	fissure	 V: 	default	
+[00:00:07]: 		K: 	flint	 V: 	default	
+[00:00:07]: 		K: 	flower_cave	 V: 	default	
+[00:00:07]: 		K: 	flower_cave_regrowth	 V: 	default	
+[00:00:07]: 		K: 	fruitfly	 V: 	default	
+[00:00:07]: 		K: 	grass	 V: 	default	
+[00:00:07]: 		K: 	grassgekkos	 V: 	default	
+[00:00:07]: 		K: 	krampus	 V: 	default	
+[00:00:07]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:07]: 		K: 	lichen	 V: 	default	
+[00:00:07]: 		K: 	liefs	 V: 	default	
+[00:00:07]: 		K: 	lightflier_flower_regrowth	 V: 	default	
+[00:00:07]: 		K: 	lightfliers	 V: 	default	
+[00:00:07]: 		K: 	loop	 V: 	default	
+[00:00:07]: 		K: 	marshbush	 V: 	default	
+[00:00:07]: 		K: 	merms	 V: 	default	
+[00:00:07]: 		K: 	molebats	 V: 	default	
+[00:00:07]: 		K: 	moles_setting	 V: 	default	
+[00:00:07]: 		K: 	monkey	 V: 	default	
+[00:00:07]: 		K: 	monkey_setting	 V: 	default	
+[00:00:07]: 		K: 	mushgnome	 V: 	default	
+[00:00:07]: 		K: 	mushroom	 V: 	default	
+[00:00:07]: 		K: 	mushtree	 V: 	default	
+[00:00:07]: 		K: 	mushtree_moon_regrowth	 V: 	default	
+[00:00:07]: 		K: 	mushtree_regrowth	 V: 	default	
+[00:00:07]: 		K: 	nightmarecreatures	 V: 	default	
+[00:00:07]: 		K: 	pigs_setting	 V: 	default	
+[00:00:07]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:07]: 		K: 	reeds	 V: 	default	
+[00:00:07]: 		K: 	regrowth	 V: 	default	
+[00:00:07]: 		K: 	roads	 V: 	never	
+[00:00:07]: 		K: 	rock	 V: 	default	
+[00:00:07]: 		K: 	rocky	 V: 	default	
+[00:00:07]: 		K: 	rocky_setting	 V: 	default	
+[00:00:07]: 		K: 	sapling	 V: 	default	
+[00:00:07]: 		K: 	season_start	 V: 	default	
+[00:00:07]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:07]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:07]: 		K: 	slurper	 V: 	default	
+[00:00:07]: 		K: 	slurtles	 V: 	default	
+[00:00:07]: 		K: 	slurtles_setting	 V: 	default	
+[00:00:07]: 		K: 	snurtles	 V: 	default	
+[00:00:07]: 		K: 	spawnprotection	 V: 	default	
+[00:00:07]: 		K: 	specialevent	 V: 	none	
+[00:00:07]: 		K: 	spider_dropper	 V: 	default	
+[00:00:07]: 		K: 	spider_hider	 V: 	default	
+[00:00:07]: 		K: 	spider_spitter	 V: 	default	
+[00:00:07]: 		K: 	spider_warriors	 V: 	default	
+[00:00:07]: 		K: 	spiderqueen	 V: 	default	
+[00:00:07]: 		K: 	spiders	 V: 	default	
+[00:00:07]: 		K: 	spiders_setting	 V: 	default	
+[00:00:07]: 		K: 	start_location	 V: 	caves	
+[00:00:07]: 		K: 	task_set	 V: 	cave_default	
+[00:00:07]: 		K: 	tentacles	 V: 	default	
+[00:00:07]: 		K: 	toadstool	 V: 	default	
+[00:00:07]: 		K: 	touchstone	 V: 	default	
+[00:00:07]: 		K: 	trees	 V: 	default	
+[00:00:07]: 		K: 	weather	 V: 	default	
+[00:00:07]: 		K: 	world_size	 V: 	default	
+[00:00:07]: 		K: 	wormattacks	 V: 	default	
+[00:00:07]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:07]: 		K: 	wormlights	 V: 	default	
+[00:00:07]: 		K: 	worms	 V: 	default	
+[00:00:07]: 	K: 	required_prefabs	 V: 	table: 000000000E7FCD50	
+[00:00:07]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:07]: 	K: 	settings_desc	 V: 	探查洞穴…… 一起！	
+[00:00:07]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:07]: 	K: 	settings_name	 V: 	洞穴	
+[00:00:07]: 	K: 	substitutes	 V: 	table: 000000000E7FC3A0	
+[00:00:07]: 	K: 	version	 V: 	4	
+[00:00:07]: 	K: 	worldgen_desc	 V: 	探查洞穴…… 一起！	
+[00:00:07]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:07]: 	K: 	worldgen_name	 V: 	洞穴	
+[00:00:07]: 
 #######
 #
 # Generating SURVIVAL Mode Level
 #
 #######
 	
-[00:00:08]: Prefab Swap Selection: regular grass	
-[00:00:08]: Prefab Swap Selection: regular twigs	
-[00:00:08]: Prefab Swap Selection: regular berries	
-[00:00:08]: Overriding World Event to: none	
-[00:00:08]: New size:	425	default	
-[00:00:08]: Creating story...	
-[00:00:08]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
-[00:00:08]: [Story Gen] RestrictNodesByKey	
-[00:00:08]: Finding valid start task...	
-[00:00:08]:    ...picked 	CaveExitTask1	
-[00:00:08]: Has start node	RabbitTown	
-[00:00:08]: Adding Background Nodes	
-[00:00:08]: [Story Gen] Adding Cove Nodes	
-[00:00:08]: [WorldSimActual::WorldGen_InitializeNodePoints]
-[00:00:08]: [WorldSimActual::WorldGen_VoronoiPass]
-[00:00:08]: GenerateVoronoiMap [100]:
-[00:00:29]: ...Done.
-[00:00:29]: ... story created	
-[00:00:29]: Baking map...	425	
-[00:00:29]: [WorldSimActual::WorldGen_Commit] worldgen success.
-[00:00:29]: [WorldSimActual::ConvertToTileMap]
-[00:00:29]: [ConvertToTileMap]
-[00:00:29]: [WorldSimActual::ConvertToTileMap] complete
-[00:00:29]: [WorldSimActual::SeparateIslands]
-[00:00:29]: [SeparateIslands]
-[00:00:29]: [WorldSimActual::SeparateIslands] complete
-[00:00:29]: Map Baked!	
-[00:00:29]: [WorldSimActual::ForceConnectivity]
-[00:00:29]: [GenerateLandmasses]
-[00:00:29]: [GenerateLandmasses] islands: 23
-[00:00:29]: [MergeConnectedLandmasses] true
-[00:00:29]: [WorldSimActual::ForceConnectivity] complete
-[00:00:29]: Encoding...	
-[00:00:29]: [WorldSimActual::CreateNodeIdTileMap]
-[00:00:29]: Encoding... DONE	
-[00:00:29]: Checking Tags	
-[00:00:29]: Couldn't generate any points for maze. Aborting.
-[00:00:29]: Populating voronoi...	
-[00:00:29]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
-[00:00:29]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
-[00:00:29]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
-[00:00:29]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
-[00:00:29]: Warning! Could not find a spot for RabbitTown in node RabbitCity:1:RabbitTown	
-[00:00:29]: Warning! Could not find a spot for EvergreenSinkhole in node GreenForest:6:GreenMushSinkhole	
-[00:00:29]: Warning! Could not find a spot for StraightWall in node Residential3:0:Vacant	
-[00:00:29]: Warning! Could not find a spot for CornerWall in node Residential3:0:Vacant	
-[00:00:29]: Warning! Could not find a spot for CornerWall in node Residential3:0:Vacant	
-[00:00:29]: Warning! Could not find a spot for CornerWall in node Residential3:0:Vacant	
-[00:00:29]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
-[00:00:29]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
-[00:00:29]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
-[00:00:29]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
-[00:00:29]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
-[00:00:29]: Warning! Could not find a spot for StraightWall2 in node Residential3:3:Vacant	
-[00:00:29]: Warning! Could not find a spot for CornerWall2 in node Residential3:3:Vacant	
-[00:00:29]: Warning! Could not find a spot for CornerWall2 in node Residential3:3:Vacant	
-[00:00:29]: Warning! Could not find a spot for CornerWall2 in node Residential3:3:Vacant	
-[00:00:29]: Warning! Could not find a spot for RabbitHermit in node MudCave:0:MudWithRabbit	
-[00:00:29]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
-[00:00:29]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
-[00:00:29]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
-[00:00:29]: Warning! Could not find a spot for StraightWall in node Residential:4:Vacant	
-[00:00:29]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
-[00:00:29]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
-[00:00:29]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
-[00:00:29]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
-[00:00:29]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
-[00:00:29]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
-[00:00:29]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
-[00:00:29]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
-[00:00:29]: Warning! Could not find a spot for RabbitTown in node RabbitCity:0:RabbitTown	
-[00:00:29]: Warning! Could not find a spot for TentaclePillar in node RockyLand:BG_44:BGRockyCaveRoom	
-[00:00:30]: Warning! Could not find a spot for CornerWall in node Residential:3:Vacant	
-[00:00:30]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
-[00:00:30]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
-[00:00:30]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
-[00:00:30]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
-[00:00:30]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
-[00:00:30]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
-[00:00:30]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:07]: Prefab Swap Selection: regular grass	
+[00:00:07]: Prefab Swap Selection: regular twigs	
+[00:00:07]: Prefab Swap Selection: regular berries	
+[00:00:07]: Overriding World Event to: none	
+[00:00:07]: New size:	425	default	
+[00:00:07]: Creating story...	
+[00:00:07]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:07]: [Story Gen] RestrictNodesByKey	
+[00:00:07]: Finding valid start task...	
+[00:00:07]:    ...picked 	CaveExitTask8	
+[00:00:07]: Has start node	SpiderIncursion	
+[00:00:07]: Adding Background Nodes	
+[00:00:07]: [Story Gen] Adding Cove Nodes	
+[00:00:07]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:07]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:07]: GenerateVoronoiMap [100]:
+[00:00:10]: ...Done.
+[00:00:10]: ... story created	
+[00:00:10]: Baking map...	425	
+[00:00:10]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:10]: [WorldSimActual::ConvertToTileMap]
+[00:00:10]: [ConvertToTileMap]
+[00:00:10]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:10]: [WorldSimActual::SeparateIslands]
+[00:00:10]: [SeparateIslands]
+[00:00:10]: [WorldSimActual::SeparateIslands] complete
+[00:00:10]: Map Baked!	
+[00:00:10]: [WorldSimActual::ForceConnectivity]
+[00:00:10]: [GenerateLandmasses]
+[00:00:10]: [GenerateLandmasses] islands: 11
+[00:00:10]: [MergeConnectedLandmasses] true
+[00:00:10]: [WorldSimActual::ForceConnectivity] complete
+[00:00:10]: Encoding...	
+[00:00:10]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:10]: Encoding... DONE	
+[00:00:10]: Checking Tags	
+[00:00:10]: Populating voronoi...	
+[00:00:10]: Warning! Could not find a spot for StraightWall in node Residential3:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall in node Residential3:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:10]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:10]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:10]: Warning! Could not find a spot for Mudlights in node SwampySinkhole:3:TentacleMud	
+[00:00:10]: Warning! Could not find a spot for Mudlights in node SwampySinkhole:3:TentacleMud	
+[00:00:10]: Warning! Could not find a spot for Mudlights in node SwampySinkhole:3:TentacleMud	
+[00:00:10]: Warning! Could not find a spot for EvergreenSinkhole in node SwampySinkhole:4:TentaclesAndTrees	
+[00:00:10]: Warning! Could not find a spot for EvergreenSinkhole in node SwampySinkhole:4:TentaclesAndTrees	
+[00:00:10]: Warning! Could not find a spot for EvergreenSinkhole in node SwampySinkhole:4:TentaclesAndTrees	
+[00:00:10]: Warning! Could not find a spot for CornerWall in node Residential3:1:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall in node Residential3:1:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall in node Residential3:1:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall in node Residential3:1:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:10]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:10]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:10]: [ReplaceSingleNonLandTiles] Replaced 45 tiles.
+[00:00:10]: disconnected tiles...	496	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	78.265	188.5	-536.94, 0, -96	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	53.5	239.265	-636, 0, 107.06	
+[00:00:10]: Removing entity on IMPASSABLE	wall_ruins	176.5	319.265	-144, 0, 427.06	
+[00:00:10]: Checking Required Prefab atrium_gate has at least 1 instances (1 found).	
+[00:00:10]: Checking Required Prefab archive_orchestrina_main has at least 1 instances (1 found).	
+[00:00:10]: Checking Required Prefab multiplayer_portal has at least 1 instances (1 found).	
+[00:00:10]: Checking Required Prefab minotaur_spawner has at least 1 instances (1 found).	
+[00:00:10]: Checking Required Prefab sacred_chest has at least 1 instances (0 found).	
+[00:00:10]: PANIC: missing required prefab [sacred_chest]! Expected 1, got 0	
+[00:00:10]: An error occured during world gen we will retry! [was 	1	 of 	5	]	
+[00:00:10]: Overriding World Event to: none	
+[00:00:10]: New size:	425	default	
+[00:00:10]: Creating story...	
+[00:00:10]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:10]: [Story Gen] RestrictNodesByKey	
+[00:00:10]: Finding valid start task...	
+[00:00:10]:    ...picked 	CaveExitTask6	
+[00:00:10]: Has start node	RabbitTown	
+[00:00:10]: Adding Background Nodes	
+[00:00:10]: [Story Gen] Adding Cove Nodes	
+[00:00:10]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:10]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:10]: GenerateVoronoiMap [100]:
+[00:00:12]: ...Done.
+[00:00:12]: ... story created	
+[00:00:12]: Baking map...	425	
+[00:00:12]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:12]: [WorldSimActual::ConvertToTileMap]
+[00:00:12]: [ConvertToTileMap]
+[00:00:12]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:12]: [WorldSimActual::SeparateIslands]
+[00:00:12]: [SeparateIslands]
+[00:00:12]: [WorldSimActual::SeparateIslands] complete
+[00:00:12]: Map Baked!	
+[00:00:12]: [WorldSimActual::ForceConnectivity]
+[00:00:12]: [GenerateLandmasses]
+[00:00:12]: [GenerateLandmasses] islands: 7
+[00:00:12]: [MergeConnectedLandmasses] true
+[00:00:12]: [WorldSimActual::ForceConnectivity] complete
+[00:00:12]: Encoding...	
+[00:00:12]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:12]: Encoding... DONE	
+[00:00:12]: Checking Tags	
+[00:00:12]: Populating voronoi...	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:12]: Warning! Could not find a spot for Mudlights in node SwampySinkhole:3:TentacleMud	
+[00:00:12]: Warning! Could not find a spot for Mudlights in node SwampySinkhole:3:TentacleMud	
+[00:00:12]: Warning! Could not find a spot for Mudlights in node SwampySinkhole:3:TentacleMud	
+[00:00:12]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:12]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:12]: Warning! Could not find a spot for EvergreenSinkhole in node SwampySinkhole:4:TentaclesAndTrees	
+[00:00:12]: Warning! Could not find a spot for StraightWall in node Residential3:1:Vacant	
+[00:00:12]: Warning! Could not find a spot for StraightWall in node Residential3:1:Vacant	
+[00:00:12]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:12]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:12]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:12]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:12]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:12]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:12]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:12]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:12]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:12]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:12]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:12]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:12]: [ReplaceSingleNonLandTiles] Replaced 52 tiles.
+[00:00:12]: PANIC: Too many disconnected tiles...	1216	
+[00:00:12]: An error occured during world gen we will retry! [was 	2	 of 	5	]	
+[00:00:12]: Overriding World Event to: none	
+[00:00:12]: New size:	425	default	
+[00:00:12]: Creating story...	
+[00:00:12]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:12]: [Story Gen] RestrictNodesByKey	
+[00:00:12]: Finding valid start task...	
+[00:00:12]:    ...picked 	CaveExitTask6	
+[00:00:12]: Has start node	GreenMushSinkhole	
+[00:00:12]: Adding Background Nodes	
+[00:00:12]: [Story Gen] Adding Cove Nodes	
+[00:00:12]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:12]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:12]: GenerateVoronoiMap [100]:
+[00:00:14]: ...Done.
+[00:00:14]: Infinite edge! TheLabyrinth:BG_75:Labyrinth
+[00:00:14]: Infinite edge! TheLabyrinth:BG_75:Labyrinth
+[00:00:14]: ... story created	
+[00:00:14]: Baking map...	425	
+[00:00:14]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:14]: [WorldSimActual::ConvertToTileMap]
+[00:00:14]: [ConvertToTileMap]
+[00:00:14]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:14]: [WorldSimActual::SeparateIslands]
+[00:00:14]: [SeparateIslands]
+[00:00:14]: [WorldSimActual::SeparateIslands] complete
+[00:00:14]: Map Baked!	
+[00:00:14]: [WorldSimActual::ForceConnectivity]
+[00:00:14]: [GenerateLandmasses]
+[00:00:14]: [GenerateLandmasses] islands: 12
+[00:00:14]: [MergeConnectedLandmasses] true
+[00:00:14]: [WorldSimActual::ForceConnectivity] complete
+[00:00:14]: Encoding...	
+[00:00:14]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:14]: Encoding... DONE	
+[00:00:14]: Checking Tags	
+[00:00:14]: Populating voronoi...	
+[00:00:14]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
+[00:00:14]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:14]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:14]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:14]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:14]: Warning! Could not find a spot for Mudlights in node SwampySinkhole:3:TentacleMud	
+[00:00:14]: Warning! Could not find a spot for Mudlights in node SwampySinkhole:3:TentacleMud	
+[00:00:14]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:14]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:14]: Warning! Could not find a spot for StraightWall in node Residential3:3:Vacant	
+[00:00:14]: Warning! Could not find a spot for StraightWall in node Residential3:3:Vacant	
+[00:00:14]: Warning! Could not find a spot for StraightWall in node Residential3:3:Vacant	
+[00:00:14]: Warning! Could not find a spot for StraightWall2 in node Residential3:3:Vacant	
+[00:00:14]: Warning! Could not find a spot for StraightWall2 in node Residential3:3:Vacant	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential3:3:Vacant	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential3:3:Vacant	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential3:3:Vacant	
+[00:00:14]: Warning! Could not find a spot for EvergreenSinkhole in node SwampySinkhole:4:TentaclesAndTrees	
+[00:00:14]: Warning! Could not find a spot for EvergreenSinkhole in node SwampySinkhole:4:TentaclesAndTrees	
+[00:00:14]: Warning! Could not find a spot for EvergreenSinkhole in node SwampySinkhole:4:TentaclesAndTrees	
+[00:00:14]: Warning! Could not find a spot for RabbitTown in node CaveExitTask10:1:GreenMushRabbits	
+[00:00:14]: Warning! Could not find a spot for GrassySinkhole in node CaveExitTask8:0:GrasslandSinkhole	
+[00:00:14]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:14]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:14]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:14]: Warning! Could not find a spot for Fire Hounds in node CaveExitTask5:0:CaveExitRoom	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:14]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:14]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:14]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:14]: [ReplaceSingleNonLandTiles] Replaced 43 tiles.
+[00:00:14]: PANIC: Too many disconnected tiles...	3795	
+[00:00:14]: An error occured during world gen we will retry! [was 	3	 of 	5	]	
+[00:00:14]: Overriding World Event to: none	
+[00:00:14]: New size:	425	default	
+[00:00:14]: Creating story...	
+[00:00:14]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:14]: [Story Gen] RestrictNodesByKey	
+[00:00:14]: Finding valid start task...	
+[00:00:14]:    ...picked 	CaveExitTask9	
+[00:00:14]: Has start node	SpiderIncursion	
+[00:00:14]: Adding Background Nodes	
+[00:00:14]: [Story Gen] Adding Cove Nodes	
+[00:00:14]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:14]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:14]: GenerateVoronoiMap [100]:
+[00:00:16]: ...Done.
+[00:00:16]: ... story created	
+[00:00:16]: Baking map...	425	
+[00:00:16]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:16]: [WorldSimActual::ConvertToTileMap]
+[00:00:16]: [ConvertToTileMap]
+[00:00:16]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:16]: [WorldSimActual::SeparateIslands]
+[00:00:16]: [SeparateIslands]
+[00:00:16]: [WorldSimActual::SeparateIslands] complete
+[00:00:16]: Map Baked!	
+[00:00:16]: [WorldSimActual::ForceConnectivity]
+[00:00:16]: [GenerateLandmasses]
+[00:00:16]: [GenerateLandmasses] islands: 9
+[00:00:16]: [MergeConnectedLandmasses] true
+[00:00:16]: [WorldSimActual::ForceConnectivity] complete
+[00:00:16]: Encoding...	
+[00:00:16]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:16]: Encoding... DONE	
+[00:00:16]: Checking Tags	
+[00:00:16]: Populating voronoi...	
+[00:00:16]: Warning! Could not find a spot for PondSinkhole in node CaveExitTask7:0:SinkholeOasis	
+[00:00:16]: Warning! Could not find a spot for StraightWall in node Residential3:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential3:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential3:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential3:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential3:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential3:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential3:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:16]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:16]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:16]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:16]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:16]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:16]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:16]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:16]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:16]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:16]: [ReplaceSingleNonLandTiles] Replaced 65 tiles.
+[00:00:16]: PANIC: Too many disconnected tiles...	1196	
+[00:00:16]: An error occured during world gen we will retry! [was 	4	 of 	5	]	
+[00:00:16]: Overriding World Event to: none	
+[00:00:16]: New size:	425	default	
+[00:00:16]: Creating story...	
+[00:00:17]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:17]: [Story Gen] RestrictNodesByKey	
+[00:00:17]: Finding valid start task...	
+[00:00:17]:    ...picked 	CaveExitTask5	
+[00:00:17]: Has start node	SpiderIncursion	
+[00:00:17]: Adding Background Nodes	
+[00:00:17]: [Story Gen] Adding Cove Nodes	
+[00:00:17]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:17]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:17]: GenerateVoronoiMap [100]:
+[00:00:18]: ...Done.
+[00:00:18]: ... story created	
+[00:00:18]: Baking map...	425	
+[00:00:18]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:18]: [WorldSimActual::ConvertToTileMap]
+[00:00:18]: [ConvertToTileMap]
+[00:00:18]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:18]: [WorldSimActual::SeparateIslands]
+[00:00:18]: [SeparateIslands]
+[00:00:18]: [WorldSimActual::SeparateIslands] complete
+[00:00:18]: Map Baked!	
+[00:00:18]: [WorldSimActual::ForceConnectivity]
+[00:00:18]: [GenerateLandmasses]
+[00:00:18]: [GenerateLandmasses] islands: 13
+[00:00:18]: [MergeConnectedLandmasses] true
+[00:00:18]: [WorldSimActual::ForceConnectivity] complete
+[00:00:18]: Encoding...	
+[00:00:18]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:18]: Encoding... DONE	
+[00:00:18]: Checking Tags	
+[00:00:18]: Couldn't generate any points for maze. Aborting.
+[00:00:18]: Populating voronoi...	
+[00:00:18]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:18]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:18]: Warning! Could not find a spot for Mudlights in node SwampySinkhole:3:TentacleMud	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:18]: Warning! Could not find a spot for PondSinkhole in node CaveExitTask7:0:SinkholeOasis	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential3:3:Vacant	
+[00:00:18]: Warning! Could not find a spot for EvergreenSinkhole in node SwampySinkhole:4:TentaclesAndTrees	
+[00:00:18]: Warning! Could not find a spot for EvergreenSinkhole in node SwampySinkhole:4:TentaclesAndTrees	
+[00:00:18]: Warning! Could not find a spot for TwigsBoon in node ArchiveMaze:1:ArchiveMazeRooms	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:18]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:18]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:18]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:18]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:18]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:18]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:18]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:18]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:18]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:18]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:18]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:18]: [ReplaceSingleNonLandTiles] Replaced 51 tiles.
+[00:00:18]: disconnected tiles...	668	
+[00:00:18]: Removing entity on IMPASSABLE		332.265	362.7025	479.06, 0, 600.81	
+[00:00:18]: Removing entity on IMPASSABLE	nightmarelight	45.2325	235.2325	-669.07, 0, 90.93	
+[00:00:18]: Removing entity on IMPASSABLE	nightmarelight	47.7175	237.75	-659.13, 0, 101	
+[00:00:18]: Removing entity on IMPASSABLE	nightmarelight	47.7175	235.3125	-659.13, 0, 91.25	
+[00:00:18]: Removing entity on IMPASSABLE	nightmarelight	45.295	237.7025	-668.82, 0, 100.81	
+[00:00:18]: Removing entity on IMPASSABLE	pandoraschest	121.5	113.5	-364, 0, -396	
+[00:00:18]: Removing entity on IMPASSABLE	pandoraschest	113.5	113.5	-396, 0, -396	
+[00:00:18]: Removing entity on IMPASSABLE	pandoraschest	109.5	113.5	-412, 0, -396	
+[00:00:18]: Removing entity on IMPASSABLE	pillar_ruins	44.53	234.5	-671.88, 0, 88	
+[00:00:18]: Removing entity on IMPASSABLE	pillar_ruins	44.515	238.515	-671.94, 0, 104.06	
+[00:00:18]: Removing entity on IMPASSABLE	pillar_ruins	48.515	238.515	-655.94, 0, 104.06	
+[00:00:18]: Removing entity on IMPASSABLE	pillar_ruins	48.515	234.5	-655.94, 0, 88	
+[00:00:18]: Removing entity on IMPASSABLE	pillar_ruins	51.515	231.4825	-643.94, 0, 75.93	
+[00:00:18]: Removing entity on IMPASSABLE	pillar_ruins	41.4825	231.5	-684.07, 0, 76	
+[00:00:18]: Removing entity on IMPASSABLE	pillar_ruins	41.515	241.5	-683.94, 0, 116	
+[00:00:18]: Removing entity on IMPASSABLE	pillar_ruins	51.515	241.4825	-643.94, 0, 115.93	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	72.5	272.265	-560, 0, 239.06	
+[00:00:18]: Removing entity on IMPASSABLE	wall_ruins	84.5	269.265	-512, 0, 227.06	
+[00:00:18]: Removing entity on IMPASSABLE	ancient_altar_spawner	46.4825	236.5	-664.07, 0, 96	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	43.4825	233.3575	-676.07, 0, 83.43	
+[00:00:18]: Removing entity on IMPASSABLE	chessjunk_spawner	49.515	239.2325	-651.94, 0, 106.93	
+[00:00:18]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	47.015	237.25	-661.94, 0, 99	
+[00:00:18]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	46.045	235.67	-665.82, 0, 92.68	
+[00:00:18]: Removing entity on IMPASSABLE	sacred_chest	48.25	236.5	-657, 0, 96	
+[00:00:18]: Checking Required Prefab atrium_gate has at least 1 instances (1 found).	
+[00:00:18]: Checking Required Prefab archive_orchestrina_main has at least 1 instances (1 found).	
+[00:00:18]: Checking Required Prefab multiplayer_portal has at least 1 instances (1 found).	
+[00:00:18]: Checking Required Prefab minotaur_spawner has at least 1 instances (1 found).	
+[00:00:18]: Checking Required Prefab sacred_chest has at least 1 instances (0 found).	
+[00:00:18]: PANIC: missing required prefab [sacred_chest]! Expected 1, got 0	
+[00:00:18]: An error occured during world and we give up! [was 	5	 of 	5	]	
+[00:00:19]: WorldSim::SimThread::Main() complete
+[00:00:19]: RESTARTING GENERATION	
+[00:00:19]: [IPC] Sending signal... #00000000000009F4
+[00:00:19]: WorldSim::SimThread::SimThread()
+[00:00:19]: ABOUT TO INSTALL STACKTRACE
+[00:00:19]: DoLuaFile scripts/stacktrace.lua
+[00:00:19]: DoLuaFile loading buffer scripts/stacktrace.lua
+[00:00:19]: INSTALLED STACKTRACE
+[00:00:19]: WorldSim::SimThread::SimThread() complete
+[00:00:19]: THREAD - started 'WorldSim' (29128)
+[00:00:19]: WorldSim::SimThread::Main()
+[00:00:19]: DoLuaFile scripts/worldgen_main.lua
+[00:00:19]: DoLuaFile loading buffer scripts/worldgen_main.lua
+[00:00:19]: DLC enabled : 	false	
+[00:00:19]:   taskgrouplist:	default	Together	
+[00:00:19]:   taskgrouplist:	classic	Classic	
+[00:00:19]:   taskgrouplist:	cave_default	Underground	
+[00:00:19]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:19]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:19]: ModIndex:GetModsToLoad inserting modname, 	workshop-358749986	
+[00:00:19]: ModIndex:GetModsToLoad inserting modname, 	workshop-374550642	
+[00:00:19]: ModIndex:GetModsToLoad inserting modname, 	workshop-2274329081	
+[00:00:19]: ModIndex:GetModsToLoad inserting modname, 	workshop-786556008	
+[00:00:19]: ModIndex:GetModsToLoad inserting modname, 	workshop-347079953	
+[00:00:19]: ModIndex:GetModsToLoad inserting modname, 	workshop-378160973	
+[00:00:19]: ModIndex:GetModsToLoad inserting modname, 	workshop-375859599	
+[00:00:19]: Loading mod: workshop-358749986 (Extended Indicators) Version:1.1	
+[00:00:19]: Loading mod: workshop-374550642 (Increased Stack size) Version:1.62	
+[00:00:19]: Loading mod: workshop-2274329081 (Wormhole Icons [Server]) Version:1.000	
+[00:00:19]: Loading mod: workshop-786556008 (45 Inventory Slots) Version:1.4.1	
+[00:00:19]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:19]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.3	
+[00:00:19]: Loading mod: workshop-375859599 (Health Info) Version:2.2.01	
+[00:00:19]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-786556008 (45 Inventory Slots)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-786556008 (45 Inventory Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-374550642 (Increased Stack size)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-374550642 (Increased Stack size)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-358749986 (Extended Indicators)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-358749986 (Extended Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-2274329081 (Wormhole Icons [Server])	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-2274329081 (Wormhole Icons [Server])	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: running worldgen_main.lua
+	
+[00:00:19]: SEED = 	1637062633	
+[00:00:19]: Generating world with these parameters:	
+[00:00:19]: level_type	SURVIVAL	
+[00:00:19]: level_data:	
+[00:00:19]: 	K: 	background_node_range	 V: 	table: 0000000009E30820	
+[00:00:19]: 		K: 	1	 V: 	0	
+[00:00:19]: 		K: 	2	 V: 	1	
+[00:00:19]: 	K: 	desc	 V: 	探查洞穴…… 一起！	
+[00:00:19]: 	K: 	hideminimap	 V: 	false	
+[00:00:19]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:19]: 	K: 	location	 V: 	cave	
+[00:00:19]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:19]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:19]: 	K: 	name	 V: 	洞穴	
+[00:00:19]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:19]: 	K: 	override_level_string	 V: 	false	
+[00:00:19]: 	K: 	overrides	 V: 	table: 0000000009E32210	
+[00:00:19]: 		K: 	atriumgate	 V: 	default	
+[00:00:19]: 		K: 	banana	 V: 	default	
+[00:00:19]: 		K: 	bats	 V: 	default	
+[00:00:19]: 		K: 	bats_setting	 V: 	default	
+[00:00:19]: 		K: 	beefaloheat	 V: 	default	
+[00:00:19]: 		K: 	berrybush	 V: 	default	
+[00:00:19]: 		K: 	boons	 V: 	default	
+[00:00:19]: 		K: 	branching	 V: 	default	
+[00:00:19]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:19]: 		K: 	bunnymen	 V: 	default	
+[00:00:19]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:19]: 		K: 	cave_ponds	 V: 	default	
+[00:00:19]: 		K: 	cave_spiders	 V: 	default	
+[00:00:19]: 		K: 	cavelight	 V: 	default	
+[00:00:19]: 		K: 	chess	 V: 	default	
+[00:00:19]: 		K: 	day	 V: 	default	
+[00:00:19]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:19]: 		K: 	dustmoths	 V: 	default	
+[00:00:19]: 		K: 	earthquakes	 V: 	default	
+[00:00:19]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:19]: 		K: 	fern	 V: 	default	
+[00:00:19]: 		K: 	fissure	 V: 	default	
+[00:00:19]: 		K: 	flint	 V: 	default	
+[00:00:19]: 		K: 	flower_cave	 V: 	default	
+[00:00:19]: 		K: 	flower_cave_regrowth	 V: 	default	
+[00:00:19]: 		K: 	fruitfly	 V: 	default	
+[00:00:19]: 		K: 	grass	 V: 	default	
+[00:00:19]: 		K: 	grassgekkos	 V: 	default	
+[00:00:19]: 		K: 	krampus	 V: 	default	
+[00:00:19]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:19]: 		K: 	lichen	 V: 	default	
+[00:00:19]: 		K: 	liefs	 V: 	default	
+[00:00:19]: 		K: 	lightflier_flower_regrowth	 V: 	default	
+[00:00:19]: 		K: 	lightfliers	 V: 	default	
+[00:00:19]: 		K: 	loop	 V: 	default	
+[00:00:19]: 		K: 	marshbush	 V: 	default	
+[00:00:19]: 		K: 	merms	 V: 	default	
+[00:00:19]: 		K: 	molebats	 V: 	default	
+[00:00:19]: 		K: 	moles_setting	 V: 	default	
+[00:00:19]: 		K: 	monkey	 V: 	default	
+[00:00:19]: 		K: 	monkey_setting	 V: 	default	
+[00:00:19]: 		K: 	mushgnome	 V: 	default	
+[00:00:19]: 		K: 	mushroom	 V: 	default	
+[00:00:19]: 		K: 	mushtree	 V: 	default	
+[00:00:19]: 		K: 	mushtree_moon_regrowth	 V: 	default	
+[00:00:19]: 		K: 	mushtree_regrowth	 V: 	default	
+[00:00:19]: 		K: 	nightmarecreatures	 V: 	default	
+[00:00:19]: 		K: 	pigs_setting	 V: 	default	
+[00:00:19]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:19]: 		K: 	reeds	 V: 	default	
+[00:00:19]: 		K: 	regrowth	 V: 	default	
+[00:00:19]: 		K: 	roads	 V: 	never	
+[00:00:19]: 		K: 	rock	 V: 	default	
+[00:00:19]: 		K: 	rocky	 V: 	default	
+[00:00:19]: 		K: 	rocky_setting	 V: 	default	
+[00:00:19]: 		K: 	sapling	 V: 	default	
+[00:00:19]: 		K: 	season_start	 V: 	default	
+[00:00:19]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:19]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:19]: 		K: 	slurper	 V: 	default	
+[00:00:19]: 		K: 	slurtles	 V: 	default	
+[00:00:19]: 		K: 	slurtles_setting	 V: 	default	
+[00:00:19]: 		K: 	snurtles	 V: 	default	
+[00:00:19]: 		K: 	spawnprotection	 V: 	default	
+[00:00:19]: 		K: 	specialevent	 V: 	none	
+[00:00:19]: 		K: 	spider_dropper	 V: 	default	
+[00:00:19]: 		K: 	spider_hider	 V: 	default	
+[00:00:19]: 		K: 	spider_spitter	 V: 	default	
+[00:00:19]: 		K: 	spider_warriors	 V: 	default	
+[00:00:19]: 		K: 	spiderqueen	 V: 	default	
+[00:00:19]: 		K: 	spiders	 V: 	default	
+[00:00:19]: 		K: 	spiders_setting	 V: 	default	
+[00:00:19]: 		K: 	start_location	 V: 	caves	
+[00:00:19]: 		K: 	task_set	 V: 	cave_default	
+[00:00:19]: 		K: 	tentacles	 V: 	default	
+[00:00:19]: 		K: 	toadstool	 V: 	default	
+[00:00:19]: 		K: 	touchstone	 V: 	default	
+[00:00:19]: 		K: 	trees	 V: 	default	
+[00:00:19]: 		K: 	weather	 V: 	default	
+[00:00:19]: 		K: 	world_size	 V: 	default	
+[00:00:19]: 		K: 	wormattacks	 V: 	default	
+[00:00:19]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:19]: 		K: 	wormlights	 V: 	default	
+[00:00:19]: 		K: 	worms	 V: 	default	
+[00:00:19]: 	K: 	required_prefabs	 V: 	table: 0000000009E30960	
+[00:00:19]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:19]: 	K: 	settings_desc	 V: 	探查洞穴…… 一起！	
+[00:00:19]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:19]: 	K: 	settings_name	 V: 	洞穴	
+[00:00:19]: 	K: 	substitutes	 V: 	table: 0000000009E30BE0	
+[00:00:19]: 	K: 	version	 V: 	4	
+[00:00:19]: 	K: 	worldgen_desc	 V: 	探查洞穴…… 一起！	
+[00:00:19]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:19]: 	K: 	worldgen_name	 V: 	洞穴	
+[00:00:19]: 
+#######
+#
+# Generating SURVIVAL Mode Level
+#
+#######
+	
+[00:00:19]: Prefab Swap Selection: regular grass	
+[00:00:19]: Prefab Swap Selection: regular twigs	
+[00:00:19]: Prefab Swap Selection: juicy berries	
+[00:00:19]: Overriding World Event to: none	
+[00:00:19]: New size:	425	default	
+[00:00:19]: Creating story...	
+[00:00:19]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:19]: [Story Gen] RestrictNodesByKey	
+[00:00:19]: Finding valid start task...	
+[00:00:19]:    ...picked 	CaveExitTask10	
+[00:00:19]: Has start node	GreenMushRabbits	
+[00:00:19]: Adding Background Nodes	
+[00:00:19]: [Story Gen] Adding Cove Nodes	
+[00:00:19]: Warning! Couldn't find a spot in MoreAltars for Level2WoodBoon	
+[00:00:19]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:19]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:19]: GenerateVoronoiMap [100]:
+[00:00:21]: ...Done.
+[00:00:21]: ... story created	
+[00:00:21]: Baking map...	425	
+[00:00:21]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:21]: [WorldSimActual::ConvertToTileMap]
+[00:00:21]: [ConvertToTileMap]
+[00:00:21]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:21]: [WorldSimActual::SeparateIslands]
+[00:00:21]: [SeparateIslands]
+[00:00:21]: [WorldSimActual::SeparateIslands] complete
+[00:00:21]: Map Baked!	
+[00:00:21]: [WorldSimActual::ForceConnectivity]
+[00:00:21]: [GenerateLandmasses]
+[00:00:21]: [GenerateLandmasses] islands: 15
+[00:00:21]: [MergeConnectedLandmasses] true
+[00:00:21]: [WorldSimActual::ForceConnectivity] complete
+[00:00:21]: Encoding...	
+[00:00:21]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:21]: Encoding... DONE	
+[00:00:21]: Checking Tags	
+[00:00:21]: Couldn't generate any points for maze. Aborting.
+[00:00:21]: Populating voronoi...	
+[00:00:21]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:21]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:21]: Warning! Could not find a spot for StraightWall in node Residential2:3:Vacant	
+[00:00:21]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:21]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:21]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:21]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:21]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:21]: Warning! Could not find a spot for RabbitTown in node CaveExitTask2:0:RabbitTown	
+[00:00:21]: Warning! Could not find a spot for TentaclePillar in node BatCloister:BG_26:BatCave	
+[00:00:21]: Warning! Could not find a spot for RabbitTown in node GreenForest:1:GreenMushRabbits	
+[00:00:21]: Warning! Could not find a spot for StraightWall in node Residential:4:Vacant	
+[00:00:21]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:21]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:21]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:21]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:21]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:21]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:21]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:21]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:21]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:21]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:21]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:21]: [ReplaceSingleNonLandTiles] Replaced 42 tiles.
+[00:00:21]: disconnected tiles...	822	
+[00:00:21]: TheLabyrinth:0:RuinedGuarden Didnt get enough points for all prefabs, got 10 need 24	
+[00:00:21]: Removing entity on IMPASSABLE	pandoraschest	222.5	262.5	-8, 0, 152	
+[00:00:21]: Removing entity on IMPASSABLE	pandoraschest	214.5	262.5	-40, 0, 152	
+[00:00:21]: Removing entity on IMPASSABLE	pandoraschest	206.5	266.5	-72, 0, 168	
+[00:00:21]: Removing entity on IMPASSABLE	pandoraschest	206.5	270.5	-72, 0, 184	
+[00:00:21]: Checking Required Prefab atrium_gate has at least 1 instances (1 found).	
+[00:00:21]: Checking Required Prefab archive_orchestrina_main has at least 1 instances (1 found).	
+[00:00:21]: Checking Required Prefab multiplayer_portal has at least 1 instances (1 found).	
+[00:00:21]: Checking Required Prefab minotaur_spawner has at least 1 instances (1 found).	
+[00:00:21]: Checking Required Prefab sacred_chest has at least 1 instances (0 found).	
+[00:00:21]: PANIC: missing required prefab [sacred_chest]! Expected 1, got 0	
+[00:00:21]: An error occured during world gen we will retry! [was 	1	 of 	5	]	
+[00:00:21]: Overriding World Event to: none	
+[00:00:21]: New size:	425	default	
+[00:00:21]: Creating story...	
+[00:00:21]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:21]: [Story Gen] RestrictNodesByKey	
+[00:00:21]: Finding valid start task...	
+[00:00:21]:    ...picked 	CaveExitTask2	
+[00:00:21]: Has start node	RabbitArea	
+[00:00:21]: Adding Background Nodes	
+[00:00:21]: [Story Gen] Adding Cove Nodes	
+[00:00:21]: Warning! Couldn't find a spot in MoreAltars for Level2WoodBoon	
+[00:00:21]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:21]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:21]: GenerateVoronoiMap [100]:
+[00:00:23]: ...Done.
+[00:00:23]: [AtriumMaze:COVE_0:Blank] poly.size() == 0
+[00:00:23]: [!]	 edge == NULL
+[00:00:23]: ... story created	
+[00:00:23]: Baking map...	425	
+[00:00:23]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:23]: [WorldSimActual::ConvertToTileMap]
+[00:00:23]: [ConvertToTileMap]
+[00:00:23]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:23]: [WorldSimActual::SeparateIslands]
+[00:00:23]: [SeparateIslands]
+[00:00:23]: [WorldSimActual::SeparateIslands] complete
+[00:00:23]: Map Baked!	
+[00:00:23]: [WorldSimActual::ForceConnectivity]
+[00:00:23]: [GenerateLandmasses]
+[00:00:23]: [GenerateLandmasses] islands: 12
+[00:00:23]: [MergeConnectedLandmasses] true
+[00:00:23]: [WorldSimActual::ForceConnectivity] complete
+[00:00:23]: Encoding...	
+[00:00:23]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:23]: Encoding... DONE	
+[00:00:23]: Checking Tags	
+[00:00:23]: Populating voronoi...	
+[00:00:23]: Warning! Could not find a spot for PondSinkhole in node CaveExitTask7:0:SinkholeOasis	
+[00:00:23]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:23]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:23]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:23]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:23]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:23]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:23]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:23]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:23]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:23]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:23]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:23]: Warning! Could not find a spot for GrassySinkhole in node PleasantSinkhole:5:GrasslandSinkhole	
+[00:00:23]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:23]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:23]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:23]: Warning! Could not find a spot for GrassySinkhole in node PleasantSinkhole:3:GrasslandSinkhole	
+[00:00:23]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:23]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:23]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:23]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:23]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:23]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:23]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:23]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:23]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:23]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:23]: [ReplaceSingleNonLandTiles] Replaced 50 tiles.
+[00:00:23]: disconnected tiles...	453	
+[00:00:23]: Removing entity on IMPASSABLE		162.265	383.7025	-200.94, 0, 684.81	
+[00:00:23]: Removing entity on IMPASSABLE	nightmarelight	315.2325	258.2325	410.93, 0, 182.93	
+[00:00:23]: Removing entity on IMPASSABLE	nightmarelight	317.7175	260.75	420.87, 0, 193	
+[00:00:23]: Removing entity on IMPASSABLE	nightmarelight	317.7175	258.3125	420.87, 0, 183.25	
+[00:00:23]: Removing entity on IMPASSABLE	nightmarelight	315.295	260.7025	411.18, 0, 192.81	
+[00:00:23]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	317.015	260.25	418.06, 0, 191	
+[00:00:23]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	316.045	258.67	414.18, 0, 184.68	
+[00:00:23]: Removing entity on IMPASSABLE	pandoraschest	309.5	128.5	388, 0, -336	
+[00:00:23]: Removing entity on IMPASSABLE	pandoraschest	303.5	128.5	364, 0, -336	
+[00:00:23]: Removing entity on IMPASSABLE	pandoraschest	285.5	128.5	292, 0, -336	
+[00:00:23]: Removing entity on IMPASSABLE	pillar_ruins	314.53	257.5	408.12, 0, 180	
+[00:00:23]: Removing entity on IMPASSABLE	pillar_ruins	314.515	261.515	408.06, 0, 196.06	
+[00:00:23]: Removing entity on IMPASSABLE	pillar_ruins	318.515	261.515	424.06, 0, 196.06	
+[00:00:23]: Removing entity on IMPASSABLE	pillar_ruins	318.515	257.5	424.06, 0, 180	
+[00:00:23]: Removing entity on IMPASSABLE	pillar_ruins	321.515	254.4825	436.06, 0, 167.93	
+[00:00:23]: Removing entity on IMPASSABLE	pillar_ruins	311.4825	254.5	395.93, 0, 168	
+[00:00:23]: Removing entity on IMPASSABLE	pillar_ruins	311.515	264.5	396.06, 0, 208	
+[00:00:23]: Removing entity on IMPASSABLE	pillar_ruins	321.515	264.4825	436.06, 0, 207.93	
+[00:00:23]: Removing entity on IMPASSABLE	wall_ruins	299.5	291.265	348, 0, 315.06	
+[00:00:23]: Removing entity on IMPASSABLE	wall_ruins	286.5	151.265	296, 0, -244.94	
+[00:00:23]: Removing entity on IMPASSABLE	wall_ruins	311.5	282.265	396, 0, 279.06	
+[00:00:23]: Removing entity on IMPASSABLE	chessjunk_spawner	313.4825	256.3575	403.93, 0, 175.43	
+[00:00:23]: Removing entity on IMPASSABLE	chessjunk_spawner	319.515	262.2325	428.06, 0, 198.93	
+[00:00:23]: Removing entity on IMPASSABLE	sacred_chest	318.25	259.5	423, 0, 188	
+[00:00:23]: Removing entity on IMPASSABLE	ancient_altar_spawner	316.4825	259.5	415.93, 0, 188	
+[00:00:23]: Checking Required Prefab atrium_gate has at least 1 instances (1 found).	
+[00:00:23]: Checking Required Prefab archive_orchestrina_main has at least 1 instances (1 found).	
+[00:00:23]: Checking Required Prefab multiplayer_portal has at least 1 instances (1 found).	
+[00:00:23]: Checking Required Prefab minotaur_spawner has at least 1 instances (1 found).	
+[00:00:23]: Checking Required Prefab sacred_chest has at least 1 instances (0 found).	
+[00:00:23]: PANIC: missing required prefab [sacred_chest]! Expected 1, got 0	
+[00:00:23]: An error occured during world gen we will retry! [was 	2	 of 	5	]	
+[00:00:23]: Overriding World Event to: none	
+[00:00:23]: New size:	425	default	
+[00:00:23]: Creating story...	
+[00:00:23]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:23]: [Story Gen] RestrictNodesByKey	
+[00:00:23]: Finding valid start task...	
+[00:00:23]:    ...picked 	CaveExitTask1	
+[00:00:23]: Has start node	GrasslandSinkhole	
+[00:00:23]: Adding Background Nodes	
+[00:00:23]: [Story Gen] Adding Cove Nodes	
+[00:00:23]: Warning! Couldn't find a spot in BatCloister for TentaclePillar	
+[00:00:23]: Warning! Couldn't find a spot in MoreAltars for Level2WoodBoon	
+[00:00:23]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:23]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:23]: GenerateVoronoiMap [100]:
+[00:00:25]: ...Done.
+[00:00:25]: ... story created	
+[00:00:25]: Baking map...	425	
+[00:00:25]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:25]: [WorldSimActual::ConvertToTileMap]
+[00:00:25]: [ConvertToTileMap]
+[00:00:25]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:25]: [WorldSimActual::SeparateIslands]
+[00:00:25]: [SeparateIslands]
+[00:00:25]: [WorldSimActual::SeparateIslands] complete
+[00:00:25]: Map Baked!	
+[00:00:25]: [WorldSimActual::ForceConnectivity]
+[00:00:25]: [GenerateLandmasses]
+[00:00:25]: [GenerateLandmasses] islands: 7
+[00:00:25]: [MergeConnectedLandmasses] true
+[00:00:25]: [WorldSimActual::ForceConnectivity] complete
+[00:00:25]: Encoding...	
+[00:00:25]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:25]: Encoding... DONE	
+[00:00:25]: Checking Tags	
+[00:00:25]: Couldn't generate any points for maze. Aborting.
+[00:00:25]: Populating voronoi...	
+[00:00:25]: Warning! Could not find a spot for Ice Hounds in node UndergroundForest:BG_25:BGSinkhole	
+[00:00:25]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask9:1:GreenMushSinkhole	
+[00:00:25]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:25]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:25]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:25]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:25]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:25]: Warning! Could not find a spot for RabbitTown in node CaveExitTask2:0:RabbitTown	
+[00:00:25]: Warning! Could not find a spot for StraightWall in node Residential:4:Vacant	
+[00:00:25]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:25]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:25]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:25]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:25]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:25]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:26]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:26]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:26]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:26]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:26]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:26]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:26]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:26]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:26]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:26]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:26]: Warning! Could not find a spot for PondSinkhole in node PleasantSinkhole:0:SinkholeOasis	
+[00:00:26]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:26]: [ReplaceSingleNonLandTiles] Replaced 45 tiles.
+[00:00:26]: disconnected tiles...	788	
+[00:00:26]: TheLabyrinth:0:RuinedGuarden Didnt get enough points for all prefabs, got 2 need 19	
+[00:00:26]: Removing entity on IMPASSABLE		67.265	303.7025	-588.94, 0, 356.81	
+[00:00:26]: Removing entity on IMPASSABLE	insanityrock	297.5	59.25	332, 0, -621	
+[00:00:26]: Removing entity on IMPASSABLE	pandoraschest	282.5	203.5	272, 0, -44	
+[00:00:26]: Removing entity on IMPASSABLE	pandoraschest	278.5	203.5	256, 0, -44	
+[00:00:26]: Checking Required Prefab atrium_gate has at least 1 instances (1 found).	
+[00:00:26]: Checking Required Prefab archive_orchestrina_main has at least 1 instances (1 found).	
+[00:00:26]: Checking Required Prefab multiplayer_portal has at least 1 instances (1 found).	
+[00:00:26]: Checking Required Prefab minotaur_spawner has at least 1 instances (1 found).	
+[00:00:26]: Checking Required Prefab sacred_chest has at least 1 instances (0 found).	
+[00:00:26]: PANIC: missing required prefab [sacred_chest]! Expected 1, got 0	
+[00:00:26]: An error occured during world gen we will retry! [was 	3	 of 	5	]	
+[00:00:26]: Overriding World Event to: none	
+[00:00:26]: New size:	425	default	
+[00:00:26]: Creating story...	
+[00:00:26]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:26]: [Story Gen] RestrictNodesByKey	
+[00:00:26]: Finding valid start task...	
+[00:00:26]:    ...picked 	CaveExitTask9	
+[00:00:26]: Has start node	RabbitTown	
+[00:00:26]: Adding Background Nodes	
+[00:00:26]: [Story Gen] Adding Cove Nodes	
+[00:00:26]: Warning! Couldn't find a spot in BatCloister for TentaclePillar	
+[00:00:26]: Warning! Couldn't find a spot in MoreAltars for Level2WoodBoon	
+[00:00:26]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:26]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:26]: GenerateVoronoiMap [100]:
+[00:00:28]: ...Done.
+[00:00:28]: ... story created	
+[00:00:28]: Baking map...	425	
+[00:00:28]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:28]: [WorldSimActual::ConvertToTileMap]
+[00:00:28]: [ConvertToTileMap]
+[00:00:28]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:28]: [WorldSimActual::SeparateIslands]
+[00:00:28]: [SeparateIslands]
+[00:00:28]: [WorldSimActual::SeparateIslands] complete
+[00:00:28]: Map Baked!	
+[00:00:28]: [WorldSimActual::ForceConnectivity]
+[00:00:28]: [GenerateLandmasses]
+[00:00:28]: [GenerateLandmasses] islands: 13
+[00:00:28]: [MergeConnectedLandmasses] true
+[00:00:28]: [WorldSimActual::ForceConnectivity] complete
+[00:00:28]: Encoding...	
+[00:00:28]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:28]: Encoding... DONE	
+[00:00:28]: Checking Tags	
+[00:00:28]: Populating voronoi...	
+[00:00:28]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:28]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:28]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:28]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:28]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:28]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:28]: Warning! Could not find a spot for PondSinkhole in node PleasantSinkhole:0:SinkholeOasis	
+[00:00:28]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:28]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:28]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:28]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:28]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:28]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:28]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:28]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:28]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:28]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:28]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:28]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:28]: [ReplaceSingleNonLandTiles] Replaced 42 tiles.
+[00:00:28]: disconnected tiles...	524	
+[00:00:28]: Removing entity on IMPASSABLE	nightmarelight	385.765	316.2325	693.06, 0, 414.93	
+[00:00:28]: Removing entity on IMPASSABLE	nightmarelight	383.28	318.75	683.12, 0, 425	
+[00:00:28]: Removing entity on IMPASSABLE	nightmarelight	383.28	316.3125	683.12, 0, 415.25	
+[00:00:28]: Removing entity on IMPASSABLE	nightmarelight	385.7025	318.7025	692.81, 0, 424.81	
+[00:00:28]: Removing entity on IMPASSABLE	brokenwall_ruins	349.2175	309.515	546.87, 0, 388.06	
+[00:00:28]: Removing entity on IMPASSABLE	brokenwall_ruins	348.9675	309.515	545.87, 0, 388.06	
+[00:00:28]: Removing entity on IMPASSABLE	brokenwall_ruins	348.7175	309.515	544.87, 0, 388.06	
+[00:00:28]: Removing entity on IMPASSABLE	pandoraschest	229.5	234.5	68, 0, 88	
+[00:00:28]: Removing entity on IMPASSABLE	pandoraschest	199.5	260.5	-52, 0, 192	
+[00:00:28]: Removing entity on IMPASSABLE	pillar_ruins	386.4675	315.5	695.87, 0, 412	
+[00:00:28]: Removing entity on IMPASSABLE	pillar_ruins	386.4825	319.515	695.93, 0, 428.06	
+[00:00:28]: Removing entity on IMPASSABLE	pillar_ruins	382.4825	319.515	679.93, 0, 428.06	
+[00:00:28]: Removing entity on IMPASSABLE	pillar_ruins	382.4825	315.5	679.93, 0, 412	
+[00:00:28]: Removing entity on IMPASSABLE	pillar_ruins	379.4825	312.4825	667.93, 0, 399.93	
+[00:00:28]: Removing entity on IMPASSABLE	pillar_ruins	389.515	312.5	708.06, 0, 400	
+[00:00:28]: Removing entity on IMPASSABLE	pillar_ruins	389.4825	322.5	707.93, 0, 440	
+[00:00:28]: Removing entity on IMPASSABLE	pillar_ruins	379.4825	322.4825	667.93, 0, 439.93	
+[00:00:28]: Removing entity on IMPASSABLE	wall_ruins	354.5	324.265	568, 0, 447.06	
+[00:00:28]: Removing entity on IMPASSABLE	ancient_altar_spawner	384.515	317.5	688.06, 0, 420	
+[00:00:28]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	383.9825	318.25	685.93, 0, 423	
+[00:00:28]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	384.9525	316.67	689.81, 0, 416.68	
+[00:00:28]: Removing entity on IMPASSABLE	chessjunk_spawner	387.515	314.3575	700.06, 0, 407.43	
+[00:00:28]: Removing entity on IMPASSABLE	chessjunk_spawner	381.4825	320.2325	675.93, 0, 430.93	
+[00:00:28]: Removing entity on IMPASSABLE	chessjunk_spawner	348.5	307.5	544, 0, 380	
+[00:00:28]: Checking Required Prefab atrium_gate has at least 1 instances (1 found).	
+[00:00:28]: Checking Required Prefab archive_orchestrina_main has at least 1 instances (1 found).	
+[00:00:28]: Checking Required Prefab multiplayer_portal has at least 1 instances (1 found).	
+[00:00:28]: Checking Required Prefab minotaur_spawner has at least 1 instances (1 found).	
+[00:00:28]: Checking Required Prefab sacred_chest has at least 1 instances (0 found).	
+[00:00:28]: PANIC: missing required prefab [sacred_chest]! Expected 1, got 0	
+[00:00:28]: An error occured during world gen we will retry! [was 	4	 of 	5	]	
+[00:00:28]: Overriding World Event to: none	
+[00:00:28]: New size:	425	default	
+[00:00:28]: Creating story...	
+[00:00:28]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:28]: [Story Gen] RestrictNodesByKey	
+[00:00:28]: Finding valid start task...	
+[00:00:28]:    ...picked 	CaveExitTask1	
+[00:00:28]: Has start node	SinkholeOasis	
+[00:00:28]: Adding Background Nodes	
+[00:00:28]: [Story Gen] Adding Cove Nodes	
+[00:00:28]: Warning! Couldn't find a spot in MoreAltars for Level2WoodBoon	
+[00:00:28]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:28]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:28]: GenerateVoronoiMap [100]:
+[00:00:30]: ...Done.
+[00:00:30]: ... story created	
+[00:00:30]: Baking map...	425	
+[00:00:30]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:30]: [WorldSimActual::ConvertToTileMap]
+[00:00:30]: [ConvertToTileMap]
+[00:00:30]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:30]: [WorldSimActual::SeparateIslands]
+[00:00:30]: [SeparateIslands]
+[00:00:30]: [WorldSimActual::SeparateIslands] complete
+[00:00:30]: Map Baked!	
+[00:00:30]: [WorldSimActual::ForceConnectivity]
+[00:00:30]: [GenerateLandmasses]
+[00:00:30]: [GenerateLandmasses] islands: 11
+[00:00:30]: [MergeConnectedLandmasses] true
+[00:00:30]: [WorldSimActual::ForceConnectivity] complete
+[00:00:30]: Encoding...	
+[00:00:30]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:30]: Encoding... DONE	
+[00:00:30]: Checking Tags	
+[00:00:30]: Populating voronoi...	
+[00:00:30]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:30]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:30]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:30]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:30]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:30]: Warning! Could not find a spot for GrassySinkhole in node CaveExitTask8:0:GrasslandSinkhole	
+[00:00:30]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:30]: Warning! Could not find a spot for RabbitTown in node GreenForest:1:GreenMushRabbits	
+[00:00:30]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:30]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:30]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:30]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:30]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:30]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:30]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:30]: Warning! Could not find a spot for GrassySinkhole in node PleasantSinkhole:3:GrasslandSinkhole	
 [00:00:30]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
 [00:00:30]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
-[00:00:30]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
-[00:00:30]: Warning! Could not find a spot for TentaclePillar in node SpiderLand:0:SpiderIncursion	
 [00:00:30]: [ReplaceSingleNonLandTiles] Validating...
-[00:00:30]: [ReplaceSingleNonLandTiles] Replaced 48 tiles.
-[00:00:30]: disconnected tiles...	648	
-[00:00:30]: Removing entity on IMPASSABLE	pandoraschest	64.5	131.5	-632, 0, -364	
-[00:00:30]: Removing entity on IMPASSABLE	pandoraschest	14.5	165.5	-832, 0, -228	
-[00:00:30]: Removing entity on IMPASSABLE	tentacle_pillar	169.5	132.5	-212, 0, -360	
+[00:00:30]: [ReplaceSingleNonLandTiles] Replaced 37 tiles.
+[00:00:30]: disconnected tiles...	931	
+[00:00:30]: Removing entity on IMPASSABLE		40.7325	216.295	-687.07, 0, 15.18	
+[00:00:30]: Removing entity on IMPASSABLE	pandoraschest	174.5	124.5	-152, 0, -352	
+[00:00:30]: Removing entity on IMPASSABLE	pandoraschest	196.5	160.5	-64, 0, -208	
+[00:00:30]: Removing entity on IMPASSABLE	wall_ruins	251.265	112.5	155.06, 0, -400	
+[00:00:30]: Removing entity on IMPASSABLE	wall_ruins	335.265	175.5	491.06, 0, -148	
 [00:00:30]: Checking Required Prefab atrium_gate has at least 1 instances (1 found).	
 [00:00:30]: Checking Required Prefab archive_orchestrina_main has at least 1 instances (1 found).	
 [00:00:30]: Checking Required Prefab multiplayer_portal has at least 1 instances (1 found).	
 [00:00:30]: Checking Required Prefab minotaur_spawner has at least 1 instances (1 found).	
-[00:00:30]: Checking Required Prefab sacred_chest has at least 1 instances (0 found).	
-[00:00:30]: PANIC: missing required prefab [sacred_chest]! Expected 1, got 0	
-[00:00:30]: An error occured during world gen we will retry! [was 	1	 of 	5	]	
-[00:00:30]: Overriding World Event to: none	
-[00:00:30]: New size:	425	default	
-[00:00:30]: Creating story...	
-[00:00:30]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
-[00:00:30]: [Story Gen] RestrictNodesByKey	
-[00:00:30]: Finding valid start task...	
-[00:00:30]:    ...picked 	CaveExitTask5	
-[00:00:30]: Has start node	SinkholeForest	
-[00:00:30]: Adding Background Nodes	
-[00:00:30]: [Story Gen] Adding Cove Nodes	
-[00:00:30]: [WorldSimActual::WorldGen_InitializeNodePoints]
-[00:00:30]: [WorldSimActual::WorldGen_VoronoiPass]
-[00:00:30]: GenerateVoronoiMap [100]:
-[00:00:32]: ...Done.
-[00:00:32]: ... story created	
-[00:00:32]: Baking map...	425	
-[00:00:32]: [WorldSimActual::WorldGen_Commit] worldgen success.
-[00:00:32]: [WorldSimActual::ConvertToTileMap]
-[00:00:32]: [ConvertToTileMap]
-[00:00:32]: [WorldSimActual::ConvertToTileMap] complete
-[00:00:32]: [WorldSimActual::SeparateIslands]
-[00:00:32]: [SeparateIslands]
-[00:00:32]: [WorldSimActual::SeparateIslands] complete
-[00:00:32]: Map Baked!	
-[00:00:32]: [WorldSimActual::ForceConnectivity]
-[00:00:32]: [GenerateLandmasses]
-[00:00:32]: [GenerateLandmasses] islands: 8
-[00:00:32]: [MergeConnectedLandmasses] true
-[00:00:32]: [WorldSimActual::ForceConnectivity] complete
-[00:00:32]: Encoding...	
-[00:00:32]: [WorldSimActual::CreateNodeIdTileMap]
-[00:00:32]: Encoding... DONE	
-[00:00:32]: Checking Tags	
-[00:00:32]: Couldn't generate any points for maze. Aborting.
-[00:00:32]: Populating voronoi...	
-[00:00:32]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
-[00:00:32]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
-[00:00:32]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
-[00:00:32]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
-[00:00:32]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
-[00:00:32]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
-[00:00:32]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
-[00:00:32]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
-[00:00:32]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
-[00:00:32]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
-[00:00:32]: Warning! Could not find a spot for TentaclePillar in node MudCave:BG_9:BGBatCaveRoom	
-[00:00:32]: Warning! Could not find a spot for RabbitTown in node CaveExitTask2:0:RabbitTown	
-[00:00:32]: Warning! Could not find a spot for GrassySinkhole in node CaveExitTask8:0:GrasslandSinkhole	
-[00:00:32]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
-[00:00:32]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
-[00:00:32]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
-[00:00:32]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
-[00:00:32]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
-[00:00:32]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
-[00:00:32]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
-[00:00:32]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
-[00:00:32]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
-[00:00:32]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
-[00:00:32]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
-[00:00:32]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
-[00:00:32]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
-[00:00:32]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
-[00:00:32]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
-[00:00:32]: Warning! Could not find a spot for RabbitCity in node RabbitCity:5:RabbitCity	
-[00:00:32]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
-[00:00:32]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
-[00:00:32]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
-[00:00:32]: [ReplaceSingleNonLandTiles] Validating...
-[00:00:32]: [ReplaceSingleNonLandTiles] Replaced 45 tiles.
-[00:00:32]: disconnected tiles...	179	
-[00:00:32]: Removing entity on IMPASSABLE		409.295	233.265	759.18, 0, 55.06	
-[00:00:32]: Checking Required Prefab atrium_gate has at least 1 instances (1 found).	
-[00:00:32]: Checking Required Prefab archive_orchestrina_main has at least 1 instances (1 found).	
-[00:00:32]: Checking Required Prefab multiplayer_portal has at least 1 instances (1 found).	
-[00:00:32]: Checking Required Prefab minotaur_spawner has at least 1 instances (1 found).	
-[00:00:32]: Checking Required Prefab sacred_chest has at least 1 instances (1 found).	
-[00:00:32]: [ReplaceSingleNonLandTiles] Validating...
-[00:00:32]: [ReplaceSingleNonLandTiles] Replaced 0 tiles.
-[00:00:32]: Done cave map gen!	
-[00:00:32]: Checking map...	
-[00:00:32]: Generation complete	
-[00:00:32]: WorldSim::SimThread::Main() complete
-[00:00:32]: Serializing world: session/7B1F7B6BADE09E1D/0000000002
-[00:00:33]: Klump load on boot started.	
-[00:00:33]: Klump files loaded: 	0	
-[00:00:33]: 	Unload FE	
-[00:00:33]: 	Unload FE done	
-[00:00:33]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
-[00:00:33]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
-[00:00:33]: Mod: workshop-596633787 (Display food values)	Registering prefabs	
-[00:00:33]: Mod: workshop-596633787 (Display food values)	  Registering default mod prefab	
-[00:00:33]: Mod: workshop-786556008 (45 Inventory Slots)	Registering prefabs	
-[00:00:33]: Mod: workshop-786556008 (45 Inventory Slots)	  Registering default mod prefab	
-[00:00:33]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
-[00:00:33]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
-[00:00:33]: Mod: workshop-374550642 (Increased Stack size)	Registering prefabs	
-[00:00:33]: Mod: workshop-374550642 (Increased Stack size)	  Registering default mod prefab	
-[00:00:33]: Mod: workshop-358749986 (Extended Indicators)	Registering prefabs	
-[00:00:33]: Mod: workshop-358749986 (Extended Indicators)	  Registering default mod prefab	
-[00:00:33]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
-[00:00:33]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
-[00:00:33]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
-[00:00:33]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
-[00:00:33]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
-[00:00:33]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
-[00:00:33]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
-[00:00:33]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
-[00:00:33]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
-[00:00:33]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
-[00:00:33]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
-[00:00:33]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
-[00:00:33]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
-[00:00:33]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
-[00:00:33]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
-[00:00:33]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
-[00:00:33]: Mod: workshop-2274329081 (Wormhole Icons [Server])	Registering prefabs	
-[00:00:33]: Mod: workshop-2274329081 (Wormhole Icons [Server])	  Registering default mod prefab	
-[00:00:33]: 	LOAD BE	
-[00:00:37]: 	LOAD BE: done	
-[00:00:37]: Begin Session: 7B1F7B6BADE09E1D
-[00:00:37]: saving to server_temp/server_save	
-[00:00:37]: Overriding World Event to: none	
-[00:00:37]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
-[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
-[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
-[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
-[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
-[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
-[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
-[00:00:37]: Loading 18 new character(s)	
-[00:00:38]: Total 18 character(s) loaded	
-[00:00:41]: Loading Nav Grid	
-[00:00:41]: World generated on build 483468 with save version: 5.08, using seed: 1637061187	
-[00:00:41]: [Shard] Secondary shard is waiting for LUA...
-[00:00:42]: Can't find prefab archive_sound_area	
-[00:00:42]: SpawnSaveRecord [nil, archive_sound_area] FAILED	
-[00:00:42]: Can't find prefab archive_sound_area	
-[00:00:42]: SpawnSaveRecord [nil, archive_sound_area] FAILED	
-[00:00:42]: Can't find prefab archive_sound_area	
-[00:00:42]: SpawnSaveRecord [nil, archive_sound_area] FAILED	
-[00:00:44]: SWITCHING 	false	
-[00:00:44]: Reconstructing topology	
-[00:00:44]: 	...Sorting points	
-[00:00:44]: 	...Sorting edges	
-[00:00:44]: 	...Connecting nodes	
-[00:00:44]: 	...Validating connections	
-[00:00:44]: 	...Housekeeping	
-[00:00:44]: 	...Done!	
-[00:00:44]: 1 uploads added to server. From server_temp
-[00:00:44]: About to start a shard with these settings:
-[00:00:44]:   ShardName: Caves
-[00:00:44]:   ShardID: 2129623105
-[00:00:44]:   ShardRole: SECONDARY
-[00:00:44]:   MasterHost: 127.0.0.1
-[00:00:44]:   MasterBind: (null)
-[00:00:44]:   MasterPort: 10888
-[00:00:44]: [Shard] Connecting to master...
-[00:00:44]: Telling Client our new session identifier: 7B1F7B6BADE09E1D
-[00:00:44]: [Shard] Sending secondary shard information to master...
-[00:00:44]: Validating portal[1] <-> <nil>[1] (inactive)	
-[00:00:44]: Validating portal[2] <-> <nil>[2] (inactive)	
-[00:00:44]: Validating portal[3] <-> <nil>[3] (inactive)	
-[00:00:44]: Validating portal[4] <-> <nil>[4] (inactive)	
-[00:00:44]: Validating portal[5] <-> <nil>[5] (inactive)	
-[00:00:44]: Validating portal[6] <-> <nil>[6] (inactive)	
-[00:00:44]: Validating portal[7] <-> <nil>[7] (inactive)	
-[00:00:44]: Validating portal[8] <-> <nil>[8] (inactive)	
-[00:00:44]: Validating portal[9] <-> <nil>[9] (inactive)	
-[00:00:44]: Validating portal[10] <-> <nil>[10] (inactive)	
-[00:00:44]: Registering secondary shard in Sing lobby
-[00:00:45]: [Shard] secondary shard is now ready!
-[00:00:45]: World 1 is now connected	
-[00:00:45]: Validating portal[1] <-> 1[1] (active)	
-[00:00:45]: Validating portal[2] <-> 1[2] (active)	
-[00:00:45]: Validating portal[3] <-> 1[3] (active)	
-[00:00:45]: Validating portal[4] <-> 1[4] (active)	
-[00:00:45]: Validating portal[5] <-> 1[5] (active)	
-[00:00:45]: Validating portal[6] <-> 1[6] (active)	
-[00:00:45]: Validating portal[7] <-> 1[7] (active)	
-[00:00:45]: Validating portal[8] <-> 1[8] (active)	
-[00:00:45]: Validating portal[9] <-> 1[9] (active)	
-[00:00:45]: Validating portal[10] <-> 1[10] (active)	
-[00:00:46]: [Shard] secondary shard LUA is now ready!
-[00:00:46]: [IPC] Signal 'DST_Secondary_Ready' opened  #00000000000007CC
-[00:00:46]: [IPC] Sending signal... #00000000000007CC
-[00:00:46]: Sim paused
-[00:01:04]: [Shard] We have been disconnected from the master. Waiting to reconnect...
-[00:01:05]: [IPC] Received shutdown signal.
-[00:01:05]: Available disk space for save files: 78579 MB
-[00:01:05]: Serializing world: session/7B1F7B6BADE09E1D/0000000003
-[00:01:05]: [Shard] Stopping shard mode
-[00:01:05]: [Steam] SendUserDisconnect for ''
-[00:01:05]: Collecting garbage...
-[00:01:05]: lua_gc took 0.16 seconds
-[00:01:05]: ~ShardLuaProxy()
-[00:01:05]: ~cEventLeaderboardProxy()
-[00:01:05]: ~ItemServerLuaProxy()
-[00:01:05]: ~InventoryLuaProxy()
-[00:01:05]: ~NetworkLuaProxy()
-[00:01:05]: ~SimLuaProxy()
-[00:01:06]: lua_close took 0.22 seconds
-[00:01:06]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[00:01:06]: CurlRequestManager::ClientThread::Main() complete
-[00:01:06]: HttpClient2 discarded 0 callbacks.
-[00:01:06]: Shutting down
+[00:00:30]: Checking Required Prefab sacred_chest has at least 1 instances (1 found).	
+[00:00:30]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:30]: [ReplaceSingleNonLandTiles] Replaced 0 tiles.
+[00:00:30]: Done cave map gen!	
+[00:00:30]: Checking map...	
+[00:00:30]: Generation complete	
+[00:00:30]: WorldSim::SimThread::Main() complete
+[00:00:30]: Serializing world: session/39486BDAF7BFF22A/0000000002
+[00:00:30]: Klump load on boot started.	
+[00:00:30]: Klump files loaded: 	0	
+[00:00:30]: 	Unload FE	
+[00:00:30]: 	Unload FE done	
+[00:00:31]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:31]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:31]: Mod: workshop-786556008 (45 Inventory Slots)	Registering prefabs	
+[00:00:31]: Mod: workshop-786556008 (45 Inventory Slots)	  Registering default mod prefab	
+[00:00:31]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
+[00:00:31]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
+[00:00:31]: Mod: workshop-374550642 (Increased Stack size)	Registering prefabs	
+[00:00:31]: Mod: workshop-374550642 (Increased Stack size)	  Registering default mod prefab	
+[00:00:31]: Mod: workshop-358749986 (Extended Indicators)	Registering prefabs	
+[00:00:31]: Mod: workshop-358749986 (Extended Indicators)	  Registering default mod prefab	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:31]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:31]: Mod: workshop-2274329081 (Wormhole Icons [Server])	Registering prefabs	
+[00:00:31]: Mod: workshop-2274329081 (Wormhole Icons [Server])	  Registering default mod prefab	
+[00:00:31]: 	LOAD BE	
+[00:00:35]: 	LOAD BE: done	
+[00:00:35]: Begin Session: 39486BDAF7BFF22A
+[00:00:35]: saving to server_temp/server_save	
+[00:00:35]: Overriding World Event to: none	
+[00:00:35]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:35]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[00:00:35]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[00:00:35]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[00:00:35]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[00:00:35]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[00:00:35]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[00:00:35]: Loading 18 new character(s)	
+[00:00:35]: Total 18 character(s) loaded	
+[00:00:38]: Loading Nav Grid	
+[00:00:38]: World generated on build 483468 with save version: 5.08, using seed: 1637062633	
+[00:00:38]: [Shard] Secondary shard is waiting for LUA...
+[00:00:39]: Can't find prefab archive_sound_area	
+[00:00:39]: SpawnSaveRecord [nil, archive_sound_area] FAILED	
+[00:00:39]: Can't find prefab archive_sound_area	
+[00:00:39]: SpawnSaveRecord [nil, archive_sound_area] FAILED	
+[00:00:39]: Can't find prefab archive_sound_area	
+[00:00:39]: SpawnSaveRecord [nil, archive_sound_area] FAILED	
+[00:00:40]: SWITCHING 	false	
+[00:00:40]: Reconstructing topology	
+[00:00:40]: 	...Sorting points	
+[00:00:40]: 	...Sorting edges	
+[00:00:40]: 	...Connecting nodes	
+[00:00:40]: 	...Validating connections	
+[00:00:40]: 	...Housekeeping	
+[00:00:40]: 	...Done!	
+[00:00:40]: 1 uploads added to server. From server_temp
+[00:00:40]: About to start a shard with these settings:
+[00:00:40]:   ShardName: Caves
+[00:00:40]:   ShardID: 2928060686
+[00:00:40]:   ShardRole: SECONDARY
+[00:00:40]:   MasterHost: 127.0.0.1
+[00:00:40]:   MasterBind: (null)
+[00:00:40]:   MasterPort: 10888
+[00:00:40]: [Shard] Connecting to master...
+[00:00:40]: Telling Client our new session identifier: 39486BDAF7BFF22A
+[00:00:40]: [Shard] Sending secondary shard information to master...
+[00:00:40]: Validating portal[1] <-> <nil>[1] (inactive)	
+[00:00:40]: Validating portal[2] <-> <nil>[2] (inactive)	
+[00:00:40]: Validating portal[3] <-> <nil>[3] (inactive)	
+[00:00:40]: Validating portal[4] <-> <nil>[4] (inactive)	
+[00:00:40]: Validating portal[5] <-> <nil>[5] (inactive)	
+[00:00:40]: Validating portal[6] <-> <nil>[6] (inactive)	
+[00:00:40]: Validating portal[7] <-> <nil>[7] (inactive)	
+[00:00:40]: Validating portal[8] <-> <nil>[8] (inactive)	
+[00:00:40]: Validating portal[9] <-> <nil>[9] (inactive)	
+[00:00:41]: Validating portal[10] <-> <nil>[10] (inactive)	
+[00:00:41]: Registering secondary shard in Sing lobby
+[00:00:41]: [Shard] secondary shard is now ready!
+[00:00:41]: World 1 is now connected	
+[00:00:41]: Validating portal[1] <-> 1[1] (active)	
+[00:00:41]: Validating portal[2] <-> 1[2] (active)	
+[00:00:41]: Validating portal[3] <-> 1[3] (active)	
+[00:00:41]: Validating portal[4] <-> 1[4] (active)	
+[00:00:41]: Validating portal[5] <-> 1[5] (active)	
+[00:00:41]: Validating portal[6] <-> 1[6] (active)	
+[00:00:41]: Validating portal[7] <-> 1[7] (active)	
+[00:00:41]: Validating portal[8] <-> 1[8] (active)	
+[00:00:41]: Validating portal[9] <-> 1[9] (active)	
+[00:00:41]: Validating portal[10] <-> 1[10] (active)	
+[00:00:42]: [Shard] secondary shard LUA is now ready!
+[00:00:42]: [IPC] Signal 'DST_Secondary_Ready' opened  #0000000000000A14
+[00:00:42]: [IPC] Sending signal... #0000000000000A14
+[00:00:42]: Sim paused
+[00:01:05]: Sim unpaused
+[00:01:07]: Server Autopaused	
+[00:01:10]: Server Unpaused	
+[00:01:11]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[00:01:11]: Sim paused
+[00:01:12]: [IPC] Received shutdown signal.
+[00:01:12]: Available disk space for save files: 79456 MB
+[00:01:12]: Serializing world: session/39486BDAF7BFF22A/0000000003
+[00:01:12]: [Shard] Stopping shard mode
+[00:01:12]: [Steam] SendUserDisconnect for ''
+[00:01:13]: Collecting garbage...
+[00:01:13]: lua_gc took 0.18 seconds
+[00:01:13]: ~ShardLuaProxy()
+[00:01:13]: ~cEventLeaderboardProxy()
+[00:01:13]: ~ItemServerLuaProxy()
+[00:01:13]: ~InventoryLuaProxy()
+[00:01:13]: ~NetworkLuaProxy()
+[00:01:13]: ~SimLuaProxy()
+[00:01:13]: lua_close took 0.22 seconds
+[00:01:13]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:01:13]: CurlRequestManager::ClientThread::Main() complete
+[00:01:13]: HttpClient2 discarded 0 callbacks.
+[00:01:13]: Shutting down

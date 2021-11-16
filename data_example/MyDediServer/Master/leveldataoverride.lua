@@ -132,7 +132,7 @@ return {
     start_location="default",
     summer="default",
     tallbirds="default",
-    task_set="classic",
+    task_set="default",
     tentacles="default",
     touchstone="default",
     trees="default",
