@@ -1,0 +1,20 @@
+version: '3.5'
+services:
+  dst-server:
+     build: .
+     restart: "on-failure:5"
+     ports:
+        - "10998-11000:10998-11000/udp"
+        - "44506:44506/udp"
+        - "48863:48863/udp"
+        - "27016-27017:27016-27017/udp"
+        - "55896:55896/udp"
+        - "10889:10889/udp"
+     volumes:
+        - ./data:/root/.klei/DoNotStarveTogether
+        - ./data:/root/.klei/data
+        - ./dedicated_server_mods_setup.lua:/root/dontstarvetogether_dedicated_server/mods/dedicated_server_mods_setup.lua
+     stop_grace_period: 6m
+     command: "/root/updata&start.sh"
+
+
