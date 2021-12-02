@@ -1,0 +1,13 @@
+version: '3.5'
+services:
+  dst-server:
+     build: .
+     restart: "on-failure:5"
+     ports:
+        - "7777:7777"
+     volumes:
+        - ./serverconfig.txt:/root/.config/TerrariaServer/serverconfig.txt
+        - ./data:/root/.local/share/Terraria/Mobile/Worlds
+        - ./banlist.txt:/root/.config/TerrariaServer/banlist.txt
+     stop_grace_period: 6m
+
