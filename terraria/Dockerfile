@@ -15,10 +15,8 @@ RUN rm *.zip
 # WORKDIR /root/ServerLinux
 WORKDIR /root/Linux
 RUN chmod u+x TerrariaServer*
-RUN /root/.config/TerrariaServer/serverconfig.txt
 
 COPY start.sh /root/start.sh
 RUN chmod u+x /root/start.sh
 
-WORKDIR /root/
 CMD ["/root/start.sh"]
