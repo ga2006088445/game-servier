@@ -1,4 +1,4 @@
-world=/root/.local/share/Terraria/Mobile/Worlds/main.wld
+world=/root/.local/share/Terraria/Worlds/haha.wld
 maxplayers=4
 port=7777
 password=363739
