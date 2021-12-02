@@ -7,7 +7,7 @@ services:
         - "7777:7777"
      volumes:
         - ./serverconfig.txt:/root/.config/TerrariaServer/serverconfig.txt
-        - ./data:/root/.local/share/Terraria/Mobile/
+        - ./data:/root/.local/share/Terraria/
         - ./banlist.txt:/root/.config/TerrariaServer/banlist.txt
      stdin_open: true 
      tty: true
