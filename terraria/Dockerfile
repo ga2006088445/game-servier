@@ -19,4 +19,4 @@ RUN chmod u+x TerrariaServer*
 COPY start.sh /root/start.sh
 RUN chmod u+x /root/start.sh
 
-CMD ["/root/start.sh"]
+CMD ["/bin/bash"]
