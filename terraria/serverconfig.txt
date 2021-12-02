@@ -1,5 +1,4 @@
 world=/root/.local/share/Terraria/Mobile/Worlds/main.wld
-maxplayers=16
+maxplayers=4
 port=7777
 password=363739
-banlist=/root/.config/TerrariaServer/banlist.txt
