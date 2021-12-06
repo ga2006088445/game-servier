@@ -1,4 +1,3 @@
 #!/bin/bash
 
-# /root/ServerLinux/TerrariaServer -config /root/.config/TerrariaServer/serverconfig.txt
-/root/Linux/TerrariaServer -config /root/.config/TerrariaServer/serverconfig.txt
+byobu new-session -s "terraria" "/root/Linux/TerrariaServer -config /root/.config/TerrariaServer/serverconfig.txt"
