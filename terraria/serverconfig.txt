@@ -1,4 +1,9 @@
-world=/root/.local/share/Terraria/Worlds/haha.wld
+world=/root/.local/share/Terraria/Worlds/grandmaster.wld
 maxplayers=16
-port=7777
+port=7778
 password=363739
+difficulty=2
+language=zh/Hans
+autocreate=3
+worldname=grandmaster
+secure=1
