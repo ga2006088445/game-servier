@@ -1,3 +1,4 @@
 #!/bin/bash
 
-/root/craftopia_server/Craftopia.x86_64
+
+byobu new-session -s "craftopia" "/root/craftopia_server/Craftopia.x86_64"

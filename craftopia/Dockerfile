@@ -12,6 +12,8 @@ RUN tar -xvzf steamcmd_linux.tar.gz
 # https://steamdb.info/search/?a=app&q=craftopia&type=-1&category=0
 RUN /root/steamcmd/steamcmd.sh +force_install_dir "/root/craftopia_server" +login anonymous +app_update 1670340 validate +quit
 
+RUN apt-get install -y byobu
+
 COPY start.sh /root/start.sh
 RUN chmod u+x /root/start.sh
 
