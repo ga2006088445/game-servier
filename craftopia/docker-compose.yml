@@ -4,10 +4,11 @@ services:
      build: .
      restart: "on-failure:5"
    #   netstat -tulpn
-     ports:
-        - "40000-50000:40000-50000/tcp"
-        - "6587:6587/tcp"
-        - "50000-60000:50000-60000/udp"
+   #   ports:
+   #      - "42715-42730:42715-42730/tcp"
+   #      - "6587:6587/tcp"
+   #      - "59500-59536:59500-59536/udp"
+     network_mode: "host"
      volumes:
         - ./ServerSetting.ini:/root/craftopia_server/ServerSetting.ini
         - ./DedicatedServerSave:/root/craftopia_server/DedicatedServerSave
