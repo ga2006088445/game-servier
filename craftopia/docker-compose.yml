@@ -9,9 +9,8 @@ services:
         - "4380:4380/udp"
         - "27000-27031:27000-27031/udp"
         - "27036:27036/udp"
-   #   volumes:
-   #      - ./data:/root/.klei/DoNotStarveTogether
-   #      - ./data:/root/.klei/data
-   #      - ./dedicated_server_mods_setup.lua:/root/dontstarvetogether_dedicated_server/mods/dedicated_server_mods_setup.lua
+     volumes:
+        - ./ServerSetting.ini:/root/craftopia_server/ServerSetting.ini
+        - ./DedicatedServerSave:/root/craftopia_server/DedicatedServerSave
      stop_grace_period: 6m
 

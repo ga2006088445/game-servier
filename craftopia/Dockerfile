@@ -9,16 +9,17 @@ RUN mkdir -p /root/steamcmd/
 WORKDIR /root/steamcmd/
 RUN wget "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz"
 RUN tar -xvzf steamcmd_linux.tar.gz
-RUN /root/steamcmd/steamcmd.sh +force_install_dir "/root/craftopia_server" +login anonymous +app_update 1070340 validate +quit
+# https://steamdb.info/search/?a=app&q=craftopia&type=-1&category=0
+RUN /root/steamcmd/steamcmd.sh +force_install_dir "/root/craftopia_server" +login anonymous +app_update 1670340 validate +quit
 
-# COPY start.sh /root/start.sh
-# RUN chmod u+x /root/start.sh
+COPY start.sh /root/start.sh
+RUN chmod u+x /root/start.sh
 
-# COPY "updata&start.sh" "/root/updata&start.sh"
-# RUN chmod u+x "/root/updata&start.sh"
+COPY "updata&start.sh" "/root/updata&start.sh"
+RUN chmod u+x "/root/updata&start.sh"
 
-# WORKDIR /usr/lib
-# RUN ln -s libcurl.so.4 libcurl-gnutls.so.4
+WORKDIR /usr/lib
+RUN ln -s libcurl.so.4 libcurl-gnutls.so.4
 
-# WORKDIR /root/steamcmd/
-# CMD ["/root/start.sh"]
+WORKDIR /root/steamcmd/
+CMD ["/root/start.sh"]
