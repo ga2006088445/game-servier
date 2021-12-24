@@ -3,12 +3,12 @@ services:
   dst-server:
      build: .
      restart: "on-failure:5"
+   #   netstat -tulpn
      ports:
-        - "27015-27030:27015-27030/tcp"
+        - "42715-42730:42715-42730/tcp"
         - "6587:6587/tcp"
         - "4380:4380/udp"
-        - "27000-27031:27000-27031/udp"
-        - "27036:27036/udp"
+        - "59500-59536:59500-59536/udp"
      volumes:
         - ./ServerSetting.ini:/root/craftopia_server/ServerSetting.ini
         - ./DedicatedServerSave:/root/craftopia_server/DedicatedServerSave
