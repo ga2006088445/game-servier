@@ -10,7 +10,7 @@ services:
         - "6587:6587"
         - "4380:4380"
         - "27000-27036:27000-27036/udp"
-   #   network_mode: "host"
+     network_mode: "host"
      volumes:
         - ./ServerSetting.ini:/root/craftopia_server/ServerSetting.ini
         - ./DedicatedServerSave:/root/craftopia_server/DedicatedServerSave
