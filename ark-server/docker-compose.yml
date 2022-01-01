@@ -3,11 +3,7 @@ services:
   dst-server:
      build: .
      restart: "on-failure:5"
-     ports:
-        - "7777:7777/udp"
-        - "7778:7778/udp"
-        - "27015:27015/udp"
-        - "27020:27020/tcp"
+     network_mode: "host"
      volumes:
         - ./GameUserSettings.ini:/root/ark_server/ShooterGame/Config/GameUserSettings.ini
      stdin_open: true 
