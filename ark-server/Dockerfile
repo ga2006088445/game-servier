@@ -14,7 +14,7 @@ RUN /root/steamcmd/steamcmd.sh +force_install_dir "/root/ark_server" +login anon
 
 RUN mv /root/steamcmd/ /root/ark_server/Engine/Binaries/ThirdParty/SteamCMD/Linux
 
-RUN apt-get install -y byobu net-tools
+RUN apt-get install -y net-tools
 
 COPY start.sh /root/start.sh
 RUN chmod u+x /root/start.sh
@@ -26,4 +26,4 @@ WORKDIR /usr/lib
 RUN ln -s libcurl.so.4 libcurl-gnutls.so.4
 
 WORKDIR /root/steamcmd/
-CMD ["/root/start.sh"]
+CMD ["bash"]
