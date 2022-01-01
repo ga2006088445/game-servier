@@ -14,14 +14,14 @@ RUN /root/steamcmd/steamcmd.sh +force_install_dir "/root/ark_server" +login anon
 
 RUN apt-get install -y byobu net-tools
 
-# COPY start.sh /root/start.sh
-# RUN chmod u+x /root/start.sh
+COPY start.sh /root/start.sh
+RUN chmod u+x /root/start.sh
 
-# COPY "updata&start.sh" "/root/updata&start.sh"
-# RUN chmod u+x "/root/updata&start.sh"
+COPY "updata&start.sh" "/root/updata&start.sh"
+RUN chmod u+x "/root/updata&start.sh"
 
-# WORKDIR /usr/lib
-# RUN ln -s libcurl.so.4 libcurl-gnutls.so.4
+WORKDIR /usr/lib
+RUN ln -s libcurl.so.4 libcurl-gnutls.so.4
 
-# WORKDIR /root/steamcmd/
-# CMD ["/root/start.sh"]
+WORKDIR /root/steamcmd/
+CMD ["/root/start.sh"]
