@@ -5,7 +5,7 @@ services:
      restart: "on-failure:5"
      network_mode: "host"
      volumes:
-        - ./GameUserSettings.ini:/root/ark_server/ShooterGame/Config/GameUserSettings.ini
+        - ./GameUserSettings.ini:/root/ark_server/ShooterGame/Saved/Config/LinuxServer/GameUserSettings.ini
      stdin_open: true 
      tty: true
      stop_grace_period: 6m
