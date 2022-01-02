@@ -7,6 +7,7 @@ services:
      volumes:
         - ./Saved:/root/ark_server/ShooterGame/Saved/
         - ./GameUserSettings.ini:/root/ark_server/ShooterGame/Saved/Config/LinuxServer/GameUserSettings.ini
+        - ./Game.ini:/root/ark_server/ShooterGame/Saved/Config/LinuxServer/Game.ini
      stdin_open: true 
      tty: true
      stop_grace_period: 6m
