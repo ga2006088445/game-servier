@@ -18,9 +18,6 @@ RUN apt-get install -y byobu net-tools
 COPY start.sh /root/start.sh
 RUN chmod u+x /root/start.sh
 
-COPY "updata&start.sh" "/root/updata&start.sh"
-RUN chmod u+x "/root/updata&start.sh"
-
 WORKDIR /usr/lib
 RUN ln -s libcurl.so.4 libcurl-gnutls.so.4
 
