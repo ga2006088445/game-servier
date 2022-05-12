@@ -22,7 +22,7 @@ WORKDIR /usr/lib
 RUN ln -s libcurl.so.4 libcurl-gnutls.so.4
 
 WORKDIR /root/steamcmd/
-CMD ["/root/start.sh"]
+CMD ["tail -f /dev/null"]
 
 
 # 8766 UDP
