@@ -6,6 +6,7 @@ services:
      network_mode: "host"
      volumes:
         - ./Server:/root/Zomboid/Server
+        - ./Saves:/root/Zomboid/Saves
      stdin_open: true 
      tty: true
      stop_grace_period: 6m
