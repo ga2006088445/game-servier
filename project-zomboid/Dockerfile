@@ -22,7 +22,7 @@ WORKDIR /usr/lib
 RUN ln -s libcurl.so.4 libcurl-gnutls.so.4
 
 WORKDIR /root/steamcmd/
-CMD ["while true; do     echo '===';     sleep 1000000; done"]
+CMD ["bash -c \"while true; do     echo '===';     sleep 1000000; done\""]
 
 
 # 8766 UDP
