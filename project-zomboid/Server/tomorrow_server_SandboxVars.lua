@@ -1,231 +1,231 @@
 SandboxVars = {
     VERSION = 4,
-    -- Changing this sets the "Population Multiplier" advanced option.
-    -- 1 = Insane
-    -- 2 = Very High
-    -- 3 = High
-    -- 4 = Normal
-    -- 5 = Low
+    -- 更改此設置“人口乘數”高級選項。
+    -- 1 = 瘋了
+    -- 2 = 非常高
+    -- 3 = 高
+    -- 4 = 正常
+    -- 5 = 低
     Zombies = 3,
-    -- 1 = Urban Focused
+    -- 1 = 以城市為中心
     Distribution = 1,
-    -- 1 = 15 Minutes
-    -- 2 = 30 Minutes
-    -- 3 = 1 Hour
-    -- 4 = 2 Hours
-    -- 5 = 3 Hours
-    -- 6 = 4 Hours
-    -- 7 = 5 Hours
-    -- 8 = 6 Hours
-    -- 9 = 7 Hours
-    -- 10 = 8 Hours
-    -- 11 = 9 Hours
-    -- 12 = 10 Hours
-    -- 13 = 11 Hours
-    -- 14 = 12 Hours
-    -- 15 = 13 Hours
-    -- 16 = 14 Hours
-    -- 17 = 15 Hours
-    -- 18 = 16 Hours
-    -- 19 = 17 Hours
-    -- 20 = 18 Hours
-    -- 21 = 19 Hours
-    -- 22 = 20 Hours
-    -- 23 = 21 Hours
-    -- 24 = 22 Hours
-    -- 25 = 23 Hours
+    -- 1 = 15 分鐘
+    -- 2 = 30 分鐘
+    -- 3 = 1 小時
+    -- 4 = 2 小時
+    -- 5 = 3 小時
+    -- 6 = 4 小時
+    -- 7 = 5 小時
+    -- 8 = 6 小時
+    -- 9 = 7 小時
+    -- 10 = 8 小時
+    -- 11 = 9 小時
+    -- 12 = 10 小時
+    -- 13 = 11 小時
+    -- 14 = 12 小時
+    -- 15 = 13 小時
+    -- 16 = 14 小時
+    -- 17 = 15 小時
+    -- 18 = 16 小時
+    -- 19 = 17 小時
+    -- 20 = 18 小時
+    -- 21 = 19 小時
+    -- 22 = 20 小時
+    -- 23 = 21 小時
+    -- 24 = 22 小時
+    -- 25 = 23 小時
     DayLength = 3,
     StartYear = 1,
-    -- 1 = January
-    -- 2 = February
-    -- 3 = March
-    -- 4 = April
-    -- 5 = May
-    -- 6 = June
-    -- 7 = July
-    -- 8 = August
-    -- 9 = September
-    -- 10 = October
-    -- 11 = November
+    -- 1 = 一月
+    -- 2 = 二月
+    -- 3 = 三月
+    -- 4 = 四月
+    -- 5 = 五月
+    -- 6 = 六月
+    -- 7 = 七月
+    -- 8 = 八月
+    -- 9 = 九月
+    -- 10 = 十月
+    -- 11 = 十一月
     StartMonth = 7,
     StartDay = 9,
-    -- 1 = 7 AM
-    -- 2 = 9 AM
-    -- 3 = 12 PM
-    -- 4 = 2 PM
-    -- 5 = 5 PM
-    -- 6 = 9 PM
-    -- 7 = 12 AM
-    -- 8 = 2 AM
+    -- 1 = 早上 7 點
+    -- 2 = 上午 9 點
+    -- 3 = 下午 12 點
+    -- 4 = 下午 2 點
+    -- 5 = 下午 5 點
+    -- 6 = 晚上 9 點
+    -- 7 = 12 點
+    -- 8 = 凌晨 2 點
     StartTime = 2,
-    -- 1 = Instant
-    -- 2 = 0-30 Days
-    -- 3 = 0-2 Months
-    -- 4 = 0-6 Months
-    -- 5 = 0-1 Year
-    -- 6 = 0-5 Years
-    -- 7 = 2-6 Months
+    -- 1 = 即時
+    -- 2 = 0-30 天
+    -- 3 = 0-2 個月
+    -- 4 = 0-6 個月
+    -- 5 = 0-1 年
+    -- 6 = 0-5 年
+    -- 7 = 2-6 個月
     WaterShut = 2,
-    -- 1 = Instant
-    -- 2 = 0-30 Days
-    -- 3 = 0-2 Months
-    -- 4 = 0-6 Months
-    -- 5 = 0-1 Year
-    -- 6 = 0-5 Years
-    -- 7 = 2-6 Months
+    -- 1 = 即時
+    -- 2 = 0-30 天
+    -- 3 = 0-2 個月
+    -- 4 = 0-6 個月
+    -- 5 = 0-1 年
+    -- 6 = 0-5 年
+    -- 7 = 2-6 個月
     ElecShut = 2,
-    -- Minimum=-1 Maximum=2147483647 Default=14
+    -- 最小值=-1 最大值=2147483647 默認值=14
     WaterShutModifier = 14,
-    -- Minimum=-1 Maximum=2147483647 Default=14
+    -- 最小值=-1 最大值=2147483647 默認值=14
     ElecShutModifier = 14,
-    -- 1 = Extremely Rare
-    -- 2 = Rare
-    -- 3 = Normal
-    -- 4 = Common
+    -- 1 = 極其罕見
+    -- 2 = 稀有
+    -- 3 = 正常
+    -- 4 = 普通
     FoodLoot = 2,
-    -- 1 = Extremely Rare
-    -- 2 = Rare
-    -- 3 = Normal
-    -- 4 = Common
+    -- 1 = 極其罕見
+    -- 2 = 稀有
+    -- 3 = 正常
+    -- 4 = 普通
     CannedFoodLoot = 2,
-    -- 1 = Extremely Rare
-    -- 2 = Rare
-    -- 3 = Normal
-    -- 4 = Common
+    -- 1 = 極其罕見
+    -- 2 = 稀有
+    -- 3 = 正常
+    -- 4 = 普通
     LiteratureLoot = 2,
-    -- Seeds, Nails, Saws, Fishing Rods, various tools, etc...
-    -- 1 = Extremely Rare
-    -- 2 = Rare
-    -- 3 = Normal
-    -- 4 = Common
+    -- 種子、釘子、鋸子、釣魚竿、各種工具等...
+    -- 1 = 極其罕見
+    -- 2 = 稀有
+    -- 3 = 正常
+    -- 4 = 普通
     SurvivalGearsLoot = 2,
-    -- 1 = Extremely Rare
-    -- 2 = Rare
-    -- 3 = Normal
-    -- 4 = Common
+    -- 1 = 極其罕見
+    -- 2 = 稀有
+    -- 3 = 正常
+    -- 4 = 普通
     MedicalLoot = 2,
-    -- 1 = Extremely Rare
-    -- 2 = Rare
-    -- 3 = Normal
-    -- 4 = Common
+    -- 1 = 極其罕見
+    -- 2 = 稀有
+    -- 3 = 正常
+    -- 4 = 普通
     WeaponLoot = 2,
-    -- 1 = Extremely Rare
-    -- 2 = Rare
-    -- 3 = Normal
-    -- 4 = Common
+    -- 1 = 極其罕見
+    -- 2 = 稀有
+    -- 3 = 正常
+    -- 4 = 普通
     RangedWeaponLoot = 2,
-    -- 1 = Extremely Rare
-    -- 2 = Rare
-    -- 3 = Normal
-    -- 4 = Common
+    -- 1 = 極其罕見
+    -- 2 = 稀有
+    -- 3 = 正常
+    -- 4 = 普通
     AmmoLoot = 2,
-    -- 1 = Extremely Rare
-    -- 2 = Rare
-    -- 3 = Normal
-    -- 4 = Common
+    -- 1 = 極其罕見
+    -- 2 = 稀有
+    -- 3 = 正常
+    -- 4 = 普通
     MechanicsLoot = 2,
-    -- 1 = Extremely Rare
-    -- 2 = Rare
-    -- 3 = Normal
-    -- 4 = Common
+    -- 1 = 極其罕見
+    -- 2 = 稀有
+    -- 3 = 正常
+    -- 4 = 普通
     OtherLoot = 2,
-    -- Controls the global temperature.
-    -- 1 = Very Cold
-    -- 2 = Cold
-    -- 3 = Normal
-    -- 4 = Hot
+    -- 控制全球溫度。
+    -- 1 = 非常冷
+    -- 2 = 冷
+    -- 3 = 正常
+    -- 4 = 熱
     Temperature = 3,
-    -- Controls how often it rains.
-    -- 1 = Very Dry
-    -- 2 = Dry
-    -- 3 = Normal
-    -- 4 = Rainy
+    -- 控制下雨的頻率。
+    -- 1 = 非常乾燥
+    -- 2 = 乾燥
+    -- 3 = 正常
+    -- 4 = 下雨
     Rain = 3,
-    -- Number of days until 100% growth.
-    -- 1 = Very Fast (20 Days)
-    -- 2 = Fast (50 Days)
-    -- 3 = Normal (100 Days)
-    -- 4 = Slow (200 Days)
+    -- 直到 100% 增長的天數。
+    -- 1 = 非常快（20 天）
+    -- 2 = 快速（50 天）
+    -- 3 = 正常（100 天）
+    -- 4 = 慢（200 天）
     ErosionSpeed = 3,
-    -- Number of days until 100% growth. -1 means no growth. Zero means use the Erosion Speed option. Maximum 36,500 (100 years). Minimum=-1 Maximum=36500 Default=0
+    -- 直到 100% 增長的天數。 -1 表示沒有增長。零表示使用侵蝕速度選項。最多 36,500（100 年）。最小值=-1 最大值=36500 默認值=0
     ErosionDays = 0,
-    -- Modifies the base XP gain from actions by this number. Minimum=0.00 Maximum=1000.00 Default=1.00
+    -- 通過此數字修改操作的基本 XP 增益。最小值=0.00 最大值=1000.00 默認值=1.00
     XpMultiplier = 1.0,
-    -- Use this to multiply or reduce engine general loudness. Minimum=0.00 Maximum=100.00 Default=1.00
+    -- 使用它來增加或減少發動機的一般響度。最小值=0.00 最大值=100.00 默認值=1.00
     ZombieAttractionMultiplier = 1.0,
-    -- Governs whether cars are locked, need keys to start etc.
+    -- 控制汽車是否被鎖定，是否需要鑰匙啟動等。
     VehicleEasyUse = false,
-    -- Controls the speed of plant growth.
-    -- 1 = Very Fast
-    -- 2 = Fast
-    -- 3 = Normal
-    -- 4 = Slow
+    -- 控制植物生長的速度。
+    -- 1 = 非常快
+    -- 2 = 快
+    -- 3 = 正常
+    -- 4 = 慢
     Farming = 3,
-    -- Controls the time it takes for food to break down in a composter.
-    -- 1 = 1 Week
-    -- 2 = 2 Weeks
-    -- 3 = 3 Weeks
-    -- 4 = 4 Weeks
-    -- 5 = 6 Weeks
-    -- 6 = 8 Weeks
-    -- 7 = 10 Weeks
+    -- 控制食物在堆肥機中分解的時間。
+    -- 1 = 1 週
+    -- 2 = 2 週
+    -- 3 = 3 週
+    -- 4 = 4 週
+    -- 5 = 6 週
+    -- 6 = 8 週
+    -- 7 = 10 週
     CompostTime = 2,
-    -- How fast character's hunger, thirst and fatigue will decrease.
-    -- 1 = Very Fast
-    -- 2 = Fast
-    -- 3 = Normal
-    -- 4 = Slow
+    -- 角色的飢餓、口渴和疲勞會以多快的速度減少。
+    -- 1 = 非常快
+    -- 2 = 快
+    -- 3 = 正常
+    -- 4 = 慢
     StatsDecrease = 3,
-    -- Controls the abundance of fish and general forage.
-    -- 1 = Very Poor
-    -- 2 = Poor
-    -- 3 = Normal
-    -- 4 = Abundant
+    -- 控制魚類和一般草料的豐度。
+    -- 1 = 非常差
+    -- 2 = 差
+    -- 3 = 正常
+    -- 4 = 豐富
     NatureAbundance = 3,
-    -- 1 = Never
-    -- 2 = Extremely Rare
-    -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- 1 = 從不
+    -- 2 = 極其罕見
+    -- 3 = 稀有
+    -- 4 = 有時
+    -- 5 = 經常
     Alarm = 4,
-    -- How frequently homes and buildings will be discovered locked
-    -- 1 = Never
-    -- 2 = Extremely Rare
-    -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- 發現房屋和建築物上鎖的頻率
+    -- 1 = 從不
+    -- 2 = 極其罕見
+    -- 3 = 稀有
+    -- 4 = 有時
+    -- 5 = 經常
     LockedHouses = 6,
-    -- Spawn with chips, water bottle, school bag, baseball bat and a hammer.
+    -- 生成薯條、水瓶、書包、棒球棒和錘子。
     StarterKit = false,
-    -- Nutritional value of food affects the player's condition.
+    -- 食物的營養價值會影響玩家的狀態。
     Nutrition = true,
-    -- Define how fast the food will spoil inside or outside fridge.
-    -- 1 = Very Fast
-    -- 2 = Fast
-    -- 3 = Normal
-    -- 4 = Slow
+    -- 定義食物在冰箱內外變質的速度。
+    -- 1 = 非常快
+    -- 2 = 快
+    -- 3 = 正常
+    -- 4 = 慢
     FoodRotSpeed = 3,
-    -- Define how much a fridge will be effective.
-    -- 1 = Very Low
-    -- 2 = Low
-    -- 3 = Normal
-    -- 4 = High
+    -- 定義冰箱的有效性。
+    -- 1 = 非常低
+    -- 2 = 低
+    -- 3 = 正常
+    -- 4 = 高
     FridgeFactor = 3,
-    -- Items will respawn in already-looted containers in towns and trailer parks. Items will not respawn in player-made containers.
-    -- 1 = None
-    -- 2 = Every Day
-    -- 3 = Every Week
-    -- 4 = Every Month
+    -- 物品將在城鎮和拖車公園中已經掠奪的容器中重生。物品不會在玩家製造的容器中重生。
+    -- 1 = 無
+    -- 2 = 每天
+    -- 3 = 每週
+    -- 4 = 每月
     LootRespawn = 1,
-    -- When > 0, loot will not respawn in zones that have been visited within this number of in-game hours. Minimum=0 Maximum=2147483647 Default=0
+    -- 當 > 0 時，戰利品不會在此遊戲內小時數內訪問過的區域重生。最小值=0 最大值=2147483647 默認值=0
     SeenHoursPreventLootRespawn = 0,
-    -- A comma-separated list of item types that will be removed after HoursForWorldItemRemoval hours.
+    -- 將在 HoursForWorldItemRemoval 小時後刪除的項目類型的逗號分隔列表。
     WorldItemRemovalList = "Base.Vest,Base.Shirt,Base.Blouse,Base.Skirt,Base.Shoes,Base.Hat,Base.Glasses",
-    -- Number of hours since an item was dropped on the ground before it is removed.  Items are removed the next time that part of the map is loaded.  Zero means items are not removed. Minimum=0.00 Maximum=2147483647.00 Default=24.00
+    -- 物品在被移除之前掉到地上的小時數。下次加載地圖的該部分時會刪除項目。零表示不刪除項目。最小值=0.00 最大值=2147483647.00 默認值=24.00
     HoursForWorldItemRemoval = 24.0,
-    -- If true, any items *not* in WorldItemRemovalList will be removed.
+    -- 如果為 true，則 WorldItemRemovalList 中 *not* 的任何項目都將被刪除。
     ItemRemovalListBlacklistToggle = false,
-    -- This will affect starting world erosion and food spoilage.
+    -- 這將影響初始世界的侵蝕和食物腐敗。
     -- 1 = 0
     -- 2 = 1
     -- 3 = 2
@@ -239,208 +239,208 @@ SandboxVars = {
     -- 11 = 10
     -- 12 = 11
     TimeSinceApo = 1,
-    -- Will influence how much water the plant will lose per day and their ability to avoid disease.
-    -- 1 = Very High
-    -- 2 = High
-    -- 3 = Normal
-    -- 4 = Low
+    -- 將影響植物每天損失多少水分以及它們避免疾病的能力。
+    -- 1 = 非常高
+    -- 2 = 高
+    -- 3 = 正常
+    -- 4 = 低
     PlantResilience = 3,
-    -- Controls the yield of plants when harvested.
-    -- 1 = Very Poor
-    -- 2 = Poor
-    -- 3 = Normal
-    -- 4 = Abundant
+    -- 在收穫時控制植物的產量。
+    -- 1 = 非常差
+    -- 2 = 差
+    -- 3 = 正常
+    -- 4 = 豐富
     PlantAbundance = 3,
-    -- Recovery from being tired from performing actions
-    -- 1 = Very Fast
-    -- 2 = Fast
-    -- 3 = Normal
-    -- 4 = Slow
+    -- 從執行動作中恢復過來
+    -- 1 = 非常快
+    -- 2 = 快
+    -- 3 = 正常
+    -- 4 = 慢
     EndRegen = 3,
-    -- How regularly helicopters pass over the event zone.
-    -- 1 = Never
-    -- 2 = Once
-    -- 3 = Sometimes
+    -- 直升機飛越活動區的頻率。
+    -- 1 = 從不
+    -- 2 = 一次
+    -- 3 = 有時
     Helicopter = 2,
-    -- How often zombie attracting metagame events like distant gunshots will occur.
-    -- 1 = Never
-    -- 2 = Sometimes
+    -- 殭屍吸引元遊戲事件（如遠處槍聲）的頻率。
+    -- 1 = 從不
+    -- 2 = 有時
     MetaEvent = 2,
-    -- Governs night-time metagame events during the player's sleep.
-    -- 1 = Never
-    -- 2 = Sometimes
+    -- 管理玩家睡眠期間的夜間元遊戲事件。
+    -- 1 = 從不
+    -- 2 = 有時
     SleepingEvent = 1,
-    -- Increase/decrease the chance of electrical generators spawning on the map.
-    -- 1 = Extremely Rare
-    -- 2 = Rare
-    -- 3 = Sometimes
-    -- 4 = Often
+    -- 增加/減少發電機在地圖上產生的機會。
+    -- 1 = 極其罕見
+    -- 2 = 稀有
+    -- 3 = 有時
+    -- 4 = 經常
     GeneratorSpawning = 3,
-    -- How much fuel is consumed per in-game hour. Minimum=0.00 Maximum=100.00 Default=1.00
+    -- 每個遊戲小時消耗多少燃料。最小值=0.00 最大值=100.00 默認值=1.00
     GeneratorFuelConsumption = 1.0,
-    -- Increase/decrease probability of discovering randomized safe houses on the map: either burnt out, containing loot stashes, dead survivor bodies etc.
-    -- 1 = Never
-    -- 2 = Extremely Rare
-    -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- 增加/減少在地圖上發現隨機安全屋的概率：要么被燒毀，要么包含戰利品藏匿處，要么死去的倖存者屍體等。
+    -- 1 = 從不
+    -- 2 = 極其罕見
+    -- 3 = 稀有
+    -- 4 = 有時
+    -- 5 = 經常
     SurvivorHouseChance = 3,
-    -- 1 = Never
-    -- 2 = Extremely Rare
-    -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- 1 = 從不
+    -- 2 = 極其罕見
+    -- 3 = 稀有
+    -- 4 = 有時
+    -- 5 = 經常
     VehicleStoryChance = 3,
-    -- 1 = Never
-    -- 2 = Extremely Rare
-    -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- 1 = 從不
+    -- 2 = 極其罕見
+    -- 3 = 稀有
+    -- 4 = 有時
+    -- 5 = 經常
     ZoneStoryChance = 3,
-    -- Impacts on how often a looted map will have annotations marked on it by a deceased survivor.
-    -- 1 = Never
-    -- 2 = Extremely Rare
-    -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- 影響被掠奪的地圖上由已故倖存者標記註釋的頻率。
+    -- 1 = 從不
+    -- 2 = 極其罕見
+    -- 3 = 稀有
+    -- 4 = 有時
+    -- 5 = 經常
     AnnotatedMapChance = 4,
-    -- Adds free points during character creation. Minimum=-100 Maximum=100 Default=0
+    -- 在角色創建過程中添加免費積分。最小值=-100 最大值=100 默認值=0
     CharacterFreePoints = 0,
-    -- Gives player-built constructions extra hit points so they are more resistant to zombie damage.
-    -- 1 = Very Low
-    -- 2 = Low
-    -- 3 = Normal
-    -- 4 = High
+    -- 為玩家建造的建築提供額外的生命值，因此它們更能抵抗殭屍的傷害。
+    -- 1 = 非常低
+    -- 2 = 低
+    -- 3 = 正常
+    -- 4 = 高
     ConstructionBonusPoints = 3,
-    -- Governs the ambient lighting at night.
-    -- 1 = Pitch Black
-    -- 2 = Dark
-    -- 3 = Normal
+    -- 控制夜間的環境照明。
+    -- 1 = 黑色
+    -- 2 = 黑暗
+    -- 3 = 正常
     NightDarkness = 3,
-    -- Governs the time from dusk to dawn.
-    -- 1 = Always Night
-    -- 2 = Long
-    -- 3 = Normal
-    -- 4 = Short
+    -- 掌管從黃昏到黎明的時間。
+    -- 1 = 永遠的夜晚
+    -- 2 = 長
+    -- 3 = 正常
+    -- 4 = 短
     NightLength = 3,
-    -- Increase and decrease the impact injuries have on your body, and their healing time.
-    -- 1 = Low
-    -- 2 = Normal
+    -- 增加和減少傷害對您身體的影響，以及它們的癒合時間。
+    -- 1 = 低
+    -- 2 = 正常
     InjurySeverity = 2,
-    -- Enable or disable broken limbs when survivors receive injuries from impacts, zombie damage and falls.
+    -- 當倖存者因撞擊、殭屍傷害和跌倒而受傷時，啟用或禁用斷肢。
     BoneFracture = true,
-    -- How long before zombie bodies disappear. Minimum=-1.00 Maximum=2147483647.00 Default=216.00
+    -- 殭屍屍體多久會消失。最小值=-1.00 最大值=2147483647.00 默認值=216.00
     HoursForCorpseRemoval = 216.0,
-    -- Governs impact that nearby decaying bodies has on the player's health and emotions.
-    -- 1 = None
-    -- 2 = Low
-    -- 3 = Normal
+    -- 管理附近腐爛的屍體對玩家健康和情緒的影響。
+    -- 1 = 無
+    -- 2 = 低
+    -- 3 = 正常
     DecayingCorpseHealthImpact = 3,
-    -- How much blood is sprayed on floor and walls.
-    -- 1 = None
-    -- 2 = Low
-    -- 3 = Normal
-    -- 4 = High
+    -- 有多少鮮血噴在地板和牆壁上。
+    -- 1 = 無
+    -- 2 = 低
+    -- 3 = 正常
+    -- 4 = 高
     BloodLevel = 3,
-    -- Governs how quickly clothing degrades, becomes dirty, and bloodied.
-    -- 1 = Disabled
-    -- 2 = Slow
-    -- 3 = Normal
+    -- 控製衣服降解、變髒和流血的速度。
+    -- 1 = 禁用
+    -- 2 = 慢
+    -- 3 = 正常
     ClothingDegradation = 3,
     FireSpread = true,
-    -- Number of in-game days before rotten food is removed from the map. -1 means rotten food is never removed. Minimum=-1 Maximum=2147483647 Default=-1
+    -- 腐爛食物從地圖上移除前的遊戲天數。 -1 意味著腐爛的食物永遠不會被移除。最小值=-1 最大值=2147483647 默認值=-1
     DaysForRottenFoodRemoval = -1,
-    -- If enabled, generators will work on exterior tiles, allowing for example to power gas pump.
+    -- 如果啟用，發電機將在外部瓷磚上工作，例如為氣泵供電。
     AllowExteriorGenerator = true,
-    -- Controls the maximum intensity of fog.
-    -- 1 = Normal
-    -- 2 = Moderate
+    -- 控制霧的最大強度。
+    -- 1 = 正常
+    -- 2 = 中等
     MaxFogIntensity = 1,
-    -- Controls the maximum intensity of rain.
-    -- 1 = Normal
-    -- 2 = Moderate
+    -- 控制降雨的最大強度。
+    -- 1 = 正常
+    -- 2 = 中等
     MaxRainFxIntensity = 1,
-    -- If disabled snow will not accumulate on ground but will still be visible on vegetation and rooftops.
+    -- 如果禁用雪不會積聚在地面上，但仍會在植被和屋頂上可見。
     EnableSnowOnGround = true,
-    -- When enabled certain melee weapons will be able to strike multiple zombies in one hit.
+    -- 啟用後，某些近戰武器將能夠一擊打擊多個殭屍。
     MultiHitZombies = false,
-    -- Chance of being bitten when a zombie attacks from behind.
-    -- 1 = Low
-    -- 2 = Medium
+    -- 殭屍從背後攻擊時被咬的機率。
+    -- 1 = 低
+    -- 2 = 中等
     RearVulnerability = 3,
-    -- Disable to walk unimpeded while melee attacking.
+    -- 近戰攻擊時無法暢行無阻。
     AttackBlockMovements = true,
     AllClothesUnlocked = false,
-    -- Governs how frequently cars are discovered on the map
-    -- 1 = None
-    -- 2 = Very Low
-    -- 3 = Low
-    -- 4 = Normal
+    -- 控制在地圖上發現汽車的頻率
+    -- 1 = 無
+    -- 2 = 非常低
+    -- 3 = 低
+    -- 4 = 正常
     CarSpawnRate = 3,
-    -- Governs the chances of finding vehicles with gas in the tank.
-    -- 1 = Low
-    -- 2 = Normal
+    -- 控制找到油箱中有汽油的車輛的機會。
+    -- 1 = 低
+    -- 2 = 正常
     ChanceHasGas = 1,
-    -- Governs how full gas tanks will be in discovered cars.
-    -- 1 = Very Low
-    -- 2 = Low
-    -- 3 = Normal
-    -- 4 = High
-    -- 5 = Very High
+    -- 管理已發現汽車的油箱滿油量。
+    -- 1 = 非常低
+    -- 2 = 低
+    -- 3 = 正常
+    -- 4 = 高
+    -- 5 = 非常高
     InitialGas = 2,
-    -- Governs how full gas tanks in fuel station will be, initially.
-    -- 1 = Empty
-    -- 2 = Very Low
-    -- 3 = Low
-    -- 4 = Normal
-    -- 5 = High
-    -- 6 = Very High
-    -- 7 = Full
+    -- 最初控制加油站的油箱滿油量。
+    -- 1 = 空
+    -- 2 = 非常低
+    -- 3 = 低
+    -- 4 = 正常
+    -- 5 = 高
+    -- 6 = 非常高
+    -- 7 = 滿
     FuelStationGas = 4,
-    -- How gas-hungry vehicles on the map are. Minimum=0.00 Maximum=100.00 Default=1.00
+    -- 地圖上耗油量大的車輛。最小值=0.00 最大值=100.00 默認值=1.00
     CarGasConsumption = 1.0,
-    -- 1 = Never
-    -- 2 = Extremely Rare
-    -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- 1 = 從不
+    -- 2 = 極其罕見
+    -- 3 = 稀有
+    -- 4 = 有時
+    -- 5 = 經常
     LockedCar = 3,
-    -- General condition of vehicles discovered on the map
-    -- 1 = Very Low
-    -- 2 = Low
-    -- 3 = Normal
-    -- 4 = High
+    -- 地圖上發現車輛的一般狀況
+    -- 1 = 非常低
+    -- 2 = 低
+    -- 3 = 正常
+    -- 4 = 高
     CarGeneralCondition = 2,
-    -- Governs the amount of damage dealt to vehicles that crash.
-    -- 1 = Very Low
-    -- 2 = Low
-    -- 3 = Normal
-    -- 4 = High
+    -- 控制對碰撞車輛造成的傷害量。
+    -- 1 = 非常低
+    -- 2 = 低
+    -- 3 = 正常
+    -- 4 = 高
     CarDamageOnImpact = 3,
-    -- Damage received by the player from the car in a collision.
-    -- 1 = None
-    -- 2 = Low
-    -- 3 = Normal
-    -- 4 = High
+    -- 玩家在碰撞中從汽車受到的傷害。
+    -- 1 = 無
+    -- 2 = 低
+    -- 3 = 正常
+    -- 4 = 高
     DamageToPlayerFromHitByACar = 1,
-    -- Enable or disable traffic jams that spawn on the main roads of the map.
+    -- 啟用或禁用在地圖主要道路上產生的交通擁堵。
     TrafficJam = true,
-    -- How frequently cars will be discovered with an alarm.
-    -- 1 = Never
-    -- 2 = Extremely Rare
-    -- 3 = Rare
-    -- 4 = Sometimes
-    -- 5 = Often
+    -- 多長時間會發現帶有警報的汽車。
+    -- 1 = 從不
+    -- 2 = 極其罕見
+    -- 3 = 稀有
+    -- 4 = 有時
+    -- 5 = 經常
     CarAlarm = 2,
-    -- Enable or disable player getting damage from being in a car accident.
+    -- 啟用或禁用玩家在車禍中受到傷害。
     PlayerDamageFromCrash = true,
-    -- How many in-game hours before a wailing siren shuts off. Minimum=0.00 Maximum=168.00 Default=0.00
+    -- 哀號警報關閉前的遊戲時間。最小值=0.00 最大值=168.00 默認值=0.00
     SirenShutoffHours = 0.0,
-    --  Governs whether player can discover a car that has been maintained and cared for after the infection struck.
-    -- 1 = Low
-    -- 2 = Normal
+    -- 控制玩家是否能找到一輛在感染髮生後得到維護和保養的汽車。
+    -- 1 = 低
+    -- 2 = 正常
     RecentlySurvivorVehicles = 1,
-    -- Enables vehicles to spawn.
+    -- 使車輛產生。
     EnableVehicles = true,
     Map = {
         AllowMiniMap = false,
@@ -448,113 +448,113 @@ SandboxVars = {
         MapAllKnown = false,
     },
     ZombieLore = {
-        -- Controls the zombie movement rate.
-        -- 1 = Sprinters
-        -- 2 = Fast Shamblers
-        -- 3 = Shamblers
+        -- 控制殭屍移動速度。
+        -- 1 = 短跑運動員
+        -- 2 = 快速搖晃者
+        -- 3 = 蹣跚者
         Speed = 2,
-        -- Controls the damage zombies inflict per attack.
-        -- 1 = Superhuman
-        -- 2 = Normal
-        -- 3 = Weak
+        -- 控制殭屍每次攻擊造成的傷害。
+        -- 1 = 超人
+        -- 2 = 正常
+        -- 3 = 弱
         Strength = 2,
-        -- Controls the difficulty to kill zombies.
-        -- 1 = Tough
-        -- 2 = Normal
-        -- 3 = Fragile
+        -- 控制殺死殭屍的難度。
+        -- 1 = 艱難
+        -- 2 = 正常
+        -- 3 = 易碎
         Toughness = 2,
-        -- Controls how the zombie virus spreads.
-        -- 1 = Blood + Saliva
-        -- 2 = Saliva Only
-        -- 3 = Everyone's Infected
+        -- 控制殭屍病毒的傳播方式。
+        -- 1 = 血液 + 唾液
+        -- 2 = 僅唾液
+        -- 3 = 每個人都被感染
         Transmission = 1,
-        -- Controls how quickly the infection takes effect.
-        -- 1 = Instant
-        -- 2 = 0-30 Seconds
-        -- 3 = 0-1 Minutes
-        -- 4 = 0-12 Hours
-        -- 5 = 2-3 Days
-        -- 6 = 1-2 Weeks
+        -- 控制感染生效的速度。
+        -- 1 = 即時
+        -- 2 = 0-30 秒
+        -- 3 = 0-1 分鐘
+        -- 4 = 0-12 小時
+        -- 5 = 2-3 天
+        -- 6 = 1-2 週
         Mortality = 5,
-        -- Controls how quickly corpses rise as zombies.
-        -- 1 = Instant
-        -- 2 = 0-30 Seconds
-        -- 3 = 0-1 Minutes
-        -- 4 = 0-12 Hours
-        -- 5 = 2-3 Days
+        -- 控制屍體變成殭屍的速度。
+        -- 1 = 即時
+        -- 2 = 0-30 秒
+        -- 3 = 0-1 分鐘
+        -- 4 = 0-12 小時
+        -- 5 = 2-3 天
         Reanimate = 3,
-        -- Controls zombie intelligence.
-        -- 1 = Navigate + Use Doors
-        -- 2 = Navigate
-        -- 3 = Basic Navigation
+        -- 控制殭屍智能。
+        -- 1 = 導航 + 使用門
+        -- 2 = 導航
+        -- 3 = 基本導航
         Cognition = 3,
-        -- Controls which zombies can crawl under vehicles.
-        -- 1 = Crawlers Only
-        -- 2 = Extremely Rare
-        -- 3 = Rare
-        -- 4 = Sometimes
-        -- 5 = Often
-        -- 6 = Very Often
+        -- 控制哪些殭屍可以在車輛下爬行。
+        -- 1 = 僅限爬蟲
+        -- 2 = 極其罕見
+        -- 3 = 稀有
+        -- 4 = 有時
+        -- 5 = 經常
+        -- 6 = 非常頻繁
         CrawlUnderVehicle = 5,
-        -- Controls how long zombies remember players after seeing or hearing.
-        -- 1 = Long
-        -- 2 = Normal
-        -- 3 = Short
+        -- 控制殭屍在看到或聽到後記住玩家的時間。
+        -- 1 = 長
+        -- 2 = 正常
+        -- 3 = 短
         Memory = 2,
-        -- Controls the effects of decomposition over time.
-        -- 1 = Slows + Weakens
-        -- 2 = Slows
-        -- 3 = Weakens
+        -- 控制分解隨時間的影響。
+        -- 1 = 減慢 + 減弱
+        -- 2 = 減速
+        -- 3 = 減弱
         Decomp = 1,
-        -- Controls zombie vision radius.
-        -- 1 = Eagle
-        -- 2 = Normal
+        -- 控制殭屍視野半徑。
+        -- 1 = 鷹
+        -- 2 = 正常
         Sight = 2,
-        -- Controls zombie hearing radius.
-        -- 1 = Pinpoint
-        -- 2 = Normal
+        -- 控制殭屍的聽力範圍。
+        -- 1 = 精確定位
+        -- 2 = 正常
         Hearing = 2,
-        -- Zombies that have not seen/heard player can attack doors and constructions while roaming.
+        -- 沒有看到/聽到玩家的殭屍可以在漫遊時攻擊門和建築。
         ThumpNoChasing = false,
-        -- Governs whether or not zombies can destroy player constructions and defences.
+        -- 控制殭屍是否可以摧毀玩家的建築和防禦。
         ThumpOnConstruction = true,
-        -- Governs whether zombies are more active during the day, or whether they act more nocturnally.  Active zombies will use the speed set in the "Speed" setting. Inactive zombies will be slower, and tend not to give chase.
-        -- 1 = Both
-        -- 2 = Night
+        -- 控制殭屍在白天是否更活躍，或者它們是否在夜間更活躍。活躍的殭屍將使用“速度”設置中設置的速度。不活躍的殭屍會更慢，並且往往不會追趕。
+        -- 1 = 兩者
+        -- 2 = 夜晚
         ActiveOnly = 1,
-        -- Allows zombies to trigger house alarms when breaking through windows and doors.
+        -- 允許殭屍在突破門窗時觸發房屋警報。
         TriggerHouseAlarm = false,
-        -- When enabled if multiple zombies are attacking they can drag you down to feed. Dependent on zombie strength.
+        -- 如果多個殭屍正在攻擊，則啟用時，它們可以將您拖下來餵食。依賴殭屍強度。
         ZombiesDragDown = true,
-        -- When enabled zombies will have a chance to lunge after climbing over a fence if you're too close.
+        -- 啟用後，如果你離得太近，殭屍將有機會在翻過柵欄後衝刺。
         ZombiesFenceLunge = true,
     },
     ZombieConfig = {
-        -- Set by the "Zombie Count" population option. 4.0 = Insane, Very High = 3.0, 2.0 = High, 1.0 = Normal, 0.35 = Low, 0.0 = None. Minimum=0.00 Maximum=4.00 Default=1.00
+        -- 由“殭屍計數”人口選項設置。 4.0 = 瘋狂，非常高 = 3.0，2.0 = 高，1.0 = 正常，0.35 = 低，0.0 = 無。最小值=0.00 最大值=4.00 默認值=1.00
         PopulationMultiplier = 1.0,
-        -- Adjusts the desired population at the start of the game. Minimum=0.00 Maximum=4.00 Default=1.00
+        -- 在遊戲開始時調整所需的人口。最小值=0.00 最大值=4.00 默認值=1.00
         PopulationStartMultiplier = 1.0,
-        -- Adjusts the desired population on the peak day. Minimum=0.00 Maximum=4.00 Default=1.50
+        -- 調整高峰日所需的人口。最小值=0.00 最大值=4.00 默認值=1.50
         PopulationPeakMultiplier = 1.5,
-        -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
+        -- 人口達到高峰的那一天。最小值=1 最大值=365 默認值=28
         PopulationPeakDay = 28,
-        -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
+        -- 殭屍在一個牢房中重生之前必須經過的小時數。如果為零，則禁用生成。最小值=0.00 最大值=8760.00 默認值=72.00
         RespawnHours = 72.0,
-        -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0.00 Maximum=8760.00 Default=16.00
+        -- 在殭屍可以在其中重生之前必須看不見區塊的小時數。最小值=0.00 最大值=8760.00 默認值=16.00
         RespawnUnseenHours = 16.0,
-        -- The fraction of a cell's desired population that may respawn every RespawnHours. Minimum=0.00 Maximum=1.00 Default=0.10
+        -- 每一個 RespawnHours 可能重生的細胞所需種群的比例。最小值=0.00 最大值=1.00 默認值=0.10
         RespawnMultiplier = 0.1,
-        -- The number of hours that must pass before zombies migrate to empty parts of the same cell. If zero, migration is disabled. Minimum=0.00 Maximum=8760.00 Default=12.00
+        -- 在殭屍遷移到同一單元的空部分之前必須經過的小時數。如果為零，則禁用遷移。最小值=0.00 最大值=8760.00 默認值=12.00
         RedistributeHours = 12.0,
-        -- The distance a zombie will try to walk towards the last sound it heard. Minimum=10 Maximum=1000 Default=100
+        -- 殭屍試圖走向它聽到的最後一個聲音的距離。最小值=10 最大值=1000 默認值=100
         FollowSoundDistance = 100,
-        -- The size of groups real zombies form when idle. Zero means zombies don't form groups. Groups don't form inside buildings or forest zones. Minimum=0 Maximum=1000 Default=20
+        -- 空閒時真正殭屍形成的群體的大小。零意味著殭屍不形成群體。團體不會在建築物或森林區域內形成。最小值=0 最大值=1000 默認值=20
         RallyGroupSize = 20,
-        -- The distance real zombies travel to form groups when idle. Minimum=5 Maximum=50 Default=20
+        -- 真正的殭屍在空閒時成群結隊的距離。最小值=5 最大值=50 默認值=20
         RallyTravelDistance = 20,
-        -- The distance between zombie groups. Minimum=5 Maximum=25 Default=15
+        -- 殭屍群之間的距離。最小值=5 最大值=25 默認值=15
         RallyGroupSeparation = 15,
-        -- How close members of a group stay to the group's leader. Minimum=1 Maximum=10 Default=3
+        -- 一個群體的成員與該群體的領導者的距離有多近。最小值=1 最大值=10 默認值=3
         RallyGroupRadius = 3,
     },
 }
