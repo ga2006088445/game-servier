@@ -1,0 +1,13 @@
+version: '3.5'
+services:
+  pz-server:
+     build: .
+     restart: "on-failure:5"
+     network_mode: "host"
+   #   volumes:
+   #      - ./ServerSetting.ini:/root/craftopia_server/ServerSetting.ini
+   #      - ./DedicatedServerSave:/root/craftopia_server/DedicatedServerSave
+     stdin_open: true 
+     tty: true
+     stop_grace_period: 6m
+
