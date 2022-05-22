@@ -3,4 +3,4 @@ wine64 /root/vRising/VRisingServer.exe \
 -persistentDataPath /root/save-data \
 -serverName "tomorrow" \
 -saveName "tomorrow" \
--logFile /root/save-data/logs/VRisingServer.log >/dev/null 2>&1 &
+-logFile /root/save-data/logs/VRisingServer.log

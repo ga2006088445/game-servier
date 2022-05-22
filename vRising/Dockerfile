@@ -1,4 +1,7 @@
-FROM ubuntu:20.04
+FROM ich777/winehq-baseimage
+
+LABEL org.opencontainers.image.authors="admin@minenet.at"
+LABEL org.opencontainers.image.source="https://github.com/ich777/docker-steamcmd-server"
 
 RUN apt-get update && \
 	apt-get -y install --no-install-recommends lib32gcc-s1 screen xvfb winbind xauth && \
@@ -29,8 +32,8 @@ RUN mkdir $DATA_DIR && \
 	chown -R $USER $DATA_DIR && \
 	ulimit -n 2048
 
-COPY ./scripts/ /root/scripts/
-RUN chmod -R 770 /root/scripts/
+ADD /scripts/ /opt/scripts/
+RUN chmod -R 770 /opt/scripts/
 
 #Server Start
 ENTRYPOINT ["/opt/scripts/start.sh"]
