@@ -1,5 +1,5 @@
 ﻿{
-  "Name": "V Rising Server",
+  "Name": "tomorrow Server",
   "Description": "",
   "Port": 9876,
   "QueryPort": 9877,
@@ -7,7 +7,7 @@
   "MaxConnectedUsers": 40,
   "MaxConnectedAdmins": 4,
   "ServerFps": 30,
-  "SaveName": "world1",
+  "SaveName": "tomorrow",
   "Password": "",
   "Secure": true,
   "ListOnMasterServer": true,
