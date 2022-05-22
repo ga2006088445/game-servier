@@ -1,34 +1,36 @@
 FROM ubuntu:20.04
-RUN dpkg --add-architecture i386
-RUN apt-get update
-RUN apt-get install -y libstdc++6:i386 libgcc1:i386 libcurl4-gnutls-dev:i386 libcurl3-gnutls
-RUN apt-get install -y libsdl2-2.0-0:i386
-RUN apt-get install -y wget
 
-RUN mkdir -p /root/steamcmd/
-WORKDIR /root/steamcmd/
-RUN wget "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz"
-RUN tar -xvzf steamcmd_linux.tar.gz
+RUN apt-get update && \
+	apt-get -y install --no-install-recommends lib32gcc-s1 screen xvfb winbind xauth && \
+	rm -rf /var/lib/apt/lists/*
 
-COPY vRising.txt vRising.txt
-RUN /root/steamcmd/steamcmd.sh +runscript /root/steamcmd/vRising.txt
+ENV DATA_DIR="/serverdata"
+ENV STEAMCMD_DIR="${DATA_DIR}/steamcmd"
+ENV SERVER_DIR="${DATA_DIR}/serverfiles"
+ENV GAME_ID="template"
+ENV SERVER_NAME="V Rising Docker"
+ENV WORLD_NAME="world1"
+ENV GAME_NAME="template"
+ENV GAME_PARAMS="template"
+ENV GAME_PORT=27015
+ENV VALIDATE=""
+ENV UMASK=000
+ENV UID=99
+ENV GID=100
+ENV USERNAME=""
+ENV PASSWRD=""
+ENV USER="steam"
+ENV DATA_PERM=770
 
-RUN apt-get install -y byobu net-tools
+RUN mkdir $DATA_DIR && \
+	mkdir $STEAMCMD_DIR && \
+	mkdir $SERVER_DIR && \
+	useradd -d $DATA_DIR -s /bin/bash $USER && \
+	chown -R $USER $DATA_DIR && \
+	ulimit -n 2048
 
-COPY start.sh /root/start.sh
-RUN chmod u+x /root/start.sh
+ADD /scripts/ /opt/scripts/
+RUN chmod -R 770 /opt/scripts/
 
-WORKDIR /usr/lib
-RUN ln -s libcurl.so.4 libcurl-gnutls.so.4
-
-WORKDIR /root/steamcmd/
-CMD ["/root/start.sh"]
-
-
-# 8766 UDP
-# 8767 UDP
-# 16261 UDP
-
-# 16262 - 16272 TCP
-# 27015 TCP
-# 注意：從版本 41.65 開始，這些額外的端口可能不再需要。
+#Server Start
+ENTRYPOINT ["/opt/scripts/start.sh"]
