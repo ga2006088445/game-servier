@@ -1,39 +1,25 @@
 FROM ich777/winehq-baseimage
+RUN dpkg --add-architecture i386
+RUN apt-get update
+RUN apt-get install -y libstdc++6:i386 libgcc1:i386 libcurl4-gnutls-dev:i386 libcurl3-gnutls
+RUN apt-get install -y libsdl2-2.0-0:i386
+RUN apt-get install -y wget
+RUN apt-get install -y --no-install-recommends lib32gcc-s1 screen xvfb winbind xauth
+RUN apt-get install -y byobu net-tools
+RUN rm -rf /var/lib/apt/lists/*
 
-LABEL org.opencontainers.image.authors="admin@minenet.at"
-LABEL org.opencontainers.image.source="https://github.com/ich777/docker-steamcmd-server"
+RUN mkdir -p /root/steamcmd/
+WORKDIR /root/steamcmd/
+RUN wget "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz"
+RUN tar -xvzf steamcmd_linux.tar.gz
 
-RUN apt-get update && \
-	apt-get -y install --no-install-recommends lib32gcc-s1 screen xvfb winbind xauth && \
-	rm -rf /var/lib/apt/lists/*
+COPY vRising.txt vRising.txt
+RUN /root/steamcmd/steamcmd.sh +runscript /root/steamcmd/vRising.txt
 
-ENV DATA_DIR="/serverdata"
-ENV STEAMCMD_DIR="${DATA_DIR}/steamcmd"
-ENV SERVER_DIR="${DATA_DIR}/serverfiles"
-ENV GAME_ID="template"
-ENV SERVER_NAME="V Rising Docker"
-ENV WORLD_NAME="world1"
-ENV GAME_NAME="template"
-ENV GAME_PARAMS="template"
-ENV GAME_PORT=27015
-ENV VALIDATE=""
-ENV UMASK=000
-ENV UID=99
-ENV GID=100
-ENV USERNAME=""
-ENV PASSWRD=""
-ENV USER="steam"
-ENV DATA_PERM=770
+COPY start.sh /root/start.sh
+RUN chmod u+x /root/start.sh
 
-RUN mkdir $DATA_DIR && \
-	mkdir $STEAMCMD_DIR && \
-	mkdir $SERVER_DIR && \
-	useradd -d $DATA_DIR -s /bin/bash $USER && \
-	chown -R $USER $DATA_DIR && \
-	ulimit -n 2048
+WORKDIR /usr/lib
+RUN ln -s libcurl.so.4 libcurl-gnutls.so.4
 
-ADD /scripts/ /opt/scripts/
-RUN chmod -R 770 /opt/scripts/
-
-#Server Start
-ENTRYPOINT ["/opt/scripts/start.sh"]
+CMD ["/root/start.sh"]
