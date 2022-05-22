@@ -29,8 +29,8 @@ RUN mkdir $DATA_DIR && \
 	chown -R $USER $DATA_DIR && \
 	ulimit -n 2048
 
-ADD /scripts/ /opt/scripts/
-RUN chmod -R 770 /opt/scripts/
+COPY ./scripts/ /root/scripts/
+RUN chmod -R 770 /root/scripts/
 
 #Server Start
 ENTRYPOINT ["/opt/scripts/start.sh"]

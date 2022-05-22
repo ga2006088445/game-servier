@@ -1,12 +1,12 @@
-# SteamCMD in Docker optimized for Unraid
-This Docker will download and install SteamCMD. It will also install V Rising and run it.
+# Docker 中的 SteamCMD 針對 Unraid 進行了優化
+此 Docker 將下載並安裝 SteamCMD。 它還將安裝 V Rising 並運行它。
 
-**Save Files:** The save files are located in: .../vrising/save-data/Saves
-**Config Files:** The config files are located in: .../vrising/save-data/Settings
+**保存文件：** 保存文件位於：.../vrising/save-data/Saves
+**配置文件：** 配置文件位於：.../vrising/save-data/Settings
 
-**ATTENTION:** First Startup can take very long since it downloads the gameserver files!
+**注意：** 首次啟動可能需要很長時間，因為它會下載遊戲服務器文件！
 
-**Update Notice:** Simply restart the container if a newer version of the game is available.
+**更新通知：**如果有更新的遊戲版本，只需重新啟動容器即可。
 
 ## Example Env params
 | Name | Value | Example |
@@ -30,16 +30,10 @@ docker run --name V-Rising -d \
 	-p 9876-9877:9876-9877/udp \
 	--env 'GAME_ID=1829350' \
 	--env 'SERVER_NAME=V Rising Docker' \
-	--env 'WORLD_NAME=world1' \
+	--env 'WORLD_NAME=tomorrow' \
 	--env 'UID=99' \
 	--env 'GID=100' \
 	--volume /path/to/steamcmd:/serverdata/steamcmd \
 	--volume /path/to/vrising:/serverdata/serverfiles \
-	ich777/steamcmd:vrising
+	.
 ```
-
-This Docker was mainly edited for better use with Unraid, if you don't use Unraid you should definitely try it!
-
-This Docker is forked from mattieserver, thank you for this wonderfull Docker.
-
-#### Support Thread: https://forums.unraid.net/topic/79530-support-ich777-gameserver-dockers/

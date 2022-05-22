@@ -1,0 +1,1 @@
+xvfb-run --auto-servernum --server-args='-screen 0 640x480x24:32' wine64 ${SERVER_DIR}/VRisingServer.exe -persistentDataPath ${SERVER_DIR}/save-data -serverName "${SERVER_NAME}" -saveName "${WORLD_NAME}" -logFile ${SERVER_DIR}/logs/VRisingServer.log ${GAME_PARAMS} >/dev/null 2>&1 &

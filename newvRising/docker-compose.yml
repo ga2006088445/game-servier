@@ -1,0 +1,16 @@
+version: '3.5'
+services:
+  rising-server:
+     build: .
+     restart: "on-failure:5"
+     network_mode: "host"
+     volumes:
+        - ./Settings:/root/vRising/VRisingServer_Data/StreamingAssets/Settings
+        - ./windata:/root/windata
+     environment:
+        - WINEARCH=win64
+        - WINEPREFIX=/root/windata
+     stdin_open: true 
+     tty: true
+     stop_grace_period: 6m
+
