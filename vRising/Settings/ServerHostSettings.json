@@ -8,12 +8,12 @@
   "MaxConnectedAdmins": 4,
   "ServerFps": 30,
   "SaveName": "tomorrow",
-  "Password": "",
+  "Password": "363739",
   "Secure": true,
   "ListOnMasterServer": true,
   "AutoSaveCount": 50,
   "AutoSaveInterval": 600,
-  "GameSettingsPreset": "",
+  "GameSettingsPreset": "StandardPvE",
   "AdminOnlyDebugEvents": true,
   "DisableDebugEvents": false
 }
