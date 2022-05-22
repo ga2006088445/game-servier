@@ -5,5 +5,5 @@
 force_install_dir /root/vRising/
 //for servers which don't need a login
 login anonymous 
-app_update 14875324 validate
+app_update 1829350 validate
 quit

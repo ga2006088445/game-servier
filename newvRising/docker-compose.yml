@@ -7,6 +7,7 @@ services:
      volumes:
         - ./Settings:/root/vRising/VRisingServer_Data/StreamingAssets/Settings
         - ./windata:/root/windata
+        - ./save-data:/root/save-data
      environment:
         - WINEARCH=win64
         - WINEPREFIX=/root/windata
